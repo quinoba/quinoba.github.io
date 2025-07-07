@@ -23,3 +23,35 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-filled.scss",
   "tabler-icons/tabler-icons-outline.scss"
 ;
+
+// ================================
+// 🌐 Emory branding global styles
+// ================================
+
+// Colores oficiales
+$emory-blue: #012169;
+$emory-gold: #B39228;
+
+// Texto principal: azul Emory
+body, h1, h2, h3, h4, h5, h6, p, span, li, td {
+  color: $emory-blue !important;
+}
+
+// Links e íconos: dorado Emory
+a, a:visited, a:hover, a:active,
+.navbar a,
+.ai, .ai:before, .icon, .icon:before {
+  color: $emory-gold !important;
+}
+
+// Botones (si los usas)
+button, .btn, .btn-primary {
+  background-color: $emory-gold !important;
+  border-color: $emory-gold !important;
+  color: white !important;
+}
+
+// Línea del navbar si aplica
+.navbar, .navbar-default {
+  border-bottom: 2px solid $emory-blue;
+}
