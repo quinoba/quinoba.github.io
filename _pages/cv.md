@@ -12,4 +12,3 @@ permalink: /cv/
 <p style="margin-top: 1em;">
   👉 You can also <a href="{{ '/assets/pdf/cv_joaquin_barrutia.pdf' | relative_url }}" download>download my CV here</a>.
 </p>
-
