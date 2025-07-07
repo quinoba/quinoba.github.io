@@ -13,7 +13,8 @@ images:
   venobox: true
 ---
 
-The images in this post are all zoomable, arranged into different mini-galleries using different libraries.
+The images in this post are all zoomable, arranged into different mini-galleries
+using different libraries.
 
 ## [Lightbox2](https://lokeshdhakar.com/projects/lightbox2/)
 

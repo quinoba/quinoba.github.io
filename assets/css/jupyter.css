@@ -184,10 +184,10 @@
   --jp-inspector-icon-color: var(--md-grey-700);
   --jp-switch-true-position-color: var(--md-orange-900);
 
-  @import "jupyter-grade3";
+  @import 'jupyter-grade3';
 }
 
-body[data-jp-theme-light="false"] {
+body[data-jp-theme-light='false'] {
   /* Elevation
     *
     * We style box-shadows using Material Design's idea of elevation. These particular numbers are taken from here:
@@ -362,7 +362,8 @@ body[data-jp-theme-light="false"] {
 
   /* colors based on JetBrain's Darcula theme */
   --jp-scrollbar-background-color: #3f4244;
-  --jp-scrollbar-thumb-color: 88, 96, 97; /* need to specify thumb color as an RGB triplet */
+  --jp-scrollbar-thumb-color:
+    88, 96, 97; /* need to specify thumb color as an RGB triplet */
 
   --jp-scrollbar-endpad: 3px; /* the minimum gap between the thumb and the ends of a scrollbar */
 
@@ -379,5 +380,5 @@ body[data-jp-theme-light="false"] {
   --jp-inspector-icon-color: var(--md-grey-200);
   --jp-switch-true-position-color: var(--md-orange-700);
 
-  @import "jupyter-monokai";
+  @import 'jupyter-monokai';
 }

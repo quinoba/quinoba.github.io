@@ -57,8 +57,7 @@ pagination:
   {% endif %}
 
 {% assign featured_posts = site.posts | where: "featured", "true" %}
-{% if featured_posts.size > 0 %}
-<br>
+{% if featured_posts.size > 0 %} <br>
 
 <div class="container featured-posts">
 {% assign is_even = featured_posts.size | modulo: 2 %}
@@ -189,8 +188,6 @@ pagination:
 
   </ul>
 
-{% if page.pagination.enabled %}
-{% include pagination.liquid %}
-{% endif %}
+{% if page.pagination.enabled %} {% include pagination.liquid %} {% endif %}
 
 </div>

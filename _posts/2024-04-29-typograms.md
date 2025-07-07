@@ -8,7 +8,8 @@ categories: sample-posts
 typograms: true
 ---
 
-This is an example post with some [typograms](https://github.com/google/typograms/) code.
+This is an example post with some
+[typograms](https://github.com/google/typograms/) code.
 
 ````markdown
 ```typograms
@@ -82,4 +83,5 @@ which generates:
 .------------------------.
 ```
 
-For more examples, check out the [typograms documentation](https://google.github.io/typograms/#examples).
+For more examples, check out the
+[typograms documentation](https://google.github.io/typograms/#examples).
