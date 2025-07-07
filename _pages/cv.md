@@ -1,11 +1,16 @@
 ---
-layout: cv
-permalink: /cv/
+layout: page
 title: cv
-nav: false
+permalink: /cv/
+nav: true
 nav_order: 5
-cv_pdf: CV_JBA_eng.pdf
 description: You can view my CV directly below or download it as a PDF.
-toc:
-  sidebar: left
 ---
+
+<a href="/assets/files/CV_JBA_eng.pdf" download style="float:right">
+  <img src="/assets/img/pdf-icon.png" alt="Download PDF" width="50">
+</a>
+
+<br/><br/>
+
+<iframe src="/assets/files/CV_JBA_eng.pdf" width="100%" height="800px" style="border: none;"></iframe>
