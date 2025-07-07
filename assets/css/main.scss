@@ -55,3 +55,15 @@ button, .btn, .btn-primary {
 .navbar, .navbar-default {
   border-bottom: 2px solid $emory-blue;
 }
+
+code,
+.highlighter-rouge,
+.highlight,
+pre code {
+  color: #B9975B; // Emory gold
+}
+
+.badge, .label {
+  background-color: #e10098; // color rosa
+  // ...
+}
