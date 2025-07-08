@@ -37,7 +37,5 @@ Previously, I worked as a Research Assistant at ITAM’s
 Research Fellow at Georgetown University through the
 [UPPER Global Research Training Initiative](https://upperesearch.org/grti/).
 
-My research focuses on the political economy of development and applied
-econometrics. I am particularly interested in studying how institutions and
-information affect political behavior and economic outcomes in low- and
-middle-income countries, using both experimental and observational data.
+My primary research interest lies in the political economy of development. I am also interested in applied econometrics, particularly as a tool for developing and applying rigorous methods to better understand and try to answer questions in this field.
+
