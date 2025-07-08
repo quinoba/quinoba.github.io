@@ -67,3 +67,22 @@ pre code {
   background-color: $emory-gold; // color rosa
   // ...
 }
+
+// 🔧 Estilo para íconos académicos y sociales
+
+// Color por defecto
+.ai,
+.social a .ai,
+.icon,
+.icon:before {
+  color: $emory-blue !important;
+  transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+// Al hacer hover: dorado
+.ai:hover,
+.social a:hover .ai,
+.icon:hover,
+.icon:before:hover {
+  color: $emory-gold !important;
+}

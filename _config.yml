@@ -7,8 +7,7 @@ first_name: Joaquín
 middle_name:
 last_name: Barrutia Álvarez
 contact_note: >
-  You can even add a little note about which of these is the best way to reach
-  you.
+
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   I am a PhD student in Economics at Emory University.  My research focuses on
   the political economy of development and applied econometrics.
