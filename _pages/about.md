@@ -24,6 +24,7 @@ latest_posts:
   enabled: false
   scrollable: false # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
+---
 
 I am a second-year Ph.D. student in Economics at [Emory University](https://www.emory.edu/home/index.html). I hold a B.A. in Economics from [Instituto Tecnológico Autónomo de México (ITAM)](https://www.itam.mx/) and an M.Sc. in Economics from [Uppsala University](https://www.uu.se/en).
 
