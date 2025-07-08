@@ -32,67 +32,69 @@ $max-content-width: {{ site.max_width }};
 $emory-blue: #012169;
 $emory-gold: #B39228;
 
-// Texto principal: azul Emory
+// Colores base para texto y títulos
 body, h1, h2, h3, h4, h5, h6, p, span, li, td {
   color: $emory-blue !important;
 }
 
-// Links e íconos: dorado Emory
-a, a:visited, a:hover, a:active,
-.navbar a,
-.ai, .ai:before, .icon, .icon:before {
-  color: $emory-gold !important;
-}
-
-// Botones (si los usas)
+// Botones
 button, .btn, .btn-primary {
   background-color: $emory-gold !important;
   border-color: $emory-gold !important;
   color: white !important;
 }
 
-// Línea del navbar si aplica
+// Línea del navbar
 .navbar, .navbar-default {
   border-bottom: 2px solid $emory-blue;
 }
 
+// Código y badges
 code,
 .highlighter-rouge,
 .highlight,
 pre code {
-  color: #B9975B; // Emory gold
+  color: $emory-gold;
 }
 
 .badge, .label {
-  background-color: $emory-gold; // color rosa
-  // ...
+  background-color: $emory-gold;
 }
 
-// 🔧 Estilo para íconos académicos y sociales
+// ================================
+// 🎯 Íconos sociales: azul → dorado
+// ================================
 
-// Color por defecto
-.ai,
-.social a .ai,
-.icon,
-.icon:before {
+// Color por defecto: azul Emory
+.social i,
+a i.fa,
+a i.fab,
+a i.fas,
+a i.ai,
+a i[class^="fa-"],
+a i[class*=" fa-"] {
   color: $emory-blue !important;
-  transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+  transition: color 0.3s ease;
 }
 
-// Al hacer hover: dorado
-.ai:hover,
-.social a:hover .ai,
-.icon:hover,
-.icon:before:hover {
+// Hover: dorado Emory
+.social a:hover i,
+a:hover i.fa,
+a:hover i.fab,
+a:hover i.fas,
+a:hover i.ai,
+a:hover i[class^="fa-"],
+a:hover i[class*=" fa-"] {
   color: $emory-gold !important;
 }
 
+// Si usas íconos apilados (fa-stack)
 .fa-stack i {
-  color: #012169; /* Azul Emory */
+  color: $emory-blue !important;
   transition: color 0.3s ease;
 }
 
 a:hover .fa-stack i {
-  color: #c89f2d; /* Dorado */
+  color: $emory-gold !important;
 }
 
