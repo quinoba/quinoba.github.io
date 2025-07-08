@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: # the website title (if blank, full name will be used instead)
+title: blank # the website title (if blank, full name will be used instead)
 first_name: Joaquín
 middle_name:
 last_name: Barrutia Álvarez
@@ -10,13 +10,21 @@ contact_note: >
   You can even add a little note about which of these is the best way to reach
   you.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  I am a PhD student in Economics at Emory University. 
-  My research focuses on the political economy of development and applied econometrics.
+  I am a PhD student in Economics at Emory University.  My research focuses on
+  the political economy of development and applied econometrics.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a
   href="https://github.com/alshedivat/al-folio">al-folio</a> theme. Hosted by <a
   href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: ["Joaquin Barrutia", "Joaquin Barrutia Alvarez", "political economy", "applied econometrics", "Mexico", "Emory Economics"]
+keywords:
+  [
+    'Joaquin Barrutia',
+    'Joaquin Barrutia Alvarez',
+    'political economy',
+    'applied econometrics',
+    'Mexico',
+    'Emory Economics',
+  ]
 lang: en #the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🌮 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
