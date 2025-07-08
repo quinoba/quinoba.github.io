@@ -26,8 +26,18 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a second-year Ph.D. student in Economics at [Emory University](https://www.emory.edu/home/index.html). I hold a B.A. in Economics from [Instituto Tecnológico Autónomo de México (ITAM)](https://www.itam.mx/) and an M.Sc. in Economics from [Uppsala University](https://www.uu.se/en).
+I am a second-year Ph.D. student in Economics at
+[Emory University](https://www.emory.edu/home/index.html). I hold a B.A. in
+Economics from
+[Instituto Tecnológico Autónomo de México (ITAM)](https://www.itam.mx/) and an
+M.Sc. in Economics from [Uppsala University](https://www.uu.se/en).
 
-Previously, I worked as a Research Assistant at ITAM’s [Center for Economic Research (CIE)](https://cie.itam.mx/) and as a Pre-Doctoral Research Fellow at Georgetown University through the [UPPER Global Research Training Initiative](https://upperesearch.org/grti/).
+Previously, I worked as a Research Assistant at ITAM’s
+[Center for Economic Research (CIE)](https://cie.itam.mx/) and as a Pre-Doctoral
+Research Fellow at Georgetown University through the
+[UPPER Global Research Training Initiative](https://upperesearch.org/grti/).
 
-My research focuses on the political economy of development and applied econometrics. I am particularly interested in studying how institutions and information affect political behavior and economic outcomes in low- and middle-income countries, using both experimental and observational data.
+My research focuses on the political economy of development and applied
+econometrics. I am particularly interested in studying how institutions and
+information affect political behavior and economic outcomes in low- and
+middle-income countries, using both experimental and observational data.
