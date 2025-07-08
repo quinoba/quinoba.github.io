@@ -86,3 +86,13 @@ pre code {
 .icon:before:hover {
   color: $emory-gold !important;
 }
+
+.fa-stack i {
+  color: #012169; /* Azul Emory */
+  transition: color 0.3s ease;
+}
+
+a:hover .fa-stack i {
+  color: #c89f2d; /* Dorado */
+}
+
