@@ -46,7 +46,7 @@ in this field.
 ---
 
 <p style="margin-top: 2rem;">
-  <a href="/" style="color: #012169; font-weight: bold;">
+  <a href="/es/" style="color: #012169; font-weight: bold; text-decoration: none;" onmouseover="this.style.color='#cba052'" onmouseout="this.style.color='#012169'">
     Cambiar a español
   </a>
 </p>

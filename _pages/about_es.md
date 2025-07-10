@@ -45,7 +45,7 @@ mejor y responder preguntas en este campo.
 ---
 
 <p style="margin-top: 2rem;">
-  <a href="/es/" style="color: #012169; font-weight: bold;">
-    Cambiar a español
+  <a href="/" style="color: #012169; font-weight: bold; text-decoration: none;" onmouseover="this.style.color='#cba052'" onmouseout="this.style.color='#012169'">
+    Switch to English
   </a>
 </p>
