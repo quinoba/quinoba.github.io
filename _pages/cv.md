@@ -3,7 +3,7 @@ layout: page
 title: cv
 permalink: /cv/
 nav: true
-nav_order: 5
+nav_order: 1
 description: You can view my CV directly below or download it as a PDF.
 ---
 
