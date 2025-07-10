@@ -29,7 +29,7 @@ latest_posts:
 I am a second-year Ph.D. student in Economics at
 [Emory University](https://www.emory.edu/home/index.html). I was born and raised
 in Mexico City, where everyone knows me as Quino (though, of course, there’s
-only one Quino—and we all know who that is).I hold a B.A. in Economics from
+only one Quino). I hold a B.A. in Economics from
 [Instituto Tecnológico Autónomo de México (ITAM)](https://www.itam.mx/) and an
 M.Sc. in Economics from [Uppsala University](https://www.uu.se/en).
 
