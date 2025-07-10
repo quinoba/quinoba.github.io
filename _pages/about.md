@@ -9,8 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>R. Randall Rollins, 4th Floor, R400A</p>
-    <p>1516 Clifton Road</p>
+    <p>R. Randall Rollins, 4th Floor, R400A</p> <p>1516 Clifton Road</p>
     <p>Atlanta, GA 30329</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
@@ -43,3 +42,11 @@ My primary research interest lies in the political economy of development. I am
 also interested in applied econometrics, particularly as a tool for developing
 and applying rigorous methods to better understand and try to answer questions
 in this field.
+
+---
+
+<p style="margin-top: 2rem;">
+  <a href="/" style="color: #012169; font-weight: bold;">
+    Cambiar a español
+  </a>
+</p>
