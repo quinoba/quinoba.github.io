@@ -272,6 +272,19 @@
           >
         {% endif %}
       {% endif %}
+      <!-- 📌 Pre-Registration Button (NEW) -->
+      {% if entry.prereg %}
+        {% if entry.prereg contains '://' %}
+          <a href='{{ entry.prereg }}' class='btn btn-sm z-depth-0' role='button'>Pre-Registration</a>
+        {% else %}
+          <a
+            href='{{ entry.prereg | prepend: '/assets/pdf/' | relative_url }}'
+            class='btn btn-sm z-depth-0'
+            role='button'
+            >Pre-Registration</a
+          >
+        {% endif %}
+      {% endif %}
       {% if entry.website %}
         <a href='{{ entry.website }}' class='btn btn-sm z-depth-0' role='button'>Website</a>
       {% endif %}

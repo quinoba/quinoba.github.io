@@ -15,6 +15,14 @@ nav_order: 2
 
 <div class="publications">
 
-{% bibliography %}
+## Working Papers
+
+{% bibliography --query @*[type=working-paper] --sort_by year --order descending %}
+
+---
+
+## Peer-Reviewed Publications
+
+{% bibliography --query @*[type!=working-paper] --sort_by year --order descending %}
 
 </div>
