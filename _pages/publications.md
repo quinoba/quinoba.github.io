@@ -16,7 +16,7 @@ nav_order: 2
 <h3>working papers</h3>
 {% bibliography --query @*[type=working-paper] --sort_by year --order descending %}
 
-<h3>publications</h3>
-{% bibliography --query @*[type!=working-paper] --sort_by year --order descending %}
+<!-- <h3>publications</h3> -->
+<!-- {% bibliography --query @*[type!=working-paper] --sort_by year --order descending %} -->
 
 </div>
