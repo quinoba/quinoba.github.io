@@ -11,14 +11,12 @@ nav_order: 2
 
 <!-- Bibsearch Feature -->
 
-## Working Papers
+<div class="publications">
 
+<h3>working papers</h3>
 {% bibliography --query @*[type=working-paper] --sort_by year --order descending %}
 
----
-
-## Publications
-
+<h3>publications</h3>
 {% bibliography --query @*[type!=working-paper] --sort_by year --order descending %}
 
 </div>
