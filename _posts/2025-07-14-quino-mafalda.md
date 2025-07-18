@@ -30,6 +30,6 @@ decidí comprarlo. Conforme lo vaya hojeando, iré actualizando esta entrada. Po
 lo pronto, dejo aquí algunas de mis viñetas favoritas hasta ahora.
 
 <swiper-container keyboard="true" navigation="true" pagination="true" pagination-clickable="true" pagination-dynamic-bullets="true" rewind="true">
-  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/HOY_LOS _HOMBRES.png" class="img-fluid rounded z-depth-1" %}</swiper-slide>
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/HOY_LOS_HOMBRES.png" class="img-fluid rounded z-depth-1" %}</swiper-slide>
   <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/pero_libertad.png" class="img-fluid rounded z-depth-1" %}</swiper-slide>
 </swiper-container>
