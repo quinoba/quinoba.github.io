@@ -2,7 +2,7 @@
 layout: post
 title: Todo Mafalda. Edición definitiva
 date: 2025-07-14 11:46:00
-description: post sobre mafalda
+description: 
 tags:
 categories:
 thumbnail: assets/img/todo.png
