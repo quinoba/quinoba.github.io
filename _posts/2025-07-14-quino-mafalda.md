@@ -2,13 +2,13 @@
 layout: post
 title: Todo Mafalda. Edición definitiva
 date: 2025-07-14 11:46:00
-description: 
+description:
 tags:
 categories:
 thumbnail: assets/img/todo.png
 images:
   compare: true
-  slider: false
+  slider: true
 ---
 
 Como toda persona nacida entre el Río Bravo y Tierra del Fuego, había escuchado
