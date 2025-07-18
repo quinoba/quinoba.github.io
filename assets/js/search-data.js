@@ -34,7 +34,7 @@ ninja.data = [{
         
           title: "Todo Mafalda. Edición definitiva",
         
-        description: "post sobre mafalda",
+        description: "",
         section: "Posts",
         handler: () => {
           
