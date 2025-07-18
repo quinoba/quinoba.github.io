@@ -26,8 +26,7 @@ latest_posts:
 
 Soy estudiante de segundo año del doctorado en Economía en la
 [Universidad de Emory](https://www.emory.edu/home/index.html). Soy originario de
-la Ciudad de México, donde todos me conocen como Quino (aunque, claro, Quino
-solo hay uno). Estudié la licenciatura en Economía en el
+la Ciudad de México, donde todos me conocen como Quino (aunque, claro, [Quino](https://quinoba.github.io/blog/2025/quino-mafalda/) solo hay uno). Estudié la licenciatura en Economía en el
 [Instituto Tecnológico Autónomo de México (ITAM)](https://www.itam.mx/) y una
 maestría en Economía en la [Universidad de Uppsala](https://www.uu.se/en) en
 Suecia.
