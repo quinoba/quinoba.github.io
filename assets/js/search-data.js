@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-research",
           title: "research",
-          description: "working papers and publications in reversed chronological order.",
+          description: "working papers and publications.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
@@ -30,18 +30,11 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "dropdown-bookshelf",
-              title: "bookshelf",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/books/";
-              },
-            },{id: "post-a-post-with-advanced-image-components",
+            },{id: "post-todo-mafalda-edición-definitiva",
         
-          title: "a post with advanced image components",
+          title: "Todo Mafalda. Edición definitiva",
         
-        description: "this is what advanced image components could look like",
+        description: "post sobre mafalda",
         section: "Posts",
         handler: () => {
           
