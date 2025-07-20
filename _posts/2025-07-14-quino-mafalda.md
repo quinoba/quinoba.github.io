@@ -19,10 +19,10 @@ apodo al que respondo hasta el día de hoy.
 En 2020, al enterarme del fallecimiento de
 [Joaquín Salvador Lavado, “Quino”](https://es.wikipedia.org/wiki/Quino), sentí
 la necesidad de volver a leer algunas de las historietas de Mafalda. Me encontré
-con una vigencia prácticamente ridícula. Desde entonces, me he convertido en un
-admirador de su obra, y llevar el mismo apodo que él se ha vuelto para mí un
-motivo de orgullo y una especie de faro moral (algo así como un imperativo
-categórico quinesco).
+con una vigencia que, francamente, raya en lo ridículo. Desde entonces, me he
+convertido en un admirador de su obra, y llevar el mismo apodo que él se ha
+vuelto para mí un motivo de orgullo y una especie de faro moral (algo así como
+un imperativo categórico quinesco).
 
 Recientemente me topé, en una librería de la Ciudad de México, con este libro
 conmemorativo por los 60 años de la primera publicación de Mafalda en 1964, y
