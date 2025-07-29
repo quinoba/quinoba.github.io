@@ -137,11 +137,4 @@ ninja.data = [{
         handler: () => {
           window.open("https://scholar.google.com/citations?user=fEH-VUUAAAAJ", "_blank");
         },
-      },{
-        id: 'social-x',
-        title: 'X',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://twitter.com/j_barrutia", "_blank");
-        },
       },];
