@@ -1,0 +1,3152 @@
+[
+  {
+    "lon": -99.1173,
+    "lat": 19.4839,
+    "PARROQUIA": "Insigne y Nacional Basílica de Santa María Guadalupe",
+    "ALCALDIA": "Gustavo A. Madero",
+    "MODULO": "1",
+    "INICIO_DT": "2019-01-21",
+    "FIN_DT": "2019-02-01",
+    "formatted_address": "Plaza Mariana, Fray Juan de Zumárraga 2, Villa Gustavo A. Madero, Gustavo A. Madero, 07050 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.0917,
+    "lat": 19.357,
+    "PARROQUIA": "Catedral de Iztapalapa del Señor del Santo Sepulcro de Jerusalén (La Cuevita)",
+    "ALCALDIA": "Iztapalapa",
+    "MODULO": "1",
+    "INICIO_DT": "2019-02-04",
+    "FIN_DT": "2019-02-15",
+    "formatted_address": "Ermita Iztapalapa 1271, San Pablo, Iztapalapa, 09000 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1331,
+    "lat": 19.4344,
+    "PARROQUIA": "Catedral Metropolitana de la Ciudad de México",
+    "ALCALDIA": "Cuauhtémoc",
+    "MODULO": "1",
+    "INICIO_DT": "2019-02-18",
+    "FIN_DT": "2019-03-01",
+    "formatted_address": "P.za de la Constitución S/N, Centro Histórico de la Cdad. de México, Centro, Cuauhtémoc, 06000 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1455,
+    "lat": 19.3756,
+    "PARROQUIA": "Parroquia de San Simón Apóstol",
+    "ALCALDIA": "Benito Juárez",
+    "MODULO": "1",
+    "INICIO_DT": "2019-03-05",
+    "FIN_DT": "2019-03-15",
+    "formatted_address": "Calz. San Simon 125, San Simón, Benito Juárez, 03660 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1623,
+    "lat": 19.3489,
+    "PARROQUIA": "Parroquia San Juan Bautista Coyoacán",
+    "ALCALDIA": "Coyoacán",
+    "MODULO": "1",
+    "INICIO_DT": "2019-03-18",
+    "FIN_DT": "2019-03-29",
+    "formatted_address": "Parque Centenario 8, Coyoacán, 04000 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1879,
+    "lat": 19.4589,
+    "PARROQUIA": "Parroquia de San Gabriel Arcángel",
+    "ALCALDIA": "Miguel Hidalgo",
+    "MODULO": "1",
+    "INICIO_DT": "2019-04-01",
+    "FIN_DT": "2019-04-12",
+    "formatted_address": "Calz México-Tacuba S/N, Tacuba, Miguel Hidalgo, 11490 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.074,
+    "lat": 19.2461,
+    "PARROQUIA": "Parroquia de Santa Cruz Acalpixca",
+    "ALCALDIA": "Xochimilco",
+    "MODULO": "2",
+    "INICIO_DT": "2019-04-02",
+    "FIN_DT": "2019-04-15",
+    "formatted_address": "Parroquia de Santa Cruz Acalpixca, Lázaro Cárdenas S/N, Esq. 20 de Noviembre, Xochimilco, Santa Cruz Acalpixca, Xochimilco, 16500 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.011,
+    "lat": 19.3627,
+    "PARROQUIA": "Parroquia de Santa Martha Acatitla",
+    "ALCALDIA": "Iztapalapa",
+    "MODULO": "3",
+    "INICIO_DT": "2019-04-03",
+    "FIN_DT": "2019-04-26",
+    "formatted_address": "Everardo González, Santa Martha Acatitla, Iztapalapa, 09510 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.2012,
+    "lat": 19.3903,
+    "PARROQUIA": "Parroquia de Cristo Rey Tacubaya",
+    "ALCALDIA": "Álvaro Obregón",
+    "MODULO": "1",
+    "INICIO_DT": "2019-04-15",
+    "FIN_DT": "2019-04-30",
+    "formatted_address": "Escuadrón 201 71, Col. Cristo Rey, Álvaro Obregón, 01150 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1158,
+    "lat": 19.4096,
+    "PARROQUIA": "Parroquia de Santa María Magdalena Mixihuca",
+    "ALCALDIA": "Venustiano Carranza",
+    "MODULO": "2",
+    "INICIO_DT": "2019-04-16",
+    "FIN_DT": "2019-05-03",
+    "formatted_address": "Calz. Magdalena Mixhuca & Pzla. de La Revolución, Pueblo de la Magdalena Mixihuca, 15860 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.0243,
+    "lat": 19.3527,
+    "PARROQUIA": "Parroquia de Santa María de la Asunción de Aztahuacán",
+    "ALCALDIA": "Iztapalapa",
+    "MODULO": "3",
+    "INICIO_DT": "2019-04-29",
+    "FIN_DT": "2019-05-10",
+    "formatted_address": "Del Mexquite, Santa María Aztahuacan, Iztapalapa, 09500 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1659,
+    "lat": 19.2884,
+    "PARROQUIA": "Parroquia de San Agustín de las Cuevas",
+    "ALCALDIA": "Tlalpan",
+    "MODULO": "1",
+    "INICIO_DT": "2019-05-02",
+    "FIN_DT": "2019-05-15",
+    "formatted_address": "Francisco I. Madero 10, Tlalpan Centro I, Tlalpan, 14000 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1912,
+    "lat": 19.4785,
+    "PARROQUIA": "Parroquia de Santa Apolonia",
+    "ALCALDIA": "Azcapotzalco",
+    "MODULO": "2",
+    "INICIO_DT": "2019-05-07",
+    "FIN_DT": "2019-05-17",
+    "formatted_address": "Eje 3 Nte 25, Santa Apolonia, Azcapotzalco, 02730 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.0427,
+    "lat": 19.3299,
+    "PARROQUIA": "Parroquia de Cristo Salvador y Señor",
+    "ALCALDIA": "Iztapalapa",
+    "MODULO": "3",
+    "INICIO_DT": "2019-05-13",
+    "FIN_DT": "2019-05-24",
+    "formatted_address": "Primera Cerrada Villa Bratz Manzana 77 B, Desarrollo Urbano Quetzalcóatl, Iztapalapa, 09700 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.102,
+    "lat": 19.4179,
+    "PARROQUIA": "Parroquia del Sagrado Corazón de Jesús y San Felipe Neri",
+    "ALCALDIA": "Venustiano Carranza",
+    "MODULO": "1",
+    "INICIO_DT": "2019-05-16",
+    "FIN_DT": "2019-05-29",
+    "formatted_address": "Fray Servando Teresa de Mier 970, Jardín Balbuena, Venustiano Carranza, 15900 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -98.9923,
+    "lat": 19.2174,
+    "PARROQUIA": "Parroquia de San Antonio de Padua",
+    "ALCALDIA": "Milpa Alta",
+    "MODULO": "2",
+    "INICIO_DT": "2019-05-20",
+    "FIN_DT": "2019-05-31",
+    "formatted_address": "Cda. 5 de Mayo S/N, Xaltipac, Milpa Alta, 12100 San Antonio Tecómitl, CDMX, México"
+  },
+  {
+    "lon": -99.0541,
+    "lat": 19.3589,
+    "PARROQUIA": "Parroquia de María Madre de Cristo",
+    "ALCALDIA": "Iztapalapa",
+    "MODULO": "3",
+    "INICIO_DT": "2019-05-27",
+    "FIN_DT": "2019-06-07",
+    "formatted_address": "Av. Antonio Díaz Soto y Gama MZ14 LT39, U.H. Vicente Guerrero, Iztapalapa, 09200 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1852,
+    "lat": 19.4805,
+    "PARROQUIA": "Catedral de los Santos Apóstoles Felipe y Santiago El Menor",
+    "ALCALDIA": "Azcapotzalco",
+    "MODULO": "1",
+    "INICIO_DT": "2019-05-30",
+    "FIN_DT": "2019-06-12",
+    "formatted_address": "Av. Morelos No.14, Centro, Azcapotzalco, 02000 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.2442,
+    "lat": 19.2979,
+    "PARROQUIA": "Parroquia de San Nicolás Tolentino de Totolapan",
+    "ALCALDIA": "La Magdalena Contreras",
+    "MODULO": "2",
+    "INICIO_DT": "2019-06-03",
+    "FIN_DT": "2019-06-14",
+    "formatted_address": "C. Independencia S/N, San Nicolás Totolapan, La Magdalena Contreras, 10900 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -98.9913,
+    "lat": 19.3427,
+    "PARROQUIA": "Parroquia de Corpus Christi",
+    "ALCALDIA": "Iztapalapa",
+    "MODULO": "3",
+    "INICIO_DT": "2019-06-10",
+    "FIN_DT": "2019-06-21",
+    "formatted_address": "Pinos, Arrayán &, San Miguel Teotongo, Iztapalapa, 09630 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1243,
+    "lat": 19.3901,
+    "PARROQUIA": "Rectoría de Santiago Apóstol",
+    "ALCALDIA": "Iztacalco",
+    "MODULO": "1",
+    "INICIO_DT": "2019-06-13",
+    "FIN_DT": "2019-06-26",
+    "formatted_address": "Av. Santiago, Santiago Norte, Santiago Sur, Iztacalco, 08800 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.0365,
+    "lat": 19.2985,
+    "PARROQUIA": "Parroquia de la Inmaculada Concepción",
+    "ALCALDIA": "Tláhuac",
+    "MODULO": "2",
+    "INICIO_DT": "2019-06-17",
+    "FIN_DT": "2019-07-01",
+    "formatted_address": "Centro del Pueblo, Plaza Juárez s/n, Santa Ana Nte., Tláhuac, 13300 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.0411,
+    "lat": 19.3845,
+    "PARROQUIA": "Rectoría de San Ignacio de Loyola",
+    "ALCALDIA": "Iztapalapa",
+    "MODULO": "3",
+    "INICIO_DT": "2019-06-24",
+    "FIN_DT": "2019-07-05",
+    "formatted_address": "Emilio Azcárraga 19, Unidad, Ignacio Zaragoza, Iztapalapa, 09228 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1018,
+    "lat": 19.2632,
+    "PARROQUIA": "Catedral de Xochimilco San Bernardino de Siena",
+    "ALCALDIA": "Xochimilco",
+    "MODULO": "1",
+    "INICIO_DT": "2019-06-27",
+    "FIN_DT": "2019-07-10",
+    "formatted_address": "Av. Nuevo León 22B, Santa Crucita, Xochimilco, 16070 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.0491,
+    "lat": 19.2016,
+    "PARROQUIA": "Parroquia de San Pedro Apóstol de Atocpan",
+    "ALCALDIA": "Milpa Alta",
+    "MODULO": "2",
+    "INICIO_DT": "2019-07-02",
+    "FIN_DT": "2019-07-12",
+    "formatted_address": "Francisco I Madero, San Pedro Atocpan, Panchimalco, Milpa Alta, 12200 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -98.9977,
+    "lat": 19.3642,
+    "PARROQUIA": "Parroquia de San Judas Tadeo",
+    "ALCALDIA": "Iztapalapa",
+    "MODULO": "3",
+    "INICIO_DT": "2019-07-08",
+    "FIN_DT": "2019-07-19",
+    "formatted_address": "Congreso de Chilpancingo Sur S/N, Ermita Zaragoza, Iztapalapa, 09180 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.0044,
+    "lat": 19.2691,
+    "PARROQUIA": "Parroquia de San Pedro Apóstol Tláhuac",
+    "ALCALDIA": "Tláhuac",
+    "MODULO": "1",
+    "INICIO_DT": "2019-07-11",
+    "FIN_DT": "2019-07-24",
+    "formatted_address": "C. Severino Ceniceros S/N, Centro de Tlahuac, Tláhuac, 13070 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.2794,
+    "lat": 19.3422,
+    "PARROQUIA": "Parroquia de San Mateo Apóstol",
+    "ALCALDIA": "Cuajimalpa de Morelos",
+    "MODULO": "2",
+    "INICIO_DT": "2019-07-15",
+    "FIN_DT": "2019-07-26",
+    "formatted_address": "San Mateo Tlaltenango, Cuajimalpa de Morelos, 05600 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.0618,
+    "lat": 19.3491,
+    "PARROQUIA": "Parroquia de la Resurrección de Cristo",
+    "ALCALDIA": "Iztapalapa",
+    "MODULO": "3",
+    "INICIO_DT": "2019-07-22",
+    "FIN_DT": "2019-08-02",
+    "formatted_address": "Calle Gral. José María Rodríguez 72, Iztapalapa, 09260 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1466,
+    "lat": 19.3875,
+    "PARROQUIA": "Parroquia de Santa María de la Natividad",
+    "ALCALDIA": "Benito Juárez",
+    "MODULO": "1",
+    "INICIO_DT": "2019-07-25",
+    "FIN_DT": "2019-08-07",
+    "formatted_address": "Eje Central Lázaro Cárdenas 806, Niños Heroes de Chapultepec, Niños Héroes, Benito Juárez, 03440 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1331,
+    "lat": 19.4344,
+    "PARROQUIA": "Catedral Metropolitana de la Ciudad de México",
+    "ALCALDIA": "Cuauhtémoc",
+    "MODULO": "2",
+    "INICIO_DT": "2019-07-29",
+    "FIN_DT": "2019-08-09",
+    "formatted_address": "P.za de la Constitución S/N, Centro Histórico de la Cdad. de México, Centro, Cuauhtémoc, 06000 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.0762,
+    "lat": 19.371,
+    "PARROQUIA": "Parroquia de Santa María de Guadalupe",
+    "ALCALDIA": "Iztapalapa",
+    "MODULO": "3",
+    "INICIO_DT": "2019-08-05",
+    "FIN_DT": "2019-08-16",
+    "formatted_address": "C. Miguel Hidalgo 1, Guadalupe del Moral, Iztapalapa, 09300 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.2012,
+    "lat": 19.3903,
+    "PARROQUIA": "Parroquia de Cristo Rey Tacubaya",
+    "ALCALDIA": "Álvaro Obregón",
+    "MODULO": "1",
+    "INICIO_DT": "2019-08-08",
+    "FIN_DT": "2019-08-21",
+    "formatted_address": "Escuadrón 201 71, Col. Cristo Rey, Álvaro Obregón, 01150 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1173,
+    "lat": 19.4839,
+    "PARROQUIA": "Insigne y Nacional Basílica de Santa María Guadalupe",
+    "ALCALDIA": "Gustavo A. Madero",
+    "MODULO": "2",
+    "INICIO_DT": "2019-08-12",
+    "FIN_DT": "2019-08-23",
+    "formatted_address": "Plaza Mariana, Fray Juan de Zumárraga 2, Villa Gustavo A. Madero, Gustavo A. Madero, 07050 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.0681,
+    "lat": 19.3102,
+    "PARROQUIA": "Parroquia de San Lorenzo Diácono y Mártir",
+    "ALCALDIA": "Iztapalapa",
+    "MODULO": "3",
+    "INICIO_DT": "2019-08-19",
+    "FIN_DT": "2019-08-30",
+    "formatted_address": "Plaza Juárez 1850, San Lorenzo Tezonco, Iztapalapa, 09790 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1743,
+    "lat": 19.4014,
+    "PARROQUIA": "Parroquia del Espíritu Santo y Señor Mueve Corazones",
+    "ALCALDIA": "Miguel Hidalgo",
+    "MODULO": "1",
+    "INICIO_DT": "2019-08-22",
+    "FIN_DT": "2019-09-11",
+    "formatted_address": "Av. José Martí 233, Escandón II Secc, Miguel Hidalgo, 11800 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1783,
+    "lat": 19.2803,
+    "PARROQUIA": "Parroquia de Santa Úrsula y San José",
+    "ALCALDIA": "Tlalpan",
+    "MODULO": "2",
+    "INICIO_DT": "2019-08-26",
+    "FIN_DT": "2019-09-06",
+    "formatted_address": "Panteón 2, Sta Úrsula Xitla, Tlalpan, 14420 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1199,
+    "lat": 19.3573,
+    "PARROQUIA": "Templo de San Marcos Apóstol y Evangelista",
+    "ALCALDIA": "Iztapalapa",
+    "MODULO": "3",
+    "INICIO_DT": "2019-09-02",
+    "FIN_DT": "2019-09-17",
+    "formatted_address": "Ermita Iztapalapa 475, Mexicaltzingo, Iztapalapa, 09099 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1538,
+    "lat": 19.3352,
+    "PARROQUIA": "Parroquia de los Santos Reyes y el Señor de la Misericordia",
+    "ALCALDIA": "Coyoacán",
+    "MODULO": "2",
+    "INICIO_DT": "2019-09-09",
+    "FIN_DT": "2019-09-20",
+    "formatted_address": "Pzla. de Los Reyes 52-54, Los Reyes, Coyoacán, 04330 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.2455,
+    "lat": 19.3025,
+    "PARROQUIA": "Parroquia de Santa María Magdalena Atlitic",
+    "ALCALDIA": "La Magdalena Contreras",
+    "MODULO": "1",
+    "INICIO_DT": "2019-09-12",
+    "FIN_DT": "2019-10-03",
+    "formatted_address": "Emilio Carranza S/N, La Magdalena, Atlitic, La Magdalena Contreras, 10640 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.0394,
+    "lat": 19.3398,
+    "PARROQUIA": "Parroquia del Señor de la Santa Cruz",
+    "ALCALDIA": "Iztapalapa",
+    "MODULO": "3",
+    "INICIO_DT": "2019-09-18",
+    "FIN_DT": "2019-10-04",
+    "formatted_address": "Plaza Principal S/N, Sta Cruz Meyehualco, Iztapalapa, 09700 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1407,
+    "lat": 19.2013,
+    "PARROQUIA": "Parroquia de San Miguel Arcángel",
+    "ALCALDIA": "Tlalpan",
+    "MODULO": "2",
+    "INICIO_DT": "2019-09-23",
+    "FIN_DT": "2019-10-11",
+    "formatted_address": "Ignacio Allende 13, San Miguel Topilejo, Tlalpan, 14500 San Miguel Topilejo, CDMX, México"
+  },
+  {
+    "lon": -99.0608,
+    "lat": 19.4113,
+    "PARROQUIA": "Parroquia del Sagrado Corazón de Jesús",
+    "ALCALDIA": "Iztacalco",
+    "MODULO": "1",
+    "INICIO_DT": "2019-10-04",
+    "FIN_DT": "2019-10-22",
+    "formatted_address": "Calle 5 235, Agrícola Pantitlán, Iztacalco, 08100 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.0699,
+    "lat": 19.3761,
+    "PARROQUIA": "Parroquia de Cristo Rey",
+    "ALCALDIA": "Iztapalapa",
+    "MODULO": "3",
+    "INICIO_DT": "2019-10-07",
+    "FIN_DT": "2019-10-18",
+    "formatted_address": "Av. Guerra de Reforma, Av. Leyes de Reforma 1131, 3a. Secc, Iztapalapa, 09310 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.2987,
+    "lat": 19.3573,
+    "PARROQUIA": "Parroquia de San Pedro Apóstol",
+    "ALCALDIA": "Cuajimalpa de Morelos",
+    "MODULO": "2",
+    "INICIO_DT": "2019-10-14",
+    "FIN_DT": "2019-10-25",
+    "formatted_address": "Av. Juárez, Pueblo de San Pedro Cuajimalpa, Cuajimalpa, Cuajimalpa de Morelos, 05000 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.2114,
+    "lat": 19.4786,
+    "PARROQUIA": "Parroquia de Santiago Apóstol El Mayor",
+    "ALCALDIA": "Azcapotzalco",
+    "MODULO": "1",
+    "INICIO_DT": "2019-10-23",
+    "FIN_DT": "2019-11-06",
+    "formatted_address": "SANTIAGO APOSTOL EL MAYOR, Colorines 46, Santiago Ahuizotla, Azcapotzalco, 02750 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.0669,
+    "lat": 19.3449,
+    "PARROQUIA": "Parroquia de Jesús Nazareno",
+    "ALCALDIA": "Iztapalapa",
+    "MODULO": "3",
+    "INICIO_DT": "2019-10-21",
+    "FIN_DT": "2019-11-01",
+    "formatted_address": "Orquídea 18, Los Ángeles, Iztapalapa, 09830 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.0164,
+    "lat": 19.2977,
+    "PARROQUIA": "Parroquia de San Francisco de Asís",
+    "ALCALDIA": "Tláhuac",
+    "MODULO": "2",
+    "INICIO_DT": "2019-10-28",
+    "FIN_DT": "2019-11-08",
+    "formatted_address": "Pl. Centenario S/N, San Francisco Tlaltenco, Tláhuac, 13400 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1466,
+    "lat": 19.3875,
+    "PARROQUIA": "Parroquia de Santa María de la Natividad",
+    "ALCALDIA": "Benito Juárez",
+    "MODULO": "1",
+    "INICIO_DT": "2019-11-04",
+    "FIN_DT": "2019-11-15",
+    "formatted_address": "Eje Central Lázaro Cárdenas 806, Niños Heroes de Chapultepec, Niños Héroes, Benito Juárez, 03440 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.0533,
+    "lat": 19.3317,
+    "PARROQUIA": "Parroquia del Sagrado Corazón de Jesús",
+    "ALCALDIA": "Iztapalapa",
+    "MODULO": "3",
+    "INICIO_DT": "2019-11-07",
+    "FIN_DT": "2019-11-21",
+    "formatted_address": "Canal de Panamá S/N, Insurgentes, Iztapalapa, 09750 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1362,
+    "lat": 19.4517,
+    "PARROQUIA": "Parroquia de Santiago Apóstol",
+    "ALCALDIA": "Cuauhtémoc",
+    "MODULO": "2",
+    "INICIO_DT": "2019-11-11",
+    "FIN_DT": "2019-11-25",
+    "formatted_address": "Eje Central Lázaro Cárdenas S/N, Tlatelolco, Cuauhtémoc, 06900 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1533,
+    "lat": 19.3121,
+    "PARROQUIA": "Parroquia de Nuestra Señora de las Nieves",
+    "ALCALDIA": "Coyoacán",
+    "MODULO": "1",
+    "INICIO_DT": "2019-11-19",
+    "FIN_DT": "2019-11-29",
+    "formatted_address": "San Gonzalo S/N, Pedregal de Sta Úrsula, Coyoacán, 04600 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.0749,
+    "lat": 19.3359,
+    "PARROQUIA": "Parroquia del Sagrado Corazón de Jesús",
+    "ALCALDIA": "Iztapalapa",
+    "MODULO": "3",
+    "INICIO_DT": "2019-11-22",
+    "FIN_DT": "2019-12-04",
+    "formatted_address": "Av. San Lorenzo 749, San Juan Xalpa, Iztapalapa, 09850 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.0566,
+    "lat": 19.2536,
+    "PARROQUIA": "Parroquia de San Gregorio Magno",
+    "ALCALDIA": "Xochimilco",
+    "MODULO": "2",
+    "INICIO_DT": "2019-11-26",
+    "FIN_DT": "2019-12-06",
+    "formatted_address": "Av. México, San Gregorio Atlapulco, Xochimilco, 16600 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.2105,
+    "lat": 19.4551,
+    "PARROQUIA": "Iglesia Sanctorum",
+    "ALCALDIA": "Miguel Hidalgo",
+    "MODULO": "1",
+    "INICIO_DT": "2019-12-02",
+    "FIN_DT": "2019-12-17",
+    "formatted_address": "Calz México-Tacuba 1420, Argentina Poniente, Miguel Hidalgo, 11260 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.0921,
+    "lat": 19.3607,
+    "PARROQUIA": "Parroquia de San Lucas Evangelista",
+    "ALCALDIA": "Iztapalapa",
+    "MODULO": "3",
+    "INICIO_DT": "2019-12-05",
+    "FIN_DT": "2019-12-18",
+    "formatted_address": "Aztecas 8, San Lucas, Iztapalapa, 09000 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1213,
+    "lat": 19.3902,
+    "PARROQUIA": "Parroquia de San Matías Apóstol",
+    "ALCALDIA": "Iztacalco",
+    "MODULO": "2",
+    "INICIO_DT": "2019-12-09",
+    "FIN_DT": "2019-12-18",
+    "formatted_address": "Cda. Juarez 4, Barrio La Asunción, Iztacalco, 08600 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1331,
+    "lat": 19.4344,
+    "PARROQUIA": "Catedral Metropolitana de la Ciudad de México",
+    "ALCALDIA": "Cuauhtémoc",
+    "MODULO": "1",
+    "INICIO_DT": "2019-12-18",
+    "FIN_DT": "2019-12-18",
+    "formatted_address": "P.za de la Constitución S/N, Centro Histórico de la Cdad. de México, Centro, Cuauhtémoc, 06000 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1173,
+    "lat": 19.4839,
+    "PARROQUIA": "Insigne y Nacional Basílica de Santa María Guadalupe",
+    "ALCALDIA": "Gustavo A. Madero",
+    "MODULO": "1",
+    "INICIO_DT": "2020-01-11",
+    "FIN_DT": "2020-01-11",
+    "formatted_address": "Plaza Mariana, Fray Juan de Zumárraga 2, Villa Gustavo A. Madero, Gustavo A. Madero, 07050 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.0226,
+    "lat": 19.1924,
+    "PARROQUIA": "Parroquia de la Asunción de María",
+    "ALCALDIA": "Milpa Alta",
+    "MODULO": "2",
+    "INICIO_DT": "2020-01-23",
+    "FIN_DT": "2020-02-11",
+    "formatted_address": "Av. México Nte., Villa Milpa Alta, Centro, Milpa Alta, 12000 Villa Milpa Alta, CDMX, México"
+  },
+  {
+    "lon": -99.0917,
+    "lat": 19.357,
+    "PARROQUIA": "Catedral de Iztapalapa del Señor del Santo Sepulcro de Jerusalén (La Cuevita)",
+    "ALCALDIA": "Iztapalapa",
+    "MODULO": "3",
+    "INICIO_DT": "2020-01-24",
+    "FIN_DT": "2020-02-06",
+    "formatted_address": "Ermita Iztapalapa 1271, San Pablo, Iztapalapa, 09000 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1468,
+    "lat": 19.4381,
+    "PARROQUIA": "Templo de San Hipólito y San Casiano",
+    "ALCALDIA": "Cuauhtémoc",
+    "MODULO": "2",
+    "INICIO_DT": "2020-02-07",
+    "FIN_DT": "2020-02-20",
+    "formatted_address": "Zarco 12, Centro Histórico de la Cdad. de México, Guerrero, Cuauhtémoc, 06300 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1632,
+    "lat": 19.2351,
+    "PARROQUIA": "Capilla de San Miguel Arcángel",
+    "ALCALDIA": "Tlalpan",
+    "MODULO": "1",
+    "INICIO_DT": "2020-02-12",
+    "FIN_DT": "2020-02-25",
+    "formatted_address": "16 de Septiembre 1, San Miguel Xicalco, Tlalpan, 14490 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.0618,
+    "lat": 19.3491,
+    "PARROQUIA": "Parroquia de la Resurrección de Cristo",
+    "ALCALDIA": "Iztapalapa",
+    "MODULO": "3",
+    "INICIO_DT": "2020-02-17",
+    "FIN_DT": "2020-02-28",
+    "formatted_address": "Calle Gral. José María Rodríguez 72, Iztapalapa, 09260 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1366,
+    "lat": 19.2738,
+    "PARROQUIA": "Parroquia de Santa María de la Visitación",
+    "ALCALDIA": "Xochimilco",
+    "MODULO": "2",
+    "INICIO_DT": "2020-02-21",
+    "FIN_DT": "2020-03-05",
+    "formatted_address": "Cjon. Miguel Hidalgo S/N, Santa María Tepepan, Xochimilco, 16020 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1455,
+    "lat": 19.3756,
+    "PARROQUIA": "Parroquia de San Simón Apóstol",
+    "ALCALDIA": "Benito Juárez",
+    "MODULO": "1",
+    "INICIO_DT": "2020-02-26",
+    "FIN_DT": "2020-03-10",
+    "formatted_address": "Calz. San Simon 125, San Simón, Benito Juárez, 03660 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.0749,
+    "lat": 19.3359,
+    "PARROQUIA": "Parroquia del Sagrado Corazón de Jesús",
+    "ALCALDIA": "Iztapalapa",
+    "MODULO": "3",
+    "INICIO_DT": "2020-03-02",
+    "FIN_DT": "2020-03-13",
+    "formatted_address": "Av. San Lorenzo 749, San Juan Xalpa, Iztapalapa, 09850 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.2995,
+    "lat": 19.3465,
+    "PARROQUIA": "Inmaculada Concepción El Contadero",
+    "ALCALDIA": "Cuajimalpa de Morelos",
+    "MODULO": "2",
+    "INICIO_DT": "2020-03-06",
+    "FIN_DT": "2020-03-13",
+    "formatted_address": "Av. Arteaga y Salazar 573, Contadero, Cuajimalpa de Morelos, 05500 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1879,
+    "lat": 19.4589,
+    "PARROQUIA": "Parroquia de San Gabriel Arcángel",
+    "ALCALDIA": "Miguel Hidalgo",
+    "MODULO": "1",
+    "INICIO_DT": "2020-03-11",
+    "FIN_DT": "2020-03-13",
+    "formatted_address": "Calz México-Tacuba S/N, Tacuba, Miguel Hidalgo, 11490 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1173,
+    "lat": 19.4839,
+    "PARROQUIA": "Insigne y Nacional Basílica de Santa María Guadalupe",
+    "ALCALDIA": "Gustavo A. Madero",
+    "MODULO": "2",
+    "INICIO_DT": "2020-06-23",
+    "FIN_DT": "2020-12-18",
+    "formatted_address": "Plaza Mariana, Fray Juan de Zumárraga 2, Villa Gustavo A. Madero, Gustavo A. Madero, 07050 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1331,
+    "lat": 19.4344,
+    "PARROQUIA": "Catedral Metropolitana de la Ciudad de México",
+    "ALCALDIA": "Cuauhtémoc",
+    "MODULO": "1",
+    "INICIO_DT": "2020-07-06",
+    "FIN_DT": "2020-10-23",
+    "formatted_address": "P.za de la Constitución S/N, Centro Histórico de la Cdad. de México, Centro, Cuauhtémoc, 06000 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1407,
+    "lat": 19.2013,
+    "PARROQUIA": "Parroquia de San Miguel Arcángel",
+    "ALCALDIA": "Tlalpan",
+    "MODULO": "1",
+    "INICIO_DT": "2020-10-26",
+    "FIN_DT": "2020-11-06",
+    "formatted_address": "Ignacio Allende 13, San Miguel Topilejo, Tlalpan, 14500 San Miguel Topilejo, CDMX, México"
+  },
+  {
+    "lon": -99.1879,
+    "lat": 19.4589,
+    "PARROQUIA": "Parroquia de San Gabriel Arcángel",
+    "ALCALDIA": "Miguel Hidalgo",
+    "MODULO": "1",
+    "INICIO_DT": "2020-11-09",
+    "FIN_DT": "2020-11-20",
+    "formatted_address": "Calz México-Tacuba S/N, Tacuba, Miguel Hidalgo, 11490 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1409,
+    "lat": 19.4411,
+    "PARROQUIA": "Parroquia de Santa María La Redonda Cuepopan",
+    "ALCALDIA": "Cuauhtémoc",
+    "MODULO": "3",
+    "INICIO_DT": "2020-11-13",
+    "FIN_DT": "2020-12-18",
+    "formatted_address": "C. Riva Palacio 46, Guerrero, Cuauhtémoc, 06300 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1455,
+    "lat": 19.3756,
+    "PARROQUIA": "Parroquia de San Simón Apóstol",
+    "ALCALDIA": "Benito Juárez",
+    "MODULO": "1",
+    "INICIO_DT": "2020-11-23",
+    "FIN_DT": "2020-12-04",
+    "formatted_address": "Calz. San Simon 125, San Simón, Benito Juárez, 03660 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.102,
+    "lat": 19.4179,
+    "PARROQUIA": "Parroquia del Sagrado Corazón de Jesús y San Felipe Neri",
+    "ALCALDIA": "Venustiano Carranza",
+    "MODULO": "1",
+    "INICIO_DT": "2020-12-07",
+    "FIN_DT": "2020-12-18",
+    "formatted_address": "Fray Servando Teresa de Mier 970, Jardín Balbuena, Venustiano Carranza, 15900 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1328,
+    "lat": 19.4473,
+    "PARROQUIA": "Parroquia de Santa Ana",
+    "ALCALDIA": "Cuauhtémoc",
+    "MODULO": "1",
+    "INICIO_DT": "2021-03-30",
+    "FIN_DT": "2021-04-16",
+    "formatted_address": "Matamoros No. 89, Peralvillo, Morelos, Cuauhtémoc, 06200 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1158,
+    "lat": 19.4096,
+    "PARROQUIA": "Parroquia de Santa María Magdalena Mixihuca",
+    "ALCALDIA": "Venustiano Carranza",
+    "MODULO": "2",
+    "INICIO_DT": "2021-04-05",
+    "FIN_DT": "2021-04-19",
+    "formatted_address": "Calz. Magdalena Mixhuca & Pzla. de La Revolución, Pueblo de la Magdalena Mixihuca, 15860 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1276,
+    "lat": 19.4361,
+    "PARROQUIA": "Iglesia Nuestra Señora de Loreto",
+    "ALCALDIA": "Cuauhtémoc",
+    "MODULO": "3",
+    "INICIO_DT": "2021-04-05",
+    "FIN_DT": "2021-04-20",
+    "formatted_address": "San Ildefonso 80, Centro Histórico de la Cdad. de México, Centro, Cuauhtémoc, 06000 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.0427,
+    "lat": 19.3299,
+    "PARROQUIA": "Parroquia de Cristo Salvador y Señor",
+    "ALCALDIA": "Iztapalapa",
+    "MODULO": "1",
+    "INICIO_DT": "2021-04-19",
+    "FIN_DT": "2021-04-30",
+    "formatted_address": "Primera Cerrada Villa Bratz Manzana 77 B, Desarrollo Urbano Quetzalcóatl, Iztapalapa, 09700 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.0888,
+    "lat": 19.3638,
+    "PARROQUIA": "Capilla del Señor San José",
+    "ALCALDIA": "Iztapalapa",
+    "MODULO": "2",
+    "INICIO_DT": "2021-04-20",
+    "FIN_DT": "2021-05-03",
+    "formatted_address": "Cuauhtémoc 185, San José, Iztapalapa, 09000 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1249,
+    "lat": 19.4266,
+    "PARROQUIA": "Parroquia de Santo Tomás Apóstol La Palma",
+    "ALCALDIA": "Venustiano Carranza",
+    "MODULO": "3",
+    "INICIO_DT": "2021-04-21",
+    "FIN_DT": "2021-05-04",
+    "formatted_address": "Misioneros 12, La Merced, Centro, Venustiano Carranza, 15100 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.0716,
+    "lat": 19.4111,
+    "PARROQUIA": "Parroquia de Nuestra Señora de la Consolación",
+    "ALCALDIA": "Iztacalco",
+    "MODULO": "1",
+    "INICIO_DT": "2021-05-03",
+    "FIN_DT": "2021-05-14",
+    "formatted_address": "Agua Caliente s/n Av Norte s/n, Iztacalco, Avenida Nte 100, Pantitlan, Agrícola Pantitlán, Iztacalco, 08100 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.163,
+    "lat": 19.3307,
+    "PARROQUIA": "Parroquia de los Santos Fundadores Domingo de Guzmán y Francisco de Asís",
+    "ALCALDIA": "Coyoacán",
+    "MODULO": "2",
+    "INICIO_DT": "2021-05-04",
+    "FIN_DT": "2021-05-17",
+    "formatted_address": "Papalotl s/n, Pedregal de Santo Domingo, Coyoacán, 04369 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1409,
+    "lat": 19.4411,
+    "PARROQUIA": "Parroquia de Santa María La Redonda Cuepopan",
+    "ALCALDIA": "Cuauhtémoc",
+    "MODULO": "3",
+    "INICIO_DT": "2021-05-05",
+    "FIN_DT": "2021-05-18",
+    "formatted_address": "C. Riva Palacio 46, Guerrero, Cuauhtémoc, 06300 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.0314,
+    "lat": 19.3702,
+    "PARROQUIA": "Parroquia de San Pablo Apóstol",
+    "ALCALDIA": "Iztapalapa",
+    "MODULO": "1",
+    "INICIO_DT": "2021-05-17",
+    "FIN_DT": "2021-05-28",
+    "formatted_address": "Félix Gutiérrez S/N Ejercito oriente 4 seccion, Álvaro Obregón, Iztapalapa, 09230 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.2038,
+    "lat": 19.218,
+    "PARROQUIA": "Parroquia de Santo Tomás Apóstol",
+    "ALCALDIA": "Tlalpan",
+    "MODULO": "2",
+    "INICIO_DT": "2021-05-18",
+    "FIN_DT": "2021-05-31",
+    "formatted_address": "Mariano Matamoros, Tlalpan, 14710 San Miguel Ajusco, CDMX, México"
+  },
+  {
+    "lon": -99.1245,
+    "lat": 19.476,
+    "PARROQUIA": "Parroquia de la Asunción de María",
+    "ALCALDIA": "Gustavo A. Madero",
+    "MODULO": "3",
+    "INICIO_DT": "2021-05-19",
+    "FIN_DT": "2021-06-01",
+    "formatted_address": "Av Necaxa 100, Industrial, Gustavo A. Madero, 07800 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.205,
+    "lat": 19.5068,
+    "PARROQUIA": "Parroquia de San Nicolás de Tolentino",
+    "ALCALDIA": "Azcapotzalco",
+    "MODULO": "1",
+    "INICIO_DT": "2021-05-31",
+    "FIN_DT": "2021-06-11",
+    "formatted_address": "Av Río Blanco s/n, El Rosario, Azcapotzalco, 02100 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1407,
+    "lat": 19.2013,
+    "PARROQUIA": "Parroquia de San Miguel Arcángel",
+    "ALCALDIA": "Tlalpan",
+    "MODULO": "2",
+    "INICIO_DT": "2021-06-01",
+    "FIN_DT": "2021-06-14",
+    "formatted_address": "Ignacio Allende 13, San Miguel Topilejo, Tlalpan, 14500 San Miguel Topilejo, CDMX, México"
+  },
+  {
+    "lon": -99.1435,
+    "lat": 19.4307,
+    "PARROQUIA": "Basílica de San José y Nuestra Señora del Sagrado Corazón",
+    "ALCALDIA": "Cuauhtémoc",
+    "MODULO": "3",
+    "INICIO_DT": "2021-06-02",
+    "FIN_DT": "2021-06-15",
+    "formatted_address": "Ayuntamiento 29, Colonia Centro, Centro, Cuauhtémoc, 06050 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1356,
+    "lat": 19.5576,
+    "PARROQUIA": "Parroquia de la Preciosa Sangre de Cristo",
+    "ALCALDIA": "Gustavo A. Madero",
+    "MODULO": "1",
+    "INICIO_DT": "2021-06-14",
+    "FIN_DT": "2021-06-25",
+    "formatted_address": "Plaza Hidalgo s/n, Cuautepec Barrio Alto, 07100, Julián Carillo 2, Cuautepec Alto Centro, Gustavo A. Madero, 07160 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.2012,
+    "lat": 19.3903,
+    "PARROQUIA": "Parroquia de Cristo Rey Tacubaya",
+    "ALCALDIA": "Álvaro Obregón",
+    "MODULO": "2",
+    "INICIO_DT": "2021-06-15",
+    "FIN_DT": "2021-06-28",
+    "formatted_address": "Escuadrón 201 71, Col. Cristo Rey, Álvaro Obregón, 01150 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.0618,
+    "lat": 19.3491,
+    "PARROQUIA": "Parroquia de la Resurrección de Cristo",
+    "ALCALDIA": "Iztapalapa",
+    "MODULO": "3",
+    "INICIO_DT": "2021-06-16",
+    "FIN_DT": "2021-06-29",
+    "formatted_address": "Calle Gral. José María Rodríguez 72, Iztapalapa, 09260 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1468,
+    "lat": 19.4381,
+    "PARROQUIA": "Templo de San Hipólito y San Casiano",
+    "ALCALDIA": "Cuauhtémoc",
+    "MODULO": "1",
+    "INICIO_DT": "2021-06-28",
+    "FIN_DT": "2021-07-09",
+    "formatted_address": "Zarco 12, Centro Histórico de la Cdad. de México, Guerrero, Cuauhtémoc, 06300 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.102,
+    "lat": 19.4179,
+    "PARROQUIA": "Parroquia del Sagrado Corazón de Jesús y San Felipe Neri",
+    "ALCALDIA": "Venustiano Carranza",
+    "MODULO": "2",
+    "INICIO_DT": "2021-06-29",
+    "FIN_DT": "2021-07-12",
+    "formatted_address": "Fray Servando Teresa de Mier 970, Jardín Balbuena, Venustiano Carranza, 15900 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1177,
+    "lat": 19.3413,
+    "PARROQUIA": "Parroquia de Santa María Magdalena",
+    "ALCALDIA": "Coyoacán",
+    "MODULO": "3",
+    "INICIO_DT": "2021-06-30",
+    "FIN_DT": "2021-07-13",
+    "formatted_address": "Las Rosas 9, San Francisco Culhuacan de la Magdalena, Coyoacán, 04260 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.2114,
+    "lat": 19.4786,
+    "PARROQUIA": "Parroquia de Santiago Apóstol El Mayor",
+    "ALCALDIA": "Azcapotzalco",
+    "MODULO": "1",
+    "INICIO_DT": "2021-07-12",
+    "FIN_DT": "2021-07-23",
+    "formatted_address": "SANTIAGO APOSTOL EL MAYOR, Colorines 46, Santiago Ahuizotla, Azcapotzalco, 02750 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1766,
+    "lat": 19.4351,
+    "PARROQUIA": "Parroquia de Nuestra Señora de la Paz",
+    "ALCALDIA": "Miguel Hidalgo",
+    "MODULO": "2",
+    "INICIO_DT": "2021-07-13",
+    "FIN_DT": "2021-07-26",
+    "formatted_address": "Bahía Mangueira 73, Verónica Anzúres, Miguel Hidalgo, 11300 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1243,
+    "lat": 19.3901,
+    "PARROQUIA": "Rectoría de Santiago Apóstol",
+    "ALCALDIA": "Iztacalco",
+    "MODULO": "3",
+    "INICIO_DT": "2021-07-14",
+    "FIN_DT": "2021-07-27",
+    "formatted_address": "Av. Santiago, Santiago Norte, Santiago Sur, Iztacalco, 08800 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1632,
+    "lat": 19.2351,
+    "PARROQUIA": "Capilla de San Miguel Arcángel",
+    "ALCALDIA": "Tlalpan",
+    "MODULO": "1",
+    "INICIO_DT": "2021-07-26",
+    "FIN_DT": "2021-08-06",
+    "formatted_address": "16 de Septiembre 1, San Miguel Xicalco, Tlalpan, 14490 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.2455,
+    "lat": 19.3025,
+    "PARROQUIA": "Parroquia de Santa María Magdalena Atlitic",
+    "ALCALDIA": "La Magdalena Contreras",
+    "MODULO": "2",
+    "INICIO_DT": "2021-07-27",
+    "FIN_DT": "2021-08-09",
+    "formatted_address": "Emilio Carranza S/N, La Magdalena, Atlitic, La Magdalena Contreras, 10640 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1018,
+    "lat": 19.2632,
+    "PARROQUIA": "Catedral de Xochimilco San Bernardino de Siena",
+    "ALCALDIA": "Xochimilco",
+    "MODULO": "3",
+    "INICIO_DT": "2021-07-28",
+    "FIN_DT": "2021-08-10",
+    "formatted_address": "Av. Nuevo León 22B, Santa Crucita, Xochimilco, 16070 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1466,
+    "lat": 19.3875,
+    "PARROQUIA": "Parroquia de Santa María de la Natividad",
+    "ALCALDIA": "Benito Juárez",
+    "MODULO": "1",
+    "INICIO_DT": "2021-08-09",
+    "FIN_DT": "2021-08-20",
+    "formatted_address": "Eje Central Lázaro Cárdenas 806, Niños Heroes de Chapultepec, Niños Héroes, Benito Juárez, 03440 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.0164,
+    "lat": 19.2977,
+    "PARROQUIA": "Parroquia de San Francisco de Asís",
+    "ALCALDIA": "Tláhuac",
+    "MODULO": "2",
+    "INICIO_DT": "2021-08-10",
+    "FIN_DT": "2021-08-23",
+    "formatted_address": "Pl. Centenario S/N, San Francisco Tlaltenco, Tláhuac, 13400 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.0226,
+    "lat": 19.1924,
+    "PARROQUIA": "Parroquia de la Asunción de María",
+    "ALCALDIA": "Milpa Alta",
+    "MODULO": "3",
+    "INICIO_DT": "2021-08-11",
+    "FIN_DT": "2021-08-24",
+    "formatted_address": "Av. México Nte., Villa Milpa Alta, Centro, Milpa Alta, 12000 Villa Milpa Alta, CDMX, México"
+  },
+  {
+    "lon": -99.1173,
+    "lat": 19.4839,
+    "PARROQUIA": "Insigne y Nacional Basílica de Santa María Guadalupe",
+    "ALCALDIA": "Gustavo A. Madero",
+    "MODULO": "1",
+    "INICIO_DT": "2021-08-23",
+    "FIN_DT": "2021-09-10",
+    "formatted_address": "Plaza Mariana, Fray Juan de Zumárraga 2, Villa Gustavo A. Madero, Gustavo A. Madero, 07050 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.0917,
+    "lat": 19.357,
+    "PARROQUIA": "Catedral de Iztapalapa del Señor del Santo Sepulcro de Jerusalén (La Cuevita)",
+    "ALCALDIA": "Iztapalapa",
+    "MODULO": "2",
+    "INICIO_DT": "2021-08-24",
+    "FIN_DT": "2021-09-13",
+    "formatted_address": "Ermita Iztapalapa 1271, San Pablo, Iztapalapa, 09000 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.2794,
+    "lat": 19.3422,
+    "PARROQUIA": "Parroquia de San Mateo Apóstol",
+    "ALCALDIA": "Cuajimalpa de Morelos",
+    "MODULO": "3",
+    "INICIO_DT": "2021-08-25",
+    "FIN_DT": "2021-09-07",
+    "formatted_address": "San Mateo Tlaltenango, Cuajimalpa de Morelos, 05600 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.241,
+    "lat": 19.3837,
+    "PARROQUIA": "Parroquia de la Asunción de María",
+    "ALCALDIA": "Álvaro Obregón",
+    "MODULO": "3",
+    "INICIO_DT": "2021-09-08",
+    "FIN_DT": "2021-09-21",
+    "formatted_address": "Galeana 110, Sta Fé, Álvaro Obregón, 01210 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.0967,
+    "lat": 19.4479,
+    "PARROQUIA": "Parroquia de la Inmaculada Concepción",
+    "ALCALDIA": "Venustiano Carranza",
+    "MODULO": "1",
+    "INICIO_DT": "2021-09-13",
+    "FIN_DT": "2021-09-24",
+    "formatted_address": "Simón Bolívar, Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.0608,
+    "lat": 19.4113,
+    "PARROQUIA": "Parroquia del Sagrado Corazón de Jesús",
+    "ALCALDIA": "Iztacalco",
+    "MODULO": "2",
+    "INICIO_DT": "2021-09-14",
+    "FIN_DT": "2021-09-27",
+    "formatted_address": "Calle 5 235, Agrícola Pantitlán, Iztacalco, 08100 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1879,
+    "lat": 19.4589,
+    "PARROQUIA": "Parroquia de San Gabriel Arcángel",
+    "ALCALDIA": "Miguel Hidalgo",
+    "MODULO": "3",
+    "INICIO_DT": "2021-09-22",
+    "FIN_DT": "2021-10-05",
+    "formatted_address": "Calz México-Tacuba S/N, Tacuba, Miguel Hidalgo, 11490 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1533,
+    "lat": 19.3121,
+    "PARROQUIA": "Parroquia de Nuestra Señora de las Nieves",
+    "ALCALDIA": "Coyoacán",
+    "MODULO": "1",
+    "INICIO_DT": "2021-09-27",
+    "FIN_DT": "2021-10-08",
+    "formatted_address": "San Gonzalo S/N, Pedregal de Sta Úrsula, Coyoacán, 04600 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1852,
+    "lat": 19.4805,
+    "PARROQUIA": "Catedral de los Santos Apóstoles Felipe y Santiago El Menor",
+    "ALCALDIA": "Azcapotzalco",
+    "MODULO": "2",
+    "INICIO_DT": "2021-09-28",
+    "FIN_DT": "2021-10-11",
+    "formatted_address": "Av. Morelos No.14, Centro, Azcapotzalco, 02000 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.256,
+    "lat": 19.314,
+    "PARROQUIA": "Parroquia de San Bernabé Apóstol",
+    "ALCALDIA": "La Magdalena Contreras",
+    "MODULO": "3",
+    "INICIO_DT": "2021-10-06",
+    "FIN_DT": "2021-10-19",
+    "formatted_address": "Fresno 1, San Bernabé Ocotepec, La Magdalena Contreras, 10300 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1213,
+    "lat": 19.3902,
+    "PARROQUIA": "Parroquia de San Matías Apóstol",
+    "ALCALDIA": "Iztacalco",
+    "MODULO": "1",
+    "INICIO_DT": "2021-10-11",
+    "FIN_DT": "2021-10-22",
+    "formatted_address": "Cda. Juarez 4, Barrio La Asunción, Iztacalco, 08600 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1671,
+    "lat": 19.2666,
+    "PARROQUIA": "Parroquia de San Pedro de Verona Mártir",
+    "ALCALDIA": "Tlalpan",
+    "MODULO": "2",
+    "INICIO_DT": "2021-10-12",
+    "FIN_DT": "2021-10-25",
+    "formatted_address": "Enseñanza, Esq. Laurel S/n, San Pedro Mártir, Tlalpan, 14650 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1455,
+    "lat": 19.3756,
+    "PARROQUIA": "Parroquia de San Simón Apóstol",
+    "ALCALDIA": "Benito Juárez",
+    "MODULO": "3",
+    "INICIO_DT": "2021-10-20",
+    "FIN_DT": "2021-11-02",
+    "formatted_address": "Calz. San Simon 125, San Simón, Benito Juárez, 03660 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.074,
+    "lat": 19.2461,
+    "PARROQUIA": "Parroquia de Santa Cruz Acalpixca",
+    "ALCALDIA": "Xochimilco",
+    "MODULO": "1",
+    "INICIO_DT": "2021-10-25",
+    "FIN_DT": "2021-11-05",
+    "formatted_address": "Parroquia de Santa Cruz Acalpixca, Lázaro Cárdenas S/N, Esq. 20 de Noviembre, Xochimilco, Santa Cruz Acalpixca, Xochimilco, 16500 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.0365,
+    "lat": 19.2985,
+    "PARROQUIA": "Parroquia de la Inmaculada Concepción",
+    "ALCALDIA": "Tláhuac",
+    "MODULO": "2",
+    "INICIO_DT": "2021-10-26",
+    "FIN_DT": "2021-11-08",
+    "formatted_address": "Centro del Pueblo, Plaza Juárez s/n, Santa Ana Nte., Tláhuac, 13300 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1474,
+    "lat": 19.3503,
+    "PARROQUIA": "Capilla de San Mateo Apóstol y Evangelista",
+    "ALCALDIA": "Coyoacán",
+    "MODULO": "3",
+    "INICIO_DT": "2021-11-03",
+    "FIN_DT": "2021-11-16",
+    "formatted_address": "Heroes del 47 15, San Mateo, Coyoacán, 04120 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.0727,
+    "lat": 19.1872,
+    "PARROQUIA": "Parroquia de San Pablo Apóstol",
+    "ALCALDIA": "Milpa Alta",
+    "MODULO": "1",
+    "INICIO_DT": "2021-11-08",
+    "FIN_DT": "2021-11-19",
+    "formatted_address": "Cda. Emiliano Zapata 2, San Pablo Oztotepec, San Miguel, Milpa Alta, 12400 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1743,
+    "lat": 19.4014,
+    "PARROQUIA": "Parroquia del Espíritu Santo y Señor Mueve Corazones",
+    "ALCALDIA": "Miguel Hidalgo",
+    "MODULO": "2",
+    "INICIO_DT": "2021-11-09",
+    "FIN_DT": "2021-11-22",
+    "formatted_address": "Av. José Martí 233, Escandón II Secc, Miguel Hidalgo, 11800 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.2987,
+    "lat": 19.3573,
+    "PARROQUIA": "Parroquia de San Pedro Apóstol",
+    "ALCALDIA": "Cuajimalpa de Morelos",
+    "MODULO": "3",
+    "INICIO_DT": "2021-11-17",
+    "FIN_DT": "2021-11-30",
+    "formatted_address": "Av. Juárez, Pueblo de San Pedro Cuajimalpa, Cuajimalpa, Cuajimalpa de Morelos, 05000 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.0559,
+    "lat": 19.4528,
+    "PARROQUIA": "Parroquia de Nuestra Señora de la Esperanza",
+    "ALCALDIA": "Gustavo A. Madero",
+    "MODULO": "1",
+    "INICIO_DT": "2021-11-22",
+    "FIN_DT": "2021-12-03",
+    "formatted_address": "Av. 602-B 79, C. T. M. Aragón, Gustavo A. Madero, 07990 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.2717,
+    "lat": 19.3287,
+    "PARROQUIA": "Parroquia de San Bartolomé Apóstol",
+    "ALCALDIA": "Álvaro Obregón",
+    "MODULO": "2",
+    "INICIO_DT": "2021-11-23",
+    "FIN_DT": "2021-12-10",
+    "formatted_address": "Aldama, San Bartolo Ameyalco, Álvaro Obregón, 01800 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1912,
+    "lat": 19.4785,
+    "PARROQUIA": "Parroquia de Santa Apolonia",
+    "ALCALDIA": "Azcapotzalco",
+    "MODULO": "3",
+    "INICIO_DT": "2021-12-01",
+    "FIN_DT": "2021-12-10",
+    "formatted_address": "Eje 3 Nte 25, Santa Apolonia, Azcapotzalco, 02730 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.0917,
+    "lat": 19.357,
+    "PARROQUIA": "Catedral de Iztapalapa del Señor del Santo Sepulcro de Jerusalén (La Cuevita)",
+    "ALCALDIA": "Iztapalapa",
+    "MODULO": "1",
+    "INICIO_DT": "2021-12-06",
+    "FIN_DT": "2021-12-17",
+    "formatted_address": "Ermita Iztapalapa 1271, San Pablo, Iztapalapa, 09000 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1331,
+    "lat": 19.4344,
+    "PARROQUIA": "Catedral Metropolitana de la Ciudad de México",
+    "ALCALDIA": "Cuauhtémoc",
+    "MODULO": "2",
+    "INICIO_DT": "2021-12-13",
+    "FIN_DT": "2021-12-17",
+    "formatted_address": "P.za de la Constitución S/N, Centro Histórico de la Cdad. de México, Centro, Cuauhtémoc, 06000 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.0608,
+    "lat": 19.4113,
+    "PARROQUIA": "Parroquia del Sagrado Corazón de Jesús",
+    "ALCALDIA": "Iztacalco",
+    "MODULO": "3",
+    "INICIO_DT": "2021-12-13",
+    "FIN_DT": "2021-12-17",
+    "formatted_address": "Calle 5 235, Agrícola Pantitlán, Iztacalco, 08100 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1468,
+    "lat": 19.4381,
+    "PARROQUIA": "Templo de San Hipólito y San Casiano",
+    "ALCALDIA": "Cuauhtémoc",
+    "MODULO": "1",
+    "INICIO_DT": "2022-01-18",
+    "FIN_DT": "2022-01-27",
+    "formatted_address": "Zarco 12, Centro Histórico de la Cdad. de México, Guerrero, Cuauhtémoc, 06300 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.102,
+    "lat": 19.4179,
+    "PARROQUIA": "Parroquia del Sagrado Corazón de Jesús y San Felipe Neri",
+    "ALCALDIA": "Venustiano Carranza",
+    "MODULO": "2",
+    "INICIO_DT": "2022-01-19",
+    "FIN_DT": "2022-01-21",
+    "formatted_address": "Fray Servando Teresa de Mier 970, Jardín Balbuena, Venustiano Carranza, 15900 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1743,
+    "lat": 19.4014,
+    "PARROQUIA": "Parroquia del Espíritu Santo y Señor Mueve Corazones",
+    "ALCALDIA": "Miguel Hidalgo",
+    "MODULO": "3",
+    "INICIO_DT": "2022-01-20",
+    "FIN_DT": "2022-01-31",
+    "formatted_address": "Av. José Martí 233, Escandón II Secc, Miguel Hidalgo, 11800 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1158,
+    "lat": 19.4096,
+    "PARROQUIA": "Parroquia de Santa María Magdalena Mixihuca",
+    "ALCALDIA": "Venustiano Carranza",
+    "MODULO": "2",
+    "INICIO_DT": "2022-01-24",
+    "FIN_DT": "2022-02-03",
+    "formatted_address": "Calz. Magdalena Mixhuca & Pzla. de La Revolución, Pueblo de la Magdalena Mixihuca, 15860 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.0917,
+    "lat": 19.357,
+    "PARROQUIA": "Catedral de Iztapalapa del Señor del Santo Sepulcro de Jerusalén (La Cuevita)",
+    "ALCALDIA": "Iztapalapa",
+    "MODULO": "1",
+    "INICIO_DT": "2022-01-28",
+    "FIN_DT": "2022-02-10",
+    "formatted_address": "Ermita Iztapalapa 1271, San Pablo, Iztapalapa, 09000 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1243,
+    "lat": 19.3901,
+    "PARROQUIA": "Rectoría de Santiago Apóstol",
+    "ALCALDIA": "Iztacalco",
+    "MODULO": "3",
+    "INICIO_DT": "2022-02-01",
+    "FIN_DT": "2022-02-14",
+    "formatted_address": "Av. Santiago, Santiago Norte, Santiago Sur, Iztacalco, 08800 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1455,
+    "lat": 19.3756,
+    "PARROQUIA": "Parroquia de San Simón Apóstol",
+    "ALCALDIA": "Benito Juárez",
+    "MODULO": "2",
+    "INICIO_DT": "2022-02-04",
+    "FIN_DT": "2022-02-17",
+    "formatted_address": "Calz. San Simon 125, San Simón, Benito Juárez, 03660 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1474,
+    "lat": 19.3503,
+    "PARROQUIA": "Capilla de San Mateo Apóstol y Evangelista",
+    "ALCALDIA": "Coyoacán",
+    "MODULO": "1",
+    "INICIO_DT": "2022-02-11",
+    "FIN_DT": "2022-02-23",
+    "formatted_address": "Heroes del 47 15, San Mateo, Coyoacán, 04120 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.205,
+    "lat": 19.5068,
+    "PARROQUIA": "Parroquia de San Nicolás de Tolentino",
+    "ALCALDIA": "Azcapotzalco",
+    "MODULO": "3",
+    "INICIO_DT": "2022-02-15",
+    "FIN_DT": "2022-02-24",
+    "formatted_address": "Av Río Blanco s/n, El Rosario, Azcapotzalco, 02100 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1609,
+    "lat": 19.3698,
+    "PARROQUIA": "Parroquia de La Santa Cruz de Jerusalén",
+    "ALCALDIA": "Benito Juárez",
+    "MODULO": "2",
+    "INICIO_DT": "2022-02-18",
+    "FIN_DT": "2022-03-04",
+    "formatted_address": "Av. Cuauhtémoc 1316, Sta Cruz Atoyac, Benito Juárez, 03310 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.2455,
+    "lat": 19.3025,
+    "PARROQUIA": "Parroquia de Santa María Magdalena Atlitic",
+    "ALCALDIA": "La Magdalena Contreras",
+    "MODULO": "1",
+    "INICIO_DT": "2022-02-24",
+    "FIN_DT": "2022-03-09",
+    "formatted_address": "Emilio Carranza S/N, La Magdalena, Atlitic, La Magdalena Contreras, 10640 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.2794,
+    "lat": 19.3422,
+    "PARROQUIA": "Parroquia de San Mateo Apóstol",
+    "ALCALDIA": "Cuajimalpa de Morelos",
+    "MODULO": "3",
+    "INICIO_DT": "2022-02-25",
+    "FIN_DT": "2022-03-14",
+    "formatted_address": "San Mateo Tlaltenango, Cuajimalpa de Morelos, 05600 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1362,
+    "lat": 19.4517,
+    "PARROQUIA": "Parroquia de Santiago Apóstol",
+    "ALCALDIA": "Cuauhtémoc",
+    "MODULO": "2",
+    "INICIO_DT": "2022-03-07",
+    "FIN_DT": "2022-05-23",
+    "formatted_address": "Eje Central Lázaro Cárdenas S/N, Tlatelolco, Cuauhtémoc, 06900 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.0044,
+    "lat": 19.2691,
+    "PARROQUIA": "Parroquia de San Pedro Apóstol Tláhuac",
+    "ALCALDIA": "Tláhuac",
+    "MODULO": "1",
+    "INICIO_DT": "2022-03-18",
+    "FIN_DT": "2022-05-19",
+    "formatted_address": "C. Severino Ceniceros S/N, Centro de Tlahuac, Tláhuac, 13070 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1331,
+    "lat": 19.4344,
+    "PARROQUIA": "Catedral Metropolitana de la Ciudad de México",
+    "ALCALDIA": "Cuauhtémoc",
+    "MODULO": "3",
+    "INICIO_DT": "2022-03-19",
+    "FIN_DT": "2022-05-17",
+    "formatted_address": "P.za de la Constitución S/N, Centro Histórico de la Cdad. de México, Centro, Cuauhtémoc, 06000 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.102,
+    "lat": 19.4179,
+    "PARROQUIA": "Parroquia del Sagrado Corazón de Jesús y San Felipe Neri",
+    "ALCALDIA": "Venustiano Carranza",
+    "MODULO": "3",
+    "INICIO_DT": "2022-05-18",
+    "FIN_DT": "2022-05-26",
+    "formatted_address": "Fray Servando Teresa de Mier 970, Jardín Balbuena, Venustiano Carranza, 15900 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.0864,
+    "lat": 19.4513,
+    "PARROQUIA": "Parroquia de la Resurrección del Señor",
+    "ALCALDIA": "Gustavo A. Madero",
+    "MODULO": "1",
+    "INICIO_DT": "2022-05-20",
+    "FIN_DT": "2022-06-02",
+    "formatted_address": "Av. 504, San Juan de Aragón II Secc, Gustavo A. Madero, 07969 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.011,
+    "lat": 19.3627,
+    "PARROQUIA": "Parroquia de Santa Martha Acatitla",
+    "ALCALDIA": "Iztapalapa",
+    "MODULO": "2",
+    "INICIO_DT": "2022-05-24",
+    "FIN_DT": "2022-06-06",
+    "formatted_address": "Everardo González, Santa Martha Acatitla, Iztapalapa, 09510 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1879,
+    "lat": 19.4589,
+    "PARROQUIA": "Parroquia de San Gabriel Arcángel",
+    "ALCALDIA": "Miguel Hidalgo",
+    "MODULO": "3",
+    "INICIO_DT": "2022-05-27",
+    "FIN_DT": "2022-06-08",
+    "formatted_address": "Calz México-Tacuba S/N, Tacuba, Miguel Hidalgo, 11490 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.2051,
+    "lat": 19.4921,
+    "PARROQUIA": "Parroquia de San Juan Bautista",
+    "ALCALDIA": "Azcapotzalco",
+    "MODULO": "1",
+    "INICIO_DT": "2022-06-03",
+    "FIN_DT": "2022-06-13",
+    "formatted_address": "C. Federico Gamboa 110, San Juan Tlihuaca, Azcapotzalco, 02400 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1232,
+    "lat": 19.4318,
+    "PARROQUIA": "Parroquia de la Santa Cruz y Nuestra Señora de la Soledad",
+    "ALCALDIA": "Venustiano Carranza",
+    "MODULO": "2",
+    "INICIO_DT": "2022-06-07",
+    "FIN_DT": "2022-06-16",
+    "formatted_address": "Calle, Santa Escuela 16, Centro, Venustiano Carranza, 15100 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.2012,
+    "lat": 19.3903,
+    "PARROQUIA": "Parroquia de Cristo Rey Tacubaya",
+    "ALCALDIA": "Álvaro Obregón",
+    "MODULO": "3",
+    "INICIO_DT": "2022-06-09",
+    "FIN_DT": "2022-06-17",
+    "formatted_address": "Escuadrón 201 71, Col. Cristo Rey, Álvaro Obregón, 01150 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1409,
+    "lat": 19.4411,
+    "PARROQUIA": "Parroquia de Santa María La Redonda Cuepopan",
+    "ALCALDIA": "Cuauhtémoc",
+    "MODULO": "1",
+    "INICIO_DT": "2022-06-14",
+    "FIN_DT": "2022-06-22",
+    "formatted_address": "C. Riva Palacio 46, Guerrero, Cuauhtémoc, 06300 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1659,
+    "lat": 19.2884,
+    "PARROQUIA": "Parroquia de San Agustín de las Cuevas",
+    "ALCALDIA": "Tlalpan",
+    "MODULO": "2",
+    "INICIO_DT": "2022-06-17",
+    "FIN_DT": "2022-06-27",
+    "formatted_address": "Francisco I. Madero 10, Tlalpan Centro I, Tlalpan, 14000 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1466,
+    "lat": 19.3875,
+    "PARROQUIA": "Parroquia de Santa María de la Natividad",
+    "ALCALDIA": "Benito Juárez",
+    "MODULO": "3",
+    "INICIO_DT": "2022-06-21",
+    "FIN_DT": "2022-07-04",
+    "formatted_address": "Eje Central Lázaro Cárdenas 806, Niños Heroes de Chapultepec, Niños Héroes, Benito Juárez, 03440 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1922,
+    "lat": 19.3545,
+    "PARROQUIA": "Parroquia de la Purísima Concepción Tlacopac",
+    "ALCALDIA": "Álvaro Obregón",
+    "MODULO": "1",
+    "INICIO_DT": "2022-06-23",
+    "FIN_DT": "2022-07-06",
+    "formatted_address": "Tlacopac 39, Campestre, Álvaro Obregón, 01040 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.2987,
+    "lat": 19.3573,
+    "PARROQUIA": "Parroquia de San Pedro Apóstol",
+    "ALCALDIA": "Cuajimalpa de Morelos",
+    "MODULO": "2",
+    "INICIO_DT": "2022-06-28",
+    "FIN_DT": "2022-07-08",
+    "formatted_address": "Av. Juárez, Pueblo de San Pedro Cuajimalpa, Cuajimalpa, Cuajimalpa de Morelos, 05000 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.2105,
+    "lat": 19.4551,
+    "PARROQUIA": "Iglesia Sanctorum",
+    "ALCALDIA": "Miguel Hidalgo",
+    "MODULO": "4",
+    "INICIO_DT": "2022-07-01",
+    "FIN_DT": "2022-07-12",
+    "formatted_address": "Calz México-Tacuba 1420, Argentina Poniente, Miguel Hidalgo, 11260 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.163,
+    "lat": 19.3307,
+    "PARROQUIA": "Parroquia de los Santos Fundadores Domingo de Guzmán y Francisco de Asís",
+    "ALCALDIA": "Coyoacán",
+    "MODULO": "3",
+    "INICIO_DT": "2022-07-05",
+    "FIN_DT": "2022-07-13",
+    "formatted_address": "Papalotl s/n, Pedregal de Santo Domingo, Coyoacán, 04369 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.183,
+    "lat": 19.372,
+    "PARROQUIA": "Parroquia Santo Domingo de Guzmán",
+    "ALCALDIA": "Benito Juárez",
+    "MODULO": "1",
+    "INICIO_DT": "2022-07-07",
+    "FIN_DT": "2022-07-21",
+    "formatted_address": "Canova 2, Insurgentes Mixcoac, Benito Juárez, 03920 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1852,
+    "lat": 19.4805,
+    "PARROQUIA": "Catedral de los Santos Apóstoles Felipe y Santiago El Menor",
+    "ALCALDIA": "Azcapotzalco",
+    "MODULO": "2",
+    "INICIO_DT": "2022-07-09",
+    "FIN_DT": "2022-07-25",
+    "formatted_address": "Av. Morelos No.14, Centro, Azcapotzalco, 02000 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.182,
+    "lat": 19.3777,
+    "PARROQUIA": "Parroquia de San Juan Evangelista y Nuestra Señora de Guadalupe",
+    "ALCALDIA": "Benito Juárez",
+    "MODULO": "4",
+    "INICIO_DT": "2022-07-13",
+    "FIN_DT": "2022-07-28",
+    "formatted_address": "Cda. Augusto Rodin 330, Extremadura Insurgentes, Benito Juárez, 03740 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1455,
+    "lat": 19.3756,
+    "PARROQUIA": "Parroquia de San Simón Apóstol",
+    "ALCALDIA": "Benito Juárez",
+    "MODULO": "3",
+    "INICIO_DT": "2022-07-14",
+    "FIN_DT": "2022-08-01",
+    "formatted_address": "Calz. San Simon 125, San Simón, Benito Juárez, 03660 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1754,
+    "lat": 19.3756,
+    "PARROQUIA": "Templo de Santa Mónica",
+    "ALCALDIA": "Benito Juárez",
+    "MODULO": "1",
+    "INICIO_DT": "2022-07-22",
+    "FIN_DT": "2022-08-04",
+    "formatted_address": "Fresas 126, Tlacoquemecatl del Valle, Benito Juárez, 03200 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1633,
+    "lat": 19.3911,
+    "PARROQUIA": "Parroquia del Purísimo Corazón de María",
+    "ALCALDIA": "Benito Juárez",
+    "MODULO": "2",
+    "INICIO_DT": "2022-07-26",
+    "FIN_DT": "2022-08-08",
+    "formatted_address": "Gabriel Mancera 415, Col del Valle Centro, Benito Juárez, 03103 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1713,
+    "lat": 19.3783,
+    "PARROQUIA": "Parroquia del Señor del Buen Despacho",
+    "ALCALDIA": "Benito Juárez",
+    "MODULO": "4",
+    "INICIO_DT": "2022-07-29",
+    "FIN_DT": "2022-08-11",
+    "formatted_address": "Adolfo Prieto s/n & Tlacoquemecatl Tlacoquemécatl, Tlacoquemecatl del Valle, Benito Juárez, 03200 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1538,
+    "lat": 19.3352,
+    "PARROQUIA": "Parroquia de los Santos Reyes y el Señor de la Misericordia",
+    "ALCALDIA": "Coyoacán",
+    "MODULO": "3",
+    "INICIO_DT": "2022-08-02",
+    "FIN_DT": "2022-08-15",
+    "formatted_address": "Pzla. de Los Reyes 52-54, Los Reyes, Coyoacán, 04330 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1938,
+    "lat": 19.3793,
+    "PARROQUIA": "Parroquia de la Asunción de Santa María Nonoalco",
+    "ALCALDIA": "Álvaro Obregón",
+    "MODULO": "1",
+    "INICIO_DT": "2022-08-05",
+    "FIN_DT": "2022-08-22",
+    "formatted_address": "Alejandro Allori, Santa María Nonoalco, Álvaro Obregón, 01420 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1241,
+    "lat": 19.4986,
+    "PARROQUIA": "Parroquia de la Divina Providencia",
+    "ALCALDIA": "Gustavo A. Madero",
+    "MODULO": "2",
+    "INICIO_DT": "2022-08-09",
+    "FIN_DT": "2022-08-25",
+    "formatted_address": "Cienfuegos 1012, Lindavista, Gustavo A. Madero, 07369 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1486,
+    "lat": 19.4394,
+    "PARROQUIA": "Parroquia de San Fernando",
+    "ALCALDIA": "Cuauhtémoc",
+    "MODULO": "4",
+    "INICIO_DT": "2022-08-12",
+    "FIN_DT": "2022-08-29",
+    "formatted_address": "C. Guerrero 39, Centro Histórico de la Cdad. de México, Guerrero, Cuauhtémoc, 06300 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1243,
+    "lat": 19.3901,
+    "PARROQUIA": "Rectoría de Santiago Apóstol",
+    "ALCALDIA": "Iztacalco",
+    "MODULO": "3",
+    "INICIO_DT": "2022-08-16",
+    "FIN_DT": "2022-09-01",
+    "formatted_address": "Av. Santiago, Santiago Norte, Santiago Sur, Iztacalco, 08800 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.0427,
+    "lat": 19.3299,
+    "PARROQUIA": "Parroquia de Cristo Salvador y Señor",
+    "ALCALDIA": "Iztapalapa",
+    "MODULO": "1",
+    "INICIO_DT": "2022-08-23",
+    "FIN_DT": "2022-09-05",
+    "formatted_address": "Primera Cerrada Villa Bratz Manzana 77 B, Desarrollo Urbano Quetzalcóatl, Iztapalapa, 09700 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1249,
+    "lat": 19.4266,
+    "PARROQUIA": "Parroquia de Santo Tomás Apóstol La Palma",
+    "ALCALDIA": "Venustiano Carranza",
+    "MODULO": "2",
+    "INICIO_DT": "2022-08-26",
+    "FIN_DT": "2022-09-07",
+    "formatted_address": "Misioneros 12, La Merced, Centro, Venustiano Carranza, 15100 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1041,
+    "lat": 19.2543,
+    "PARROQUIA": "Parroquia de Nuestra Señora de los Dolores Xaltocan",
+    "ALCALDIA": "Xochimilco",
+    "MODULO": "4",
+    "INICIO_DT": "2022-08-30",
+    "FIN_DT": "2022-09-12",
+    "formatted_address": "Cam. a Nativitas 380, Xaltocan, Xochimilco, 16300 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1533,
+    "lat": 19.3121,
+    "PARROQUIA": "Parroquia de Nuestra Señora de las Nieves",
+    "ALCALDIA": "Coyoacán",
+    "MODULO": "3",
+    "INICIO_DT": "2022-09-02",
+    "FIN_DT": "2022-09-22",
+    "formatted_address": "San Gonzalo S/N, Pedregal de Sta Úrsula, Coyoacán, 04600 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.0365,
+    "lat": 19.2985,
+    "PARROQUIA": "Parroquia de la Inmaculada Concepción",
+    "ALCALDIA": "Tláhuac",
+    "MODULO": "1",
+    "INICIO_DT": "2022-09-06",
+    "FIN_DT": "2022-09-20",
+    "formatted_address": "Centro del Pueblo, Plaza Juárez s/n, Santa Ana Nte., Tláhuac, 13300 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1852,
+    "lat": 19.4805,
+    "PARROQUIA": "Catedral de los Santos Apóstoles Felipe y Santiago El Menor",
+    "ALCALDIA": "Azcapotzalco",
+    "MODULO": "2",
+    "INICIO_DT": "2022-09-08",
+    "FIN_DT": "2022-09-26",
+    "formatted_address": "Av. Morelos No.14, Centro, Azcapotzalco, 02000 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1461,
+    "lat": 19.4456,
+    "PARROQUIA": "Parroquia del Inmaculado Corazón de María",
+    "ALCALDIA": "Cuauhtémoc",
+    "MODULO": "4",
+    "INICIO_DT": "2022-09-13",
+    "FIN_DT": "2022-09-29",
+    "formatted_address": "C. Héroes 132, Guerrero, Cuauhtémoc, 06300 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1173,
+    "lat": 19.4839,
+    "PARROQUIA": "Insigne y Nacional Basílica de Santa María Guadalupe",
+    "ALCALDIA": "Gustavo A. Madero",
+    "MODULO": "1",
+    "INICIO_DT": "2022-09-21",
+    "FIN_DT": "2022-10-13",
+    "formatted_address": "Plaza Mariana, Fray Juan de Zumárraga 2, Villa Gustavo A. Madero, Gustavo A. Madero, 07050 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.0855,
+    "lat": 19.4394,
+    "PARROQUIA": "Parroquia de los Santos Reyes",
+    "ALCALDIA": "Venustiano Carranza",
+    "MODULO": "3",
+    "INICIO_DT": "2022-09-23",
+    "FIN_DT": "2022-10-03",
+    "formatted_address": "Av. Río Consulado 3000, Peñón de los Baños, Venustiano Carranza, 15520 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.2224,
+    "lat": 19.3266,
+    "PARROQUIA": "Parroquia de San Jerónimo",
+    "ALCALDIA": "La Magdalena Contreras",
+    "MODULO": "2",
+    "INICIO_DT": "2022-09-27",
+    "FIN_DT": "2022-10-05",
+    "formatted_address": "Cerrada de San Jerónimo, entre José María Morelos, Hidalgo y, San Jerónimo Lídice, San Jerónimo Aculco, La Magdalena Contreras, 10200 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1769,
+    "lat": 19.2961,
+    "PARROQUIA": "Parroquia de San Pedro Apóstol",
+    "ALCALDIA": "Tlalpan",
+    "MODULO": "4",
+    "INICIO_DT": "2022-09-30",
+    "FIN_DT": "2022-10-17",
+    "formatted_address": "San Pedro Apóstol 32, San Fernando, Tlalpan, 14070 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1468,
+    "lat": 19.4381,
+    "PARROQUIA": "Templo de San Hipólito y San Casiano",
+    "ALCALDIA": "Cuauhtémoc",
+    "MODULO": "3",
+    "INICIO_DT": "2022-10-04",
+    "FIN_DT": "2022-10-24",
+    "formatted_address": "Zarco 12, Centro Histórico de la Cdad. de México, Guerrero, Cuauhtémoc, 06300 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1922,
+    "lat": 19.3545,
+    "PARROQUIA": "Parroquia de la Purísima Concepción Tlacopac",
+    "ALCALDIA": "Álvaro Obregón",
+    "MODULO": "2",
+    "INICIO_DT": "2022-10-06",
+    "FIN_DT": "2022-10-21",
+    "formatted_address": "Tlacopac 39, Campestre, Álvaro Obregón, 01040 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.0596,
+    "lat": 19.4213,
+    "PARROQUIA": "Rectoría de Nuestra Señora de Guadalupe",
+    "ALCALDIA": "Venustiano Carranza",
+    "MODULO": "1",
+    "INICIO_DT": "2022-10-14",
+    "FIN_DT": "2022-11-01",
+    "formatted_address": "Calle 5 447, Cuchilla Pantitlán, Venustiano Carranza, 15610 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1671,
+    "lat": 19.2666,
+    "PARROQUIA": "Parroquia de San Pedro de Verona Mártir",
+    "ALCALDIA": "Tlalpan",
+    "MODULO": "4",
+    "INICIO_DT": "2022-10-18",
+    "FIN_DT": "2022-11-08",
+    "formatted_address": "Enseñanza, Esq. Laurel S/n, San Pedro Mártir, Tlalpan, 14650 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.068,
+    "lat": 19.4938,
+    "PARROQUIA": "Parroquia de Nuestra Señora de la Salud",
+    "ALCALDIA": "Gustavo A. Madero",
+    "MODULO": "2",
+    "INICIO_DT": "2022-10-24",
+    "FIN_DT": "2022-11-10",
+    "formatted_address": "Antigua Veracruz 264, San Felipe de Jesús, Gustavo A. Madero, 07510 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.2272,
+    "lat": 19.3104,
+    "PARROQUIA": "Iglesia Santa Teresa",
+    "ALCALDIA": "La Magdalena Contreras",
+    "MODULO": "3",
+    "INICIO_DT": "2022-10-25",
+    "FIN_DT": "2022-11-15",
+    "formatted_address": "Av. México 1133, Santa Teresa, Sta Teresa, La Magdalena Contreras, 10710 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1328,
+    "lat": 19.4473,
+    "PARROQUIA": "Parroquia de Santa Ana",
+    "ALCALDIA": "Cuauhtémoc",
+    "MODULO": "1",
+    "INICIO_DT": "2022-11-03",
+    "FIN_DT": "2022-11-17",
+    "formatted_address": "Matamoros No. 89, Peralvillo, Morelos, Cuauhtémoc, 06200 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1047,
+    "lat": 19.3289,
+    "PARROQUIA": "Parroquia de San Andrés Apóstol",
+    "ALCALDIA": "Iztapalapa",
+    "MODULO": "4",
+    "INICIO_DT": "2022-11-09",
+    "FIN_DT": "2022-11-22",
+    "formatted_address": "Luis Francisco Breguet 7, Zona Urbana Ejidal San Andrés Tomatlan, Iztapalapa, 09870 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1623,
+    "lat": 19.3489,
+    "PARROQUIA": "Parroquia San Juan Bautista Coyoacán",
+    "ALCALDIA": "Coyoacán",
+    "MODULO": "2",
+    "INICIO_DT": "2022-11-11",
+    "FIN_DT": "2022-11-23",
+    "formatted_address": "Parque Centenario 8, Coyoacán, 04000 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -98.9923,
+    "lat": 19.2174,
+    "PARROQUIA": "Parroquia de San Antonio de Padua",
+    "ALCALDIA": "Milpa Alta",
+    "MODULO": "3",
+    "INICIO_DT": "2022-11-16",
+    "FIN_DT": "2022-11-25",
+    "formatted_address": "Cda. 5 de Mayo S/N, Xaltipac, Milpa Alta, 12100 San Antonio Tecómitl, CDMX, México"
+  },
+  {
+    "lon": -99.1337,
+    "lat": 19.4383,
+    "PARROQUIA": "Rectoría de Santo Domingo de Guzmán",
+    "ALCALDIA": "Cuauhtémoc",
+    "MODULO": "1",
+    "INICIO_DT": "2022-11-18",
+    "FIN_DT": "2022-12-01",
+    "formatted_address": "Belisario Domínguez S/N, Centro Histórico de la Cdad. de México, Centro, Cuauhtémoc, 06010 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -98.9641,
+    "lat": 19.2251,
+    "PARROQUIA": "Parroquia de San Andrés Apóstol de Mixquic (Plaza Juárez)",
+    "ALCALDIA": "Tláhuac",
+    "MODULO": "4",
+    "INICIO_DT": "2022-11-23",
+    "FIN_DT": "2022-12-06",
+    "formatted_address": "Pl. Juárez, San Bartolo, Tláhuac, 13600 San Andrés Mixquic, CDMX, México"
+  },
+  {
+    "lon": -99.1864,
+    "lat": 19.472,
+    "PARROQUIA": "Parroquia de San Lucas Evangelista",
+    "ALCALDIA": "Azcapotzalco",
+    "MODULO": "2",
+    "INICIO_DT": "2022-11-24",
+    "FIN_DT": "2022-12-08",
+    "formatted_address": "San Lucas 15-A, Col del Recreo, Azcapotzalco, 02070 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.241,
+    "lat": 19.3837,
+    "PARROQUIA": "Parroquia de la Asunción de María",
+    "ALCALDIA": "Álvaro Obregón",
+    "MODULO": "3",
+    "INICIO_DT": "2022-11-29",
+    "FIN_DT": "2022-12-13",
+    "formatted_address": "Galeana 110, Sta Fé, Álvaro Obregón, 01210 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.081,
+    "lat": 19.4397,
+    "PARROQUIA": "Iglesia Nuestra Señora del Carmen",
+    "ALCALDIA": "Venustiano Carranza",
+    "MODULO": "1",
+    "INICIO_DT": "2022-12-02",
+    "FIN_DT": "2022-12-15",
+    "formatted_address": "Durango 142, Peñón de los Baños, Venustiano Carranza, 15520 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1356,
+    "lat": 19.5576,
+    "PARROQUIA": "Parroquia de la Preciosa Sangre de Cristo",
+    "ALCALDIA": "Gustavo A. Madero",
+    "MODULO": "4",
+    "INICIO_DT": "2022-12-07",
+    "FIN_DT": "2022-12-16",
+    "formatted_address": "Plaza Hidalgo s/n, Cuautepec Barrio Alto, 07100, Julián Carillo 2, Cuautepec Alto Centro, Gustavo A. Madero, 07160 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.0577,
+    "lat": 19.4266,
+    "PARROQUIA": "Parroquia Nuestra Señora del Pueblito y San Miguel Arcángel",
+    "ALCALDIA": "Venustiano Carranza",
+    "MODULO": "2",
+    "INICIO_DT": "2022-12-09",
+    "FIN_DT": "2022-12-16",
+    "formatted_address": "Chimalpopoca 61, VENUSTIANO CARRANZA, Venustiano Carranza, 15660 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1049,
+    "lat": 19.318,
+    "PARROQUIA": "Parroquia de la Inmaculada Concepción",
+    "ALCALDIA": "Coyoacán",
+    "MODULO": "3",
+    "INICIO_DT": "2022-12-14",
+    "FIN_DT": "2022-12-16",
+    "formatted_address": "C. 2 Estacionamiento Manuela Medina 12, Coapa, Culhuacan CTM VIII, Coyoacán, 04909 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1532,
+    "lat": 19.5513,
+    "PARROQUIA": "Parroquia de Nuestra Señora de Guadalupe",
+    "ALCALDIA": "Gustavo A. Madero",
+    "MODULO": "1",
+    "INICIO_DT": "2022-12-16",
+    "FIN_DT": "2022-12-16",
+    "formatted_address": "Guerrero, Puebla y, Chalma de Guadalupe, Gustavo A. Madero, 07210 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -98.9959,
+    "lat": 19.2408,
+    "PARROQUIA": "Parroquia de San Juan Bautista",
+    "ALCALDIA": "Tláhuac",
+    "MODULO": "1",
+    "INICIO_DT": "2023-02-03",
+    "FIN_DT": "2023-02-16",
+    "formatted_address": "Rodríguez 8, San Agustín, Tláhuac, 13508 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1938,
+    "lat": 19.3793,
+    "PARROQUIA": "Parroquia de la Asunción de Santa María Nonoalco",
+    "ALCALDIA": "Álvaro Obregón",
+    "MODULO": "2",
+    "INICIO_DT": "2023-02-08",
+    "FIN_DT": "2023-02-21",
+    "formatted_address": "Alejandro Allori, Santa María Nonoalco, Álvaro Obregón, 01420 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.2232,
+    "lat": 19.2909,
+    "PARROQUIA": "Parroquia de San José Obrero",
+    "ALCALDIA": "Tlalpan",
+    "MODULO": "3",
+    "INICIO_DT": "2023-02-10",
+    "FIN_DT": "2023-02-23",
+    "formatted_address": "Izamal 195-Mz. 80, Lomas de Padierna, Tlalpan, 14100 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1455,
+    "lat": 19.3756,
+    "PARROQUIA": "Parroquia de San Simón Apóstol",
+    "ALCALDIA": "Benito Juárez",
+    "MODULO": "4",
+    "INICIO_DT": "2023-02-15",
+    "FIN_DT": "2023-02-24",
+    "formatted_address": "Calz. San Simon 125, San Simón, Benito Juárez, 03660 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1533,
+    "lat": 19.3121,
+    "PARROQUIA": "Parroquia de Nuestra Señora de las Nieves",
+    "ALCALDIA": "Coyoacán",
+    "MODULO": "1",
+    "INICIO_DT": "2023-02-17",
+    "FIN_DT": "2023-02-27",
+    "formatted_address": "San Gonzalo S/N, Pedregal de Sta Úrsula, Coyoacán, 04600 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1393,
+    "lat": 19.4384,
+    "PARROQUIA": "Templo de la Inmaculada Concepción de María",
+    "ALCALDIA": "Cuauhtémoc",
+    "MODULO": "2",
+    "INICIO_DT": "2023-02-22",
+    "FIN_DT": "2023-03-03",
+    "formatted_address": "Belisario Domínguez 3, Centro Histórico de la Cdad. de México, Centro, Cuauhtémoc, 06010 Cuauhtémoc, CDMX, México"
+  },
+  {
+    "lon": -99.2134,
+    "lat": 19.4922,
+    "PARROQUIA": "Parroquia de la Divina Providencia",
+    "ALCALDIA": "Azcapotzalco",
+    "MODULO": "3",
+    "INICIO_DT": "2023-02-24",
+    "FIN_DT": "2023-03-09",
+    "formatted_address": "Salvador Sánchez Colín 25, Providencia, Azcapotzalco, 02440 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1468,
+    "lat": 19.4381,
+    "PARROQUIA": "Templo de San Hipólito y San Casiano",
+    "ALCALDIA": "Cuauhtémoc",
+    "MODULO": "4",
+    "INICIO_DT": "2023-02-27",
+    "FIN_DT": "2023-03-13",
+    "formatted_address": "Zarco 12, Centro Histórico de la Cdad. de México, Guerrero, Cuauhtémoc, 06300 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.0394,
+    "lat": 19.3398,
+    "PARROQUIA": "Parroquia del Señor de la Santa Cruz",
+    "ALCALDIA": "Iztapalapa",
+    "MODULO": "1",
+    "INICIO_DT": "2023-02-28",
+    "FIN_DT": "2023-03-17",
+    "formatted_address": "Plaza Principal S/N, Sta Cruz Meyehualco, Iztapalapa, 09700 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.0716,
+    "lat": 19.4111,
+    "PARROQUIA": "Parroquia de Nuestra Señora de la Consolación",
+    "ALCALDIA": "Iztacalco",
+    "MODULO": "2",
+    "INICIO_DT": "2023-03-06",
+    "FIN_DT": "2023-03-17",
+    "formatted_address": "Agua Caliente s/n Av Norte s/n, Iztacalco, Avenida Nte 100, Pantitlan, Agrícola Pantitlán, Iztacalco, 08100 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1684,
+    "lat": 19.4448,
+    "PARROQUIA": "Parroquia de San Antonio de las Huertas",
+    "ALCALDIA": "Miguel Hidalgo",
+    "MODULO": "3",
+    "INICIO_DT": "2023-03-10",
+    "FIN_DT": "2023-03-23",
+    "formatted_address": "Calz México-Tacuba 70, Tlaxpana, Miguel Hidalgo, 11370 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1532,
+    "lat": 19.5513,
+    "PARROQUIA": "Parroquia de Nuestra Señora de Guadalupe",
+    "ALCALDIA": "Gustavo A. Madero",
+    "MODULO": "4",
+    "INICIO_DT": "2023-03-14",
+    "FIN_DT": "2023-03-28",
+    "formatted_address": "Guerrero, Puebla y, Chalma de Guadalupe, Gustavo A. Madero, 07210 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1329,
+    "lat": 19.441,
+    "PARROQUIA": "Parroquia de Santa Catarina",
+    "ALCALDIA": "Cuauhtémoc",
+    "MODULO": "2",
+    "INICIO_DT": "2023-03-17",
+    "FIN_DT": "2023-03-30",
+    "formatted_address": "República de Brasil, Cuahutemoc, República de Nicaragua 12, Centro, Cuauhtémoc, 06020 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.2346,
+    "lat": 19.3035,
+    "PARROQUIA": "Rectoría de la Inmaculada Concepción",
+    "ALCALDIA": "La Magdalena Contreras",
+    "MODULO": "1",
+    "INICIO_DT": "2023-03-21",
+    "FIN_DT": "2023-04-03",
+    "formatted_address": "Cam. Real de Contreras 6, La Concepción, Las Calles, La Magdalena Contreras, 10830 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.0044,
+    "lat": 19.2691,
+    "PARROQUIA": "Parroquia de San Pedro Apóstol Tláhuac",
+    "ALCALDIA": "Tláhuac",
+    "MODULO": "3",
+    "INICIO_DT": "2023-03-24",
+    "FIN_DT": "2023-04-11",
+    "formatted_address": "C. Severino Ceniceros S/N, Centro de Tlahuac, Tláhuac, 13070 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1795,
+    "lat": 19.3523,
+    "PARROQUIA": "Parroquia de San Juan Pablo II y Santo Tomás Moro",
+    "ALCALDIA": "Álvaro Obregón",
+    "MODULO": "4",
+    "INICIO_DT": "2023-03-29",
+    "FIN_DT": "2023-04-13",
+    "formatted_address": "Ave, Vito Alessio Robles, Florida, Álvaro Obregón, 01030 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.2114,
+    "lat": 19.4786,
+    "PARROQUIA": "Parroquia de Santiago Apóstol El Mayor",
+    "ALCALDIA": "Azcapotzalco",
+    "MODULO": "2",
+    "INICIO_DT": "2023-03-31",
+    "FIN_DT": "2023-04-17",
+    "formatted_address": "SANTIAGO APOSTOL EL MAYOR, Colorines 46, Santiago Ahuizotla, Azcapotzalco, 02750 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1468,
+    "lat": 19.4381,
+    "PARROQUIA": "Templo de San Hipólito y San Casiano",
+    "ALCALDIA": "Cuauhtémoc",
+    "MODULO": "1",
+    "INICIO_DT": "2023-04-04",
+    "FIN_DT": "2023-12-15",
+    "formatted_address": "Zarco 12, Centro Histórico de la Cdad. de México, Guerrero, Cuauhtémoc, 06300 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1707,
+    "lat": 19.2514,
+    "PARROQUIA": "Parroquia de San Andrés Apóstol",
+    "ALCALDIA": "Tlalpan",
+    "MODULO": "3",
+    "INICIO_DT": "2023-04-12",
+    "FIN_DT": "2023-04-20",
+    "formatted_address": "José María Morelos esq. con, Palma, San Andrés Totoltepec, Tlalpan, 14500 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1735,
+    "lat": 19.3703,
+    "PARROQUIA": "Parroquia de la Divina Providencia",
+    "ALCALDIA": "Benito Juárez",
+    "MODULO": "4",
+    "INICIO_DT": "2023-04-14",
+    "FIN_DT": "2023-04-24",
+    "formatted_address": "Parroquia 426, Col del Valle Centro, Benito Juárez, 03104 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.0681,
+    "lat": 19.3102,
+    "PARROQUIA": "Parroquia de San Lorenzo Diácono y Mártir",
+    "ALCALDIA": "Iztapalapa",
+    "MODULO": "2",
+    "INICIO_DT": "2023-04-18",
+    "FIN_DT": "2023-05-05",
+    "formatted_address": "Plaza Juárez 1850, San Lorenzo Tezonco, Iztapalapa, 09790 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1584,
+    "lat": 19.326,
+    "PARROQUIA": "Parroquia de la Resurrección del Señor Ajusco Coyoacán",
+    "ALCALDIA": "Coyoacán",
+    "MODULO": "3",
+    "INICIO_DT": "2023-04-21",
+    "FIN_DT": "2023-04-28",
+    "formatted_address": "Av. Aztecas, Ajusco, Coyoacán, 04300 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.0951,
+    "lat": 19.3914,
+    "PARROQUIA": "Parroquia de Nuestra Señora de Guadalupe",
+    "ALCALDIA": "Iztacalco",
+    "MODULO": "4",
+    "INICIO_DT": "2023-04-25",
+    "FIN_DT": "2023-05-04",
+    "formatted_address": "Ote 108 1354, Bramadero Ramos Millán, Iztacalco, 08000 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.074,
+    "lat": 19.2461,
+    "PARROQUIA": "Parroquia de Santa Cruz Acalpixca",
+    "ALCALDIA": "Xochimilco",
+    "MODULO": "3",
+    "INICIO_DT": "2023-05-02",
+    "FIN_DT": "2023-05-10",
+    "formatted_address": "Parroquia de Santa Cruz Acalpixca, Lázaro Cárdenas S/N, Esq. 20 de Noviembre, Xochimilco, Santa Cruz Acalpixca, Xochimilco, 16500 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1838,
+    "lat": 19.4008,
+    "PARROQUIA": "Parroquia de la Purificación de Nuestra Señora de la Candelaria Tacubaya",
+    "ALCALDIA": "Miguel Hidalgo",
+    "MODULO": "4",
+    "INICIO_DT": "2023-05-05",
+    "FIN_DT": "2023-05-12",
+    "formatted_address": "Mártires de La Conquista 65, Tacubaya, Miguel Hidalgo, 11870 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.0577,
+    "lat": 19.4266,
+    "PARROQUIA": "Parroquia Nuestra Señora del Pueblito y San Miguel Arcángel",
+    "ALCALDIA": "Venustiano Carranza",
+    "MODULO": "2",
+    "INICIO_DT": "2023-05-09",
+    "FIN_DT": "2023-05-18",
+    "formatted_address": "Chimalpopoca 61, VENUSTIANO CARRANZA, Venustiano Carranza, 15660 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1173,
+    "lat": 19.4839,
+    "PARROQUIA": "Insigne y Nacional Basílica de Santa María Guadalupe",
+    "ALCALDIA": "Gustavo A. Madero",
+    "MODULO": "3",
+    "INICIO_DT": "2023-05-11",
+    "FIN_DT": "2023-05-29",
+    "formatted_address": "Plaza Mariana, Fray Juan de Zumárraga 2, Villa Gustavo A. Madero, Gustavo A. Madero, 07050 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1492,
+    "lat": 19.2978,
+    "PARROQUIA": "Parroquia de San Lorenzo Diácono y Mártir",
+    "ALCALDIA": "Tlalpan",
+    "MODULO": "4",
+    "INICIO_DT": "2023-05-16",
+    "FIN_DT": "2023-05-23",
+    "formatted_address": "San Lorenzo 5, Huipulco, Tlalpan, 14370 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1864,
+    "lat": 19.472,
+    "PARROQUIA": "Parroquia de San Lucas Evangelista",
+    "ALCALDIA": "Azcapotzalco",
+    "MODULO": "2",
+    "INICIO_DT": "2023-05-19",
+    "FIN_DT": "2023-05-25",
+    "formatted_address": "San Lucas 15-A, Col del Recreo, Azcapotzalco, 02070 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1331,
+    "lat": 19.4344,
+    "PARROQUIA": "Catedral Metropolitana de la Ciudad de México",
+    "ALCALDIA": "Cuauhtémoc",
+    "MODULO": "4",
+    "INICIO_DT": "2023-05-24",
+    "FIN_DT": "2023-06-01",
+    "formatted_address": "P.za de la Constitución S/N, Centro Histórico de la Cdad. de México, Centro, Cuauhtémoc, 06000 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.2142,
+    "lat": 19.3334,
+    "PARROQUIA": "Parroquia María Reina",
+    "ALCALDIA": "La Magdalena Contreras",
+    "MODULO": "2",
+    "INICIO_DT": "2023-05-26",
+    "FIN_DT": "2023-06-05",
+    "formatted_address": "C. Pinos 13, Independencia Batan Norte, Independencia Batan Nte, La Magdalena Contreras, 10100 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1461,
+    "lat": 19.4456,
+    "PARROQUIA": "Parroquia del Inmaculado Corazón de María",
+    "ALCALDIA": "Cuauhtémoc",
+    "MODULO": "3",
+    "INICIO_DT": "2023-05-30",
+    "FIN_DT": "2023-06-08",
+    "formatted_address": "C. Héroes 132, Guerrero, Cuauhtémoc, 06300 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1425,
+    "lat": 19.3089,
+    "PARROQUIA": "Rectoría de Santa Ursula",
+    "ALCALDIA": "Coyoacán",
+    "MODULO": "4",
+    "INICIO_DT": "2023-06-02",
+    "FIN_DT": "2023-06-12",
+    "formatted_address": "Calz. de Tlalpan 14, Coyoacan, Coyoacán, 04350 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1158,
+    "lat": 19.4096,
+    "PARROQUIA": "Parroquia de Santa María Magdalena Mixihuca",
+    "ALCALDIA": "Venustiano Carranza",
+    "MODULO": "2",
+    "INICIO_DT": "2023-06-06",
+    "FIN_DT": "2023-06-27",
+    "formatted_address": "Calz. Magdalena Mixhuca & Pzla. de La Revolución, Pueblo de la Magdalena Mixihuca, 15860 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.241,
+    "lat": 19.3837,
+    "PARROQUIA": "Parroquia de la Asunción de María",
+    "ALCALDIA": "Álvaro Obregón",
+    "MODULO": "3",
+    "INICIO_DT": "2023-06-09",
+    "FIN_DT": "2023-06-30",
+    "formatted_address": "Galeana 110, Sta Fé, Álvaro Obregón, 01210 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1677,
+    "lat": 19.4566,
+    "PARROQUIA": "Parroquia de San Salvador de las Flores",
+    "ALCALDIA": "Miguel Hidalgo",
+    "MODULO": "4",
+    "INICIO_DT": "2023-06-13",
+    "FIN_DT": "2023-07-05",
+    "formatted_address": "Calz de los Gallos 63, Plutarco Elías Calles, Miguel Hidalgo, 11350 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1466,
+    "lat": 19.3875,
+    "PARROQUIA": "Parroquia de Santa María de la Natividad",
+    "ALCALDIA": "Benito Juárez",
+    "MODULO": "2",
+    "INICIO_DT": "2023-06-28",
+    "FIN_DT": "2023-07-13",
+    "formatted_address": "Eje Central Lázaro Cárdenas 806, Niños Heroes de Chapultepec, Niños Héroes, Benito Juárez, 03440 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.0917,
+    "lat": 19.357,
+    "PARROQUIA": "Catedral de Iztapalapa del Señor del Santo Sepulcro de Jerusalén (La Cuevita)",
+    "ALCALDIA": "Iztapalapa",
+    "MODULO": "3",
+    "INICIO_DT": "2023-07-04",
+    "FIN_DT": "2023-07-14",
+    "formatted_address": "Ermita Iztapalapa 1271, San Pablo, Iztapalapa, 09000 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1362,
+    "lat": 19.4517,
+    "PARROQUIA": "Parroquia de Santiago Apóstol",
+    "ALCALDIA": "Cuauhtémoc",
+    "MODULO": "4",
+    "INICIO_DT": "2023-07-06",
+    "FIN_DT": "2023-07-25",
+    "formatted_address": "Eje Central Lázaro Cárdenas S/N, Tlatelolco, Cuauhtémoc, 06900 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1879,
+    "lat": 19.4589,
+    "PARROQUIA": "Parroquia de San Gabriel Arcángel",
+    "ALCALDIA": "Miguel Hidalgo",
+    "MODULO": "2",
+    "INICIO_DT": "2023-07-14",
+    "FIN_DT": "2023-07-31",
+    "formatted_address": "Calz México-Tacuba S/N, Tacuba, Miguel Hidalgo, 11490 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1389,
+    "lat": 19.4283,
+    "PARROQUIA": "Parroquia de la Natividad de María Santísima (Regina Coeli)",
+    "ALCALDIA": "Cuauhtémoc",
+    "MODULO": "3",
+    "INICIO_DT": "2023-07-17",
+    "FIN_DT": "2023-08-03",
+    "formatted_address": "Regina 3, Centro Histórico de la Cdad. de México, Centro, Cuauhtémoc, 06080 Centro, CDMX, México"
+  },
+  {
+    "lon": -99.1249,
+    "lat": 19.4266,
+    "PARROQUIA": "Parroquia de Santo Tomás Apóstol La Palma",
+    "ALCALDIA": "Venustiano Carranza",
+    "MODULO": "4",
+    "INICIO_DT": "2023-07-26",
+    "FIN_DT": "2023-08-08",
+    "formatted_address": "Misioneros 12, La Merced, Centro, Venustiano Carranza, 15100 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.0757,
+    "lat": 19.3062,
+    "PARROQUIA": "Parroquia de San Antonio de Padua",
+    "ALCALDIA": "Iztapalapa",
+    "MODULO": "2",
+    "INICIO_DT": "2023-08-01",
+    "FIN_DT": "2023-08-11",
+    "formatted_address": "Matías Romero 57, San Antonio, Iztapalapa, 09900 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1234,
+    "lat": 19.4016,
+    "PARROQUIA": "Parroquia de Santa Anita Zacatlamanco",
+    "ALCALDIA": "Iztacalco",
+    "MODULO": "3",
+    "INICIO_DT": "2023-08-04",
+    "FIN_DT": "2023-08-17",
+    "formatted_address": "Av. Hidalgo S/N, Santa Anita, Iztacalco, 08300 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.0046,
+    "lat": 19.2879,
+    "PARROQUIA": "Parroquia del Espíritu Santo y Nuestra Señora de Fátima",
+    "ALCALDIA": "Tláhuac",
+    "MODULO": "4",
+    "INICIO_DT": "2023-08-09",
+    "FIN_DT": "2023-08-23",
+    "formatted_address": "Manzana 60, esq. Oceano de las Tempestades, Montes Cáucaso, Selene 1a. Sección, Selene 2da Secc, Tláhuac, 13420 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1241,
+    "lat": 19.4986,
+    "PARROQUIA": "Parroquia de la Divina Providencia",
+    "ALCALDIA": "Gustavo A. Madero",
+    "MODULO": "2",
+    "INICIO_DT": "2023-08-14",
+    "FIN_DT": "2023-09-06",
+    "formatted_address": "Cienfuegos 1012, Lindavista, Gustavo A. Madero, 07369 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1883,
+    "lat": 19.3994,
+    "PARROQUIA": "Iglesia San Juan Bautista Tlacatelco",
+    "ALCALDIA": "Miguel Hidalgo",
+    "MODULO": "3",
+    "INICIO_DT": "2023-08-18",
+    "FIN_DT": "2023-09-01",
+    "formatted_address": "Becerra 18, Tacubaya, Miguel Hidalgo, 11870 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1455,
+    "lat": 19.3756,
+    "PARROQUIA": "Parroquia de San Simón Apóstol",
+    "ALCALDIA": "Benito Juárez",
+    "MODULO": "4",
+    "INICIO_DT": "2023-08-24",
+    "FIN_DT": "2023-09-21",
+    "formatted_address": "Calz. San Simon 125, San Simón, Benito Juárez, 03660 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1232,
+    "lat": 19.4318,
+    "PARROQUIA": "Parroquia de la Santa Cruz y Nuestra Señora de la Soledad",
+    "ALCALDIA": "Venustiano Carranza",
+    "MODULO": "3",
+    "INICIO_DT": "2023-09-04",
+    "FIN_DT": "2023-09-19",
+    "formatted_address": "Calle, Santa Escuela 16, Centro, Venustiano Carranza, 15100 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1018,
+    "lat": 19.2632,
+    "PARROQUIA": "Catedral de Xochimilco San Bernardino de Siena",
+    "ALCALDIA": "Xochimilco",
+    "MODULO": "2",
+    "INICIO_DT": "2023-09-07",
+    "FIN_DT": "2023-10-03",
+    "formatted_address": "Av. Nuevo León 22B, Santa Crucita, Xochimilco, 16070 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1972,
+    "lat": 19.3758,
+    "PARROQUIA": "Parroquia Monte Carmelo",
+    "ALCALDIA": "Álvaro Obregón",
+    "MODULO": "3",
+    "INICIO_DT": "2023-09-20",
+    "FIN_DT": "2023-10-16",
+    "formatted_address": "Juan Cousin 48, Alfonso XIII, Álvaro Obregón, 01460 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1346,
+    "lat": 19.4238,
+    "PARROQUIA": "Capilla de la Concepción",
+    "ALCALDIA": "Cuauhtémoc",
+    "MODULO": "4",
+    "INICIO_DT": "2023-09-22",
+    "FIN_DT": "2023-10-19",
+    "formatted_address": "Fray Servando Teresa de Mier, Centro, Cuauhtémoc, 06080 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.102,
+    "lat": 19.4179,
+    "PARROQUIA": "Parroquia del Sagrado Corazón de Jesús y San Felipe Neri",
+    "ALCALDIA": "Venustiano Carranza",
+    "MODULO": "2",
+    "INICIO_DT": "2023-10-04",
+    "FIN_DT": "2023-10-25",
+    "formatted_address": "Fray Servando Teresa de Mier 970, Jardín Balbuena, Venustiano Carranza, 15900 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.0914,
+    "lat": 19.4612,
+    "PARROQUIA": "Parroquia de María Madre de la Iglesia",
+    "ALCALDIA": "Gustavo A. Madero",
+    "MODULO": "3",
+    "INICIO_DT": "2023-10-17",
+    "FIN_DT": "2023-11-08",
+    "formatted_address": "Av. 517 161, San Juan de Aragón I Secc, Gustavo A. Madero, 07969 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1295,
+    "lat": 19.3713,
+    "PARROQUIA": "Parroquia de San Andrés Apóstol",
+    "ALCALDIA": "Iztapalapa",
+    "MODULO": "4",
+    "INICIO_DT": "2023-10-20",
+    "FIN_DT": "2023-11-07",
+    "formatted_address": "Av. Andrés Molina Enríquez, San Andrés Tetepilco, Iztapalapa, 09440 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1409,
+    "lat": 19.4411,
+    "PARROQUIA": "Parroquia de Santa María La Redonda Cuepopan",
+    "ALCALDIA": "Cuauhtémoc",
+    "MODULO": "2",
+    "INICIO_DT": "2023-10-26",
+    "FIN_DT": "2023-11-22",
+    "formatted_address": "C. Riva Palacio 46, Guerrero, Cuauhtémoc, 06300 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.2987,
+    "lat": 19.3573,
+    "PARROQUIA": "Parroquia de San Pedro Apóstol",
+    "ALCALDIA": "Cuajimalpa de Morelos",
+    "MODULO": "4",
+    "INICIO_DT": "2023-11-08",
+    "FIN_DT": "2023-12-11",
+    "formatted_address": "Av. Juárez, Pueblo de San Pedro Cuajimalpa, Cuajimalpa, Cuajimalpa de Morelos, 05000 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1735,
+    "lat": 19.3703,
+    "PARROQUIA": "Parroquia de la Divina Providencia",
+    "ALCALDIA": "Benito Juárez",
+    "MODULO": "3",
+    "INICIO_DT": "2023-11-09",
+    "FIN_DT": "2023-11-28",
+    "formatted_address": "Parroquia 426, Col del Valle Centro, Benito Juárez, 03104 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.0491,
+    "lat": 19.2016,
+    "PARROQUIA": "Parroquia de San Pedro Apóstol de Atocpan",
+    "ALCALDIA": "Milpa Alta",
+    "MODULO": "2",
+    "INICIO_DT": "2023-11-23",
+    "FIN_DT": "2023-12-15",
+    "formatted_address": "Francisco I Madero, San Pedro Atocpan, Panchimalco, Milpa Alta, 12200 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1623,
+    "lat": 19.3489,
+    "PARROQUIA": "Parroquia San Juan Bautista Coyoacán",
+    "ALCALDIA": "Coyoacán",
+    "MODULO": "3",
+    "INICIO_DT": "2023-11-29",
+    "FIN_DT": "2023-12-15",
+    "formatted_address": "Parque Centenario 8, Coyoacán, 04000 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.0917,
+    "lat": 19.357,
+    "PARROQUIA": "Catedral de Iztapalapa del Señor del Santo Sepulcro de Jerusalén (La Cuevita)",
+    "ALCALDIA": "Iztapalapa",
+    "MODULO": "4",
+    "INICIO_DT": "2023-12-13",
+    "FIN_DT": "2023-12-15",
+    "formatted_address": "Ermita Iztapalapa 1271, San Pablo, Iztapalapa, 09000 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1173,
+    "lat": 19.4839,
+    "PARROQUIA": "Insigne y Nacional Basílica de Santa María Guadalupe",
+    "ALCALDIA": "Gustavo A. Madero",
+    "MODULO": "1",
+    "INICIO_DT": "2024-02-29",
+    "FIN_DT": "2024-04-05",
+    "formatted_address": "Plaza Mariana, Fray Juan de Zumárraga 2, Villa Gustavo A. Madero, Gustavo A. Madero, 07050 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.0917,
+    "lat": 19.357,
+    "PARROQUIA": "Catedral de Iztapalapa del Señor del Santo Sepulcro de Jerusalén (La Cuevita)",
+    "ALCALDIA": "Iztapalapa",
+    "MODULO": "2",
+    "INICIO_DT": "2024-02-29",
+    "FIN_DT": "2024-03-21",
+    "formatted_address": "Ermita Iztapalapa 1271, San Pablo, Iztapalapa, 09000 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1407,
+    "lat": 19.2013,
+    "PARROQUIA": "Parroquia de San Miguel Arcángel",
+    "ALCALDIA": "Tlalpan",
+    "MODULO": "3",
+    "INICIO_DT": "2024-02-29",
+    "FIN_DT": "2024-04-08",
+    "formatted_address": "Ignacio Allende 13, San Miguel Topilejo, Tlalpan, 14500 San Miguel Topilejo, CDMX, México"
+  },
+  {
+    "lon": -99.1468,
+    "lat": 19.4381,
+    "PARROQUIA": "Templo de San Hipólito y San Casiano",
+    "ALCALDIA": "Cuauhtémoc",
+    "MODULO": "4",
+    "INICIO_DT": "2024-02-29",
+    "FIN_DT": "2024-12-13",
+    "formatted_address": "Zarco 12, Centro Histórico de la Cdad. de México, Guerrero, Cuauhtémoc, 06300 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.0849,
+    "lat": 19.4696,
+    "PARROQUIA": "Parroquia de San Juan Crisostomo",
+    "ALCALDIA": "Gustavo A. Madero",
+    "MODULO": "2",
+    "INICIO_DT": "2024-03-22",
+    "FIN_DT": "2024-04-16",
+    "formatted_address": "Hidalgo, Pueblo de San Juan de Aragón, Gustavo A. Madero, 07950 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.0365,
+    "lat": 19.2985,
+    "PARROQUIA": "Parroquia de la Inmaculada Concepción",
+    "ALCALDIA": "Tláhuac",
+    "MODULO": "1",
+    "INICIO_DT": "2024-04-08",
+    "FIN_DT": "2024-04-24",
+    "formatted_address": "Centro del Pueblo, Plaza Juárez s/n, Santa Ana Nte., Tláhuac, 13300 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1243,
+    "lat": 19.3901,
+    "PARROQUIA": "Rectoría de Santiago Apóstol",
+    "ALCALDIA": "Iztacalco",
+    "MODULO": "3",
+    "INICIO_DT": "2024-04-09",
+    "FIN_DT": "2024-04-26",
+    "formatted_address": "Av. Santiago, Santiago Norte, Santiago Sur, Iztacalco, 08800 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.256,
+    "lat": 19.314,
+    "PARROQUIA": "Parroquia de San Bernabé Apóstol",
+    "ALCALDIA": "La Magdalena Contreras",
+    "MODULO": "2",
+    "INICIO_DT": "2024-04-17",
+    "FIN_DT": "2024-05-03",
+    "formatted_address": "Fresno 1, San Bernabé Ocotepec, La Magdalena Contreras, 10300 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.011,
+    "lat": 19.3627,
+    "PARROQUIA": "Parroquia de Santa Martha Acatitla",
+    "ALCALDIA": "Iztapalapa",
+    "MODULO": "1",
+    "INICIO_DT": "2024-04-25",
+    "FIN_DT": "2024-05-08",
+    "formatted_address": "Everardo González, Santa Martha Acatitla, Iztapalapa, 09510 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1584,
+    "lat": 19.326,
+    "PARROQUIA": "Parroquia de la Resurrección del Señor Ajusco Coyoacán",
+    "ALCALDIA": "Coyoacán",
+    "MODULO": "3",
+    "INICIO_DT": "2024-04-29",
+    "FIN_DT": "2024-05-10",
+    "formatted_address": "Av. Aztecas, Ajusco, Coyoacán, 04300 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.0226,
+    "lat": 19.1924,
+    "PARROQUIA": "Parroquia de la Asunción de María",
+    "ALCALDIA": "Milpa Alta",
+    "MODULO": "2",
+    "INICIO_DT": "2024-05-06",
+    "FIN_DT": "2024-05-17",
+    "formatted_address": "Av. México Nte., Villa Milpa Alta, Centro, Milpa Alta, 12000 Villa Milpa Alta, CDMX, México"
+  },
+  {
+    "lon": -99.1461,
+    "lat": 19.4456,
+    "PARROQUIA": "Parroquia del Inmaculado Corazón de María",
+    "ALCALDIA": "Cuauhtémoc",
+    "MODULO": "1",
+    "INICIO_DT": "2024-05-09",
+    "FIN_DT": "2024-05-30",
+    "formatted_address": "C. Héroes 132, Guerrero, Cuauhtémoc, 06300 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1041,
+    "lat": 19.2543,
+    "PARROQUIA": "Parroquia de Nuestra Señora de los Dolores Xaltocan",
+    "ALCALDIA": "Xochimilco",
+    "MODULO": "3",
+    "INICIO_DT": "2024-05-13",
+    "FIN_DT": "2024-05-27",
+    "formatted_address": "Cam. a Nativitas 380, Xaltocan, Xochimilco, 16300 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.102,
+    "lat": 19.4179,
+    "PARROQUIA": "Parroquia del Sagrado Corazón de Jesús y San Felipe Neri",
+    "ALCALDIA": "Venustiano Carranza",
+    "MODULO": "2",
+    "INICIO_DT": "2024-05-20",
+    "FIN_DT": "2024-05-31",
+    "formatted_address": "Fray Servando Teresa de Mier 970, Jardín Balbuena, Venustiano Carranza, 15900 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.2995,
+    "lat": 19.3465,
+    "PARROQUIA": "Inmaculada Concepción El Contadero",
+    "ALCALDIA": "Cuajimalpa de Morelos",
+    "MODULO": "3",
+    "INICIO_DT": "2024-05-28",
+    "FIN_DT": "2024-06-10",
+    "formatted_address": "Av. Arteaga y Salazar 573, Contadero, Cuajimalpa de Morelos, 05500 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1879,
+    "lat": 19.4589,
+    "PARROQUIA": "Parroquia de San Gabriel Arcángel",
+    "ALCALDIA": "Miguel Hidalgo",
+    "MODULO": "1",
+    "INICIO_DT": "2024-05-31",
+    "FIN_DT": "2024-06-13",
+    "formatted_address": "Calz México-Tacuba S/N, Tacuba, Miguel Hidalgo, 11490 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1972,
+    "lat": 19.3758,
+    "PARROQUIA": "Parroquia Monte Carmelo",
+    "ALCALDIA": "Álvaro Obregón",
+    "MODULO": "2",
+    "INICIO_DT": "2024-06-03",
+    "FIN_DT": "2024-06-24",
+    "formatted_address": "Juan Cousin 48, Alfonso XIII, Álvaro Obregón, 01460 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1852,
+    "lat": 19.4805,
+    "PARROQUIA": "Catedral de los Santos Apóstoles Felipe y Santiago El Menor",
+    "ALCALDIA": "Azcapotzalco",
+    "MODULO": "3",
+    "INICIO_DT": "2024-06-11",
+    "FIN_DT": "2024-06-27",
+    "formatted_address": "Av. Morelos No.14, Centro, Azcapotzalco, 02000 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1455,
+    "lat": 19.3756,
+    "PARROQUIA": "Parroquia de San Simón Apóstol",
+    "ALCALDIA": "Benito Juárez",
+    "MODULO": "1",
+    "INICIO_DT": "2024-06-14",
+    "FIN_DT": "2024-07-09",
+    "formatted_address": "Calz. San Simon 125, San Simón, Benito Juárez, 03660 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.0914,
+    "lat": 19.4612,
+    "PARROQUIA": "Parroquia de María Madre de la Iglesia",
+    "ALCALDIA": "Gustavo A. Madero",
+    "MODULO": "2",
+    "INICIO_DT": "2024-06-25",
+    "FIN_DT": "2024-07-11",
+    "formatted_address": "Av. 517 161, San Juan de Aragón I Secc, Gustavo A. Madero, 07969 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.0951,
+    "lat": 19.3914,
+    "PARROQUIA": "Parroquia de Nuestra Señora de Guadalupe",
+    "ALCALDIA": "Iztacalco",
+    "MODULO": "3",
+    "INICIO_DT": "2024-06-28",
+    "FIN_DT": "2024-07-16",
+    "formatted_address": "Ote 108 1354, Bramadero Ramos Millán, Iztacalco, 08000 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.0601,
+    "lat": 19.3556,
+    "PARROQUIA": "Parroquia de la Divina Providencia",
+    "ALCALDIA": "Iztapalapa",
+    "MODULO": "1",
+    "INICIO_DT": "2024-07-10",
+    "FIN_DT": "2024-07-23",
+    "formatted_address": "Calle 2 Guadalupe Magaña 3, U.H. Vicente Guerrero, Iztapalapa, 09200 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1362,
+    "lat": 19.4517,
+    "PARROQUIA": "Parroquia de Santiago Apóstol",
+    "ALCALDIA": "Cuauhtémoc",
+    "MODULO": "2",
+    "INICIO_DT": "2024-07-12",
+    "FIN_DT": "2024-07-25",
+    "formatted_address": "Eje Central Lázaro Cárdenas S/N, Tlatelolco, Cuauhtémoc, 06900 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1034,
+    "lat": 19.2995,
+    "PARROQUIA": "Parroquia de San Judas Tadeo Cuemanco",
+    "ALCALDIA": "Tlalpan",
+    "MODULO": "3",
+    "INICIO_DT": "2024-07-17",
+    "FIN_DT": "2024-07-31",
+    "formatted_address": "Calz. del Hueso 1071, Coapa, Granjas Coapa, Tlalpan, 14330 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1018,
+    "lat": 19.2632,
+    "PARROQUIA": "Catedral de Xochimilco San Bernardino de Siena",
+    "ALCALDIA": "Xochimilco",
+    "MODULO": "1",
+    "INICIO_DT": "2024-07-24",
+    "FIN_DT": "2024-08-07",
+    "formatted_address": "Av. Nuevo León 22B, Santa Crucita, Xochimilco, 16070 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1677,
+    "lat": 19.4566,
+    "PARROQUIA": "Parroquia de San Salvador de las Flores",
+    "ALCALDIA": "Miguel Hidalgo",
+    "MODULO": "2",
+    "INICIO_DT": "2024-07-26",
+    "FIN_DT": "2024-08-09",
+    "formatted_address": "Calz de los Gallos 63, Plutarco Elías Calles, Miguel Hidalgo, 11350 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1538,
+    "lat": 19.3352,
+    "PARROQUIA": "Parroquia de los Santos Reyes y el Señor de la Misericordia",
+    "ALCALDIA": "Coyoacán",
+    "MODULO": "3",
+    "INICIO_DT": "2024-08-01",
+    "FIN_DT": "2024-08-20",
+    "formatted_address": "Pzla. de Los Reyes 52-54, Los Reyes, Coyoacán, 04330 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1389,
+    "lat": 19.4283,
+    "PARROQUIA": "Parroquia de la Natividad de María Santísima (Regina Coeli)",
+    "ALCALDIA": "Cuauhtémoc",
+    "MODULO": "1",
+    "INICIO_DT": "2024-08-08",
+    "FIN_DT": "2024-08-26",
+    "formatted_address": "Regina 3, Centro Histórico de la Cdad. de México, Centro, Cuauhtémoc, 06080 Centro, CDMX, México"
+  },
+  {
+    "lon": -99.1671,
+    "lat": 19.3604,
+    "PARROQUIA": "Capilla de San Sebastián Mártir de Xoco",
+    "ALCALDIA": "Benito Juárez",
+    "MODULO": "2",
+    "INICIO_DT": "2024-08-12",
+    "FIN_DT": "2024-09-04",
+    "formatted_address": "Real Mayorazgo & San Felipe, Xoco, Benito Juárez, 03330 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1922,
+    "lat": 19.3545,
+    "PARROQUIA": "Parroquia de la Purísima Concepción Tlacopac",
+    "ALCALDIA": "Álvaro Obregón",
+    "MODULO": "3",
+    "INICIO_DT": "2024-08-21",
+    "FIN_DT": "2024-09-09",
+    "formatted_address": "Tlacopac 39, Campestre, Álvaro Obregón, 01040 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1075,
+    "lat": 19.4446,
+    "PARROQUIA": "Parroquia de Nuestra Señora de San Juan de los Lagos",
+    "ALCALDIA": "Venustiano Carranza",
+    "MODULO": "1",
+    "INICIO_DT": "2024-08-27",
+    "FIN_DT": "2024-09-19",
+    "formatted_address": "Av Oficios 49, 20 de Noviembre, Venustiano Carranza, 15300 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1393,
+    "lat": 19.4384,
+    "PARROQUIA": "Templo de la Inmaculada Concepción de María",
+    "ALCALDIA": "Cuauhtémoc",
+    "MODULO": "2",
+    "INICIO_DT": "2024-09-05",
+    "FIN_DT": "2024-10-03",
+    "formatted_address": "Belisario Domínguez 3, Centro Histórico de la Cdad. de México, Centro, Cuauhtémoc, 06010 Cuauhtémoc, CDMX, México"
+  },
+  {
+    "lon": -99.0044,
+    "lat": 19.2691,
+    "PARROQUIA": "Parroquia de San Pedro Apóstol Tláhuac",
+    "ALCALDIA": "Tláhuac",
+    "MODULO": "3",
+    "INICIO_DT": "2024-09-10",
+    "FIN_DT": "2024-09-30",
+    "formatted_address": "C. Severino Ceniceros S/N, Centro de Tlahuac, Tláhuac, 13070 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1532,
+    "lat": 19.5513,
+    "PARROQUIA": "Parroquia de Nuestra Señora de Guadalupe",
+    "ALCALDIA": "Gustavo A. Madero",
+    "MODULO": "1",
+    "INICIO_DT": "2024-09-20",
+    "FIN_DT": "2024-10-03",
+    "formatted_address": "Guerrero, Puebla y, Chalma de Guadalupe, Gustavo A. Madero, 07210 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.0225,
+    "lat": 19.3308,
+    "PARROQUIA": "Parroquia de San Judas Tadeo",
+    "ALCALDIA": "Iztapalapa",
+    "MODULO": "3",
+    "INICIO_DT": "2024-10-02",
+    "FIN_DT": "2024-11-07",
+    "formatted_address": "Bugambilias S/N, Tenorios, Iztapalapa, 09680 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1633,
+    "lat": 19.3911,
+    "PARROQUIA": "Parroquia del Purísimo Corazón de María",
+    "ALCALDIA": "Benito Juárez",
+    "MODULO": "2",
+    "INICIO_DT": "2024-10-04",
+    "FIN_DT": "2024-11-12",
+    "formatted_address": "Gabriel Mancera 415, Col del Valle Centro, Benito Juárez, 03103 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1023,
+    "lat": 19.396,
+    "PARROQUIA": "Parroquia de María Auxiliadora",
+    "ALCALDIA": "Iztacalco",
+    "MODULO": "1",
+    "INICIO_DT": "2024-10-04",
+    "FIN_DT": "2024-10-22",
+    "formatted_address": "Ote. 100 2100, Tlacotal Ramos Millán, Iztacalco, 08720 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1049,
+    "lat": 19.318,
+    "PARROQUIA": "Parroquia de la Inmaculada Concepción",
+    "ALCALDIA": "Coyoacán",
+    "MODULO": "1",
+    "INICIO_DT": "2024-10-23",
+    "FIN_DT": "2024-11-22",
+    "formatted_address": "C. 2 Estacionamiento Manuela Medina 12, Coapa, Culhuacan CTM VIII, Coyoacán, 04909 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.0923,
+    "lat": 19.3599,
+    "PARROQUIA": "Macroplaza Iztaplapa",
+    "ALCALDIA": "Iztapalapa",
+    "MODULO": "3",
+    "INICIO_DT": "2024-11-08",
+    "FIN_DT": "2024-11-08",
+    "formatted_address": "Macroplaza Iztapalapa, Victoria 64, San Lucas, Iztapalapa, 09000 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.2272,
+    "lat": 19.3104,
+    "PARROQUIA": "Iglesia Santa Teresa",
+    "ALCALDIA": "La Magdalena Contreras",
+    "MODULO": "3",
+    "INICIO_DT": "2024-11-11",
+    "FIN_DT": "2024-11-27",
+    "formatted_address": "Av. México 1133, Santa Teresa, Sta Teresa, La Magdalena Contreras, 10710 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.0427,
+    "lat": 19.3299,
+    "PARROQUIA": "Parroquia de Cristo Salvador y Señor",
+    "ALCALDIA": "Iztapalapa",
+    "MODULO": "2",
+    "INICIO_DT": "2024-11-13",
+    "FIN_DT": "2024-11-29",
+    "formatted_address": "Primera Cerrada Villa Bratz Manzana 77 B, Desarrollo Urbano Quetzalcóatl, Iztapalapa, 09700 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.0491,
+    "lat": 19.2016,
+    "PARROQUIA": "Parroquia de San Pedro Apóstol de Atocpan",
+    "ALCALDIA": "Milpa Alta",
+    "MODULO": "1",
+    "INICIO_DT": "2024-11-25",
+    "FIN_DT": "2024-12-06",
+    "formatted_address": "Francisco I Madero, San Pedro Atocpan, Panchimalco, Milpa Alta, 12200 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1158,
+    "lat": 19.4096,
+    "PARROQUIA": "Parroquia de Santa María Magdalena Mixihuca",
+    "ALCALDIA": "Venustiano Carranza",
+    "MODULO": "3",
+    "INICIO_DT": "2024-11-28",
+    "FIN_DT": "2024-12-13",
+    "formatted_address": "Calz. Magdalena Mixhuca & Pzla. de La Revolución, Pueblo de la Magdalena Mixihuca, 15860 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1659,
+    "lat": 19.2884,
+    "PARROQUIA": "Parroquia de San Agustín de las Cuevas",
+    "ALCALDIA": "Tlalpan",
+    "MODULO": "2",
+    "INICIO_DT": "2024-12-02",
+    "FIN_DT": "2024-12-13",
+    "formatted_address": "Francisco I. Madero 10, Tlalpan Centro I, Tlalpan, 14000 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1331,
+    "lat": 19.4344,
+    "PARROQUIA": "Catedral Metropolitana de la Ciudad de México",
+    "ALCALDIA": "Cuauhtémoc",
+    "MODULO": "1",
+    "INICIO_DT": "2024-12-09",
+    "FIN_DT": "2024-12-13",
+    "formatted_address": "P.za de la Constitución S/N, Centro Histórico de la Cdad. de México, Centro, Cuauhtémoc, 06000 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.0917,
+    "lat": 19.357,
+    "PARROQUIA": "Catedral de Iztapalapa del Señor del Santo Sepulcro de Jerusalén (La Cuevita)",
+    "ALCALDIA": "Iztapalapa",
+    "MODULO": "1",
+    "INICIO_DT": "2025-02-14",
+    "FIN_DT": "2025-02-27",
+    "formatted_address": "Ermita Iztapalapa 1271, San Pablo, Iztapalapa, 09000 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -98.9641,
+    "lat": 19.2251,
+    "PARROQUIA": "Parroquia de San Andrés Apóstol de Mixquic (Plaza Juárez)",
+    "ALCALDIA": "Tláhuac",
+    "MODULO": "2",
+    "INICIO_DT": "2025-02-17",
+    "FIN_DT": "2025-03-02",
+    "formatted_address": "Pl. Juárez, San Bartolo, Tláhuac, 13600 San Andrés Mixquic, CDMX, México"
+  },
+  {
+    "lon": -99.1468,
+    "lat": 19.4381,
+    "PARROQUIA": "Templo de San Hipólito y San Casiano",
+    "ALCALDIA": "Cuauhtémoc",
+    "MODULO": "3",
+    "INICIO_DT": "2025-02-18",
+    "FIN_DT": "2025-03-31",
+    "formatted_address": "Zarco 12, Centro Histórico de la Cdad. de México, Guerrero, Cuauhtémoc, 06300 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.0914,
+    "lat": 19.4612,
+    "PARROQUIA": "Parroquia de María Madre de la Iglesia",
+    "ALCALDIA": "Gustavo A. Madero",
+    "MODULO": "1",
+    "INICIO_DT": "2025-02-28",
+    "FIN_DT": "2025-03-14",
+    "formatted_address": "Av. 517 161, San Juan de Aragón I Secc, Gustavo A. Madero, 07969 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1922,
+    "lat": 19.3545,
+    "PARROQUIA": "Parroquia de la Purísima Concepción Tlacopac",
+    "ALCALDIA": "Álvaro Obregón",
+    "MODULO": "2",
+    "INICIO_DT": "2025-03-03",
+    "FIN_DT": "2025-03-19",
+    "formatted_address": "Tlacopac 39, Campestre, Álvaro Obregón, 01040 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.1684,
+    "lat": 19.4448,
+    "PARROQUIA": "Parroquia de San Antonio de las Huertas",
+    "ALCALDIA": "Miguel Hidalgo",
+    "MODULO": "1",
+    "INICIO_DT": "2025-03-18",
+    "FIN_DT": "2025-03-31",
+    "formatted_address": "Calz México-Tacuba 70, Tlaxpana, Miguel Hidalgo, 11370 Ciudad de México, CDMX, México"
+  },
+  {
+    "lon": -99.2987,
+    "lat": 19.3573,
+    "PARROQUIA": "Parroquia de San Pedro Apóstol",
+    "ALCALDIA": "Cuajimalpa de Morelos",
+    "MODULO": "2",
+    "INICIO_DT": "2025-03-20",
+    "FIN_DT": "2025-04-02",
+    "formatted_address": "Av. Juárez, Pueblo de San Pedro Cuajimalpa, Cuajimalpa, Cuajimalpa de Morelos, 05000 Ciudad de México, CDMX, México"
+  }
+]
