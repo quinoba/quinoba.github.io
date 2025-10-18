@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 1
-description: with background image
+title: Sí al Desarme, Sí a la Paz
+description: Daily location of gun buyback stations
 img: assets/img/SI-AL-DESARME_img.jpg
 importance: 1
 category: research
