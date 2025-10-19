@@ -17,12 +17,10 @@ related_publications: true
     Soldier destroying a firearm at a “Sí al Desarme, Sí a la Paz” disarmament module. Source: Progreso Hoy.
 </div>
 
-<!-- Mapa embebido -->
-<div class="mt-3" style="position:relative;padding-bottom:65%;height:0;overflow:hidden;border-radius:12px">
-  <iframe
-    src="/assets/html/si_al_desarme_map.html"
-    style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
-    loading="lazy"
-    referrerpolicy="no-referrer-when-downgrade"
-    title="Mapa Sí al Desarme"></iframe>
-</div>
+<!-- Mapa por día -->
+<iframe src="/assets/html/si_al_desarme_map.html"
+        width="100%" height="720" style="border:0;"></iframe>
+
+<!-- Mapa de estaciones únicas por año -->
+<iframe src="/assets/html/estaciones_unicas_por_anio.html"
+        width="100%" height="720" style="border:0; margin-top:16px;"></iframe>
