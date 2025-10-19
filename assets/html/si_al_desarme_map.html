@@ -58,6 +58,13 @@
         color: #666;
         font-size: 12px;
       }
+      .btn {
+        padding: 6px 10px;
+        border-radius: 8px;
+        border: 1px solid #ccc;
+        background: #f7f7f7;
+        cursor: pointer;
+      }
     </style>
   </head>
   <body>
@@ -66,6 +73,9 @@
         <label for="fecha"><strong>Selecciona un día:</strong></label>
         <input id="fecha" type="date" />
         <span id="resumen" class="note"></span>
+        <button id="resetView" class="btn" style="margin-left: auto">
+          Ver CDMX completa
+        </button>
       </div>
       <div id="map"></div>
     </div>
@@ -94,6 +104,7 @@
       const STATIONS_URL = '/assets/data/stations.json';
       const ALCALDIAS_URL = '/assets/data/alcaldias_simplified.geojson';
       const CENTER = { lat: 19.4326, lng: -99.1332 };
+      const CITY_ZOOM = 11; // <-- zoom fijo de ciudad
 
       const ICONS = {
         1: 'https://maps.google.com/mapfiles/ms/icons/red-dot.png',
@@ -115,12 +126,6 @@
         markers.forEach((m) => m.setMap(null));
         markers = [];
       }
-      function fitToMarkers() {
-        if (markers.length === 0) return;
-        const b = new google.maps.LatLngBounds();
-        markers.forEach((m) => b.extend(m.getPosition()));
-        map.fitBounds(b);
-      }
 
       function updateMapForDate(dateStr) {
         clearMarkers();
@@ -129,7 +134,7 @@
         );
         if (sel.length === 0) {
           resumenEl.textContent = '0 estaciones activas';
-          return;
+          return; // NO movemos cámara
         }
         sel.forEach((s) => {
           const marker = new google.maps.Marker({
@@ -147,26 +152,41 @@
           <small>Módulo: ${s.MODULO}</small>
         </div>`;
           const iw = new google.maps.InfoWindow({ content: html });
-          marker.addListener('click', () =>
+          marker.addEventListener('click', () =>
             iw.open({ anchor: marker, map, shouldFocus: false }),
           );
           markers.push(marker);
         });
         resumenEl.textContent = sel.length + ' estaciones activas';
-        fitToMarkers();
+        // Importante: NO reencuadrar aquí (se mantiene el zoom fijo de ciudad)
       }
 
       async function initMap() {
         map = new google.maps.Map(document.getElementById('map'), {
           center: CENTER,
-          zoom: 11,
+          zoom: CITY_ZOOM,
           mapTypeId: 'roadmap',
           clickableIcons: false,
           streetViewControl: false,
         });
+        // Botón para recentrar a la vista ciudad
+        document.getElementById('resetView').addEventListener('click', () => {
+          map.setCenter(CENTER);
+          map.setZoom(CITY_ZOOM);
+        });
+
+        // Capa alcaldías (contorno)
+        map.data.setStyle({
+          strokeColor: '#444444',
+          strokeWeight: 1.5,
+          strokeOpacity: 0.9,
+          fillOpacity: 0,
+        });
         fetch(ALCALDIAS_URL)
           .then((r) => r.json())
           .then((geo) => map.data.addGeoJson(geo));
+
+        // Carga estaciones y setea rango del date input
         const resp = await fetch(STATIONS_URL);
         stations = await resp.json();
         const dates = stations.flatMap((s) => [s.INICIO_DT, s.FIN_DT]);
@@ -175,6 +195,7 @@
         fechaEl.min = minD;
         fechaEl.max = maxD;
         fechaEl.value = minD;
+
         updateMapForDate(fechaEl.value);
         fechaEl.addEventListener('change', (e) =>
           updateMapForDate(e.target.value),
