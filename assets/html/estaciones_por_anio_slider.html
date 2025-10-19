@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Estaciones activas por año (slider)</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: -apple-system, Roboto, 'Helvetica Neue', Arial, sans-serif;
+      }
+      .wrap {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 12px;
+      }
+      #map {
+        width: 100%;
+        height: 72vh;
+        border-radius: 12px;
+      }
+      .toolbar {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+        margin: 8px 0 10px;
+      }
+      .year-row {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        align-items: center;
+      }
+      input[type='range'] {
+        width: 100%;
+      }
+      .chip {
+        padding: 2px 8px;
+        border-radius: 12px;
+        background: #f2f2f2;
+        font-size: 13px;
+        cursor: pointer;
+      }
+      .chip.active {
+        background: #e0e0e0;
+        font-weight: 600;
+      }
+      .legend-box {
+        position: absolute;
+        left: 15px;
+        bottom: 30px;
+        z-index: 2;
+        background: rgba(255, 255, 255, 0.95);
+        padding: 10px 12px;
+        border-radius: 10px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+        font-size: 13px;
+      }
+      .legend-title {
+        font-weight: 600;
+        margin-bottom: 6px;
+      }
+      .legend-row {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        margin: 3px 0;
+      }
+      .legend-dot {
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        display: inline-block;
+        border: 1px solid #666;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <h2>Estaciones activas por año (barra deslizadora)</h2>
+      <div class="toolbar">
+        <div id="yearValue" style="font-weight: 600">&nbsp;</div>
+        <input
+          id="yearSlider"
+          type="range"
+          min="0"
+          max="0"
+          step="1"
+          value="0"
+        />
+        <div id="yearLabels" class="year-row"></div>
+      </div>
+      <div id="map"></div>
+    </div>
+
+    <div class="legend-box" id="legend"></div>
+
+    <script>
+      const SLIDER_URL = '/assets/data/slider_by_year.json';
+      const ALCALDIAS_URL = '/assets/data/alcaldias_simplified.geojson';
+      const LEGEND = [
+        { year: 2019, color: '#F22424', count: 53 },
+        { year: 2020, color: '#F2F224', count: 6 },
+        { year: 2021, color: '#24F224', count: 22 },
+        { year: 2022, color: '#24F2F2', count: 29 },
+        { year: 2023, color: '#2424F2', count: 26 },
+        { year: 2024, color: '#F224F2', count: 8 },
+      ]; // [{year,color,count}] por año de primera aparición
+
+      let map,
+        circles = [],
+        byYear = new Map();
+
+      // Tamaños de círculos (en píxeles, escalados a metros según zoom)
+      const BASE_PX = 3,
+        MIN_PX = 2,
+        MAX_PX = 5,
+        Z_REF = 11;
+      function metersPerPixel(lat, zoom) {
+        return (
+          (156543.03392 * Math.cos((lat * Math.PI) / 180)) / Math.pow(2, zoom)
+        );
+      }
+      function targetPx(z) {
+        const px = BASE_PX + (z - Z_REF) * 0.35;
+        return Math.max(MIN_PX, Math.min(MAX_PX, px));
+      }
+      function recomputeRadii() {
+        if (!map) return;
+        const z = map.getZoom(),
+          px = targetPx(z);
+        circles.forEach((c) => {
+          if (!c.getMap()) return;
+          const lat = c.getCenter().lat();
+          const mpp = metersPerPixel(lat, z);
+          c.setRadius(px * mpp);
+        });
+      }
+
+      function clearCircles() {
+        circles.forEach((c) => c.setMap(null));
+        circles = [];
+      }
+
+      function buildLegend() {
+        const legend = document.getElementById('legend');
+        legend.innerHTML =
+          '<div class="legend-title">Año de primera aparición</div>';
+        LEGEND.forEach((y) => {
+          const row = document.createElement('div');
+          row.className = 'legend-row';
+          row.innerHTML =
+            '<span class="legend-dot" style="background:' +
+            y.color +
+            ';"></span>' +
+            '<span>' +
+            y.year +
+            ' (' +
+            y.count +
+            ')</span>';
+          legend.appendChild(row);
+        });
+      }
+
+      function buildSliderUI(years) {
+        const slider = document.getElementById('yearSlider');
+        const labels = document.getElementById('yearLabels');
+        const yMin = Math.min(...years),
+          yMax = Math.max(...years);
+        slider.min = yMin;
+        slider.max = yMax;
+        slider.value = yMin;
+        slider.step = 1;
+
+        labels.innerHTML = '';
+        years.forEach((y) => {
+          const meta = byYear.get(String(y));
+          const chip = document.createElement('span');
+          chip.className = 'chip';
+          chip.dataset.y = y;
+          chip.textContent = y + ' (' + (meta ? meta.count : 0) + ')';
+          chip.onclick = () => {
+            slider.value = y;
+            updateYear(y);
+          };
+          labels.appendChild(chip);
+        });
+
+        slider.addEventListener('input', (e) =>
+          updateYear(parseInt(e.target.value)),
+        );
+        updateYear(yMin);
+      }
+
+      function highlightChip(y) {
+        document.querySelectorAll('.chip').forEach((el) => {
+          el.classList.toggle('active', Number(el.dataset.y) === y);
+        });
+      }
+
+      function updateYear(y) {
+        const info = document.getElementById('yearValue');
+        const entry = byYear.get(String(y));
+        info.textContent =
+          'Año: ' + y + (entry ? ' — estaciones activas: ' + entry.count : '');
+        highlightChip(y);
+
+        clearCircles();
+        if (!entry || !entry.points || entry.points.length === 0) return;
+
+        const b = new google.maps.LatLngBounds();
+        entry.points.forEach((p) => {
+          const pos = new google.maps.LatLng(p.lat, p.lng);
+          const circle = new google.maps.Circle({
+            strokeColor: p.color,
+            strokeOpacity: 0.85,
+            strokeWeight: 1,
+            fillColor: p.color,
+            fillOpacity: 0.8,
+            map,
+            center: pos,
+            radius: 10,
+          });
+          const iw = new google.maps.InfoWindow({ content: p.html });
+          circle.addListener('click', () => {
+            iw.setPosition(pos);
+            iw.open({ map });
+          });
+          circles.push(circle);
+          b.extend(pos);
+        });
+        if (!b.isEmpty()) map.fitBounds(b);
+        recomputeRadii();
+      }
+
+      async function initMap() {
+        buildLegend();
+
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: { lat: 19.4326, lng: -99.1332 },
+          zoom: 11,
+          mapTypeId: 'roadmap',
+          clickableIcons: false,
+          streetViewControl: false,
+        });
+
+        // Contorno de alcaldías
+        fetch(ALCALDIAS_URL)
+          .then((r) => r.json())
+          .then((geo) => {
+            map.data.addGeoJson(geo);
+            map.data.setStyle({
+              strokeColor: '#444444',
+              strokeOpacity: 0.9,
+              strokeWeight: 1.5,
+              fillOpacity: 0,
+            });
+          });
+
+        // Cargamos datos del slider
+        const resp = await fetch(SLIDER_URL);
+        const arr = await resp.json(); // [{year, count, points:[...]}, ...]
+        byYear = new Map(arr.map((x) => [String(x.year), x]));
+
+        const years = arr.map((x) => x.year).sort((a, b) => a - b);
+        buildSliderUI(years);
+
+        map.addListener('zoom_changed', recomputeRadii);
+      }
+    </script>
+    <script
+      async
+      defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDf7ZIqRt0JbW4eLDce0V-QeqEkWNIR2-0&callback=initMap"
+    ></script>
+  </body>
+</html>
