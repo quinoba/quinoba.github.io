@@ -1,136 +1,190 @@
 <!doctype html>
 <html lang="es">
-<head>
-<meta charset="utf-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Mapa: Sí al Desarme</title>
-<style>
-  body { margin:0; font-family: -apple-system, Roboto, "Helvetica Neue", Arial, sans-serif; }
-  .wrap { max-width: 1200px; margin: 0 auto; padding: 12px; }
-  .toolbar { display:flex; gap:12px; align-items:center; flex-wrap:wrap; margin-bottom:8px; }
-  #map { width:100%; height:72vh; border-radius:12px; }
-  .legend-box {
-    position: absolute; left: 15px; bottom: 30px; z-index: 2;
-    background: rgba(255,255,255,0.95); padding: 10px 12px; border-radius: 10px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.15); font-size: 13px;
-  }
-  .legend-title { font-weight: 600; margin-bottom: 6px; }
-  .legend-row { display:flex; align-items:center; gap:8px; margin:3px 0; }
-  .legend-dot { width:12px; height:12px; border-radius:50%; display:inline-block; border:1px solid #666; }
-  .note { color:#666; font-size: 12px; }
-</style>
-</head>
-<body>
-<div class="wrap">
-  <div class="toolbar">
-    <label for="fecha"><strong>Selecciona un día:</strong></label>
-    <input id="fecha" type="date"/>
-    <span id="resumen" class="note"></span>
-  </div>
-  <div id="map"></div>
-</div>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mapa por día — Sí al Desarme</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: -apple-system, Roboto, 'Helvetica Neue', Arial, sans-serif;
+      }
+      .wrap {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 12px;
+      }
+      .toolbar {
+        display: flex;
+        gap: 12px;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-bottom: 8px;
+      }
+      #map {
+        width: 100%;
+        height: 72vh;
+        border-radius: 12px;
+      }
+      .legend-box {
+        position: absolute;
+        left: 15px;
+        bottom: 30px;
+        z-index: 2;
+        background: rgba(255, 255, 255, 0.95);
+        padding: 10px 12px;
+        border-radius: 10px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+        font-size: 13px;
+      }
+      .legend-title {
+        font-weight: 600;
+        margin-bottom: 6px;
+      }
+      .legend-row {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        margin: 3px 0;
+      }
+      .legend-dot {
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        display: inline-block;
+        border: 1px solid #666;
+      }
+      .note {
+        color: #666;
+        font-size: 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="toolbar">
+        <label for="fecha"><strong>Selecciona un día:</strong></label>
+        <input id="fecha" type="date" />
+        <span id="resumen" class="note"></span>
+      </div>
+      <div id="map"></div>
+    </div>
 
-<div class="legend-box">
-  <div class="legend-title">Color por: MODULO</div>
-  <div class="legend-row"><span class="legend-dot" style="background:#D73027;"></span><span>1</span></div>
-  <div class="legend-row"><span class="legend-dot" style="background:#4575B4;"></span><span>2</span></div>
-  <div class="legend-row"><span class="legend-dot" style="background:#1A9850;"></span><span>3</span></div>
-  <div class="legend-row"><span class="legend-dot" style="background:#808080;"></span><span>otros</span></div>
-</div>
+    <div class="legend-box">
+      <div class="legend-title">Color por: MODULO</div>
+      <div class="legend-row">
+        <span class="legend-dot" style="background: #d73027"></span
+        ><span>1</span>
+      </div>
+      <div class="legend-row">
+        <span class="legend-dot" style="background: #4575b4"></span
+        ><span>2</span>
+      </div>
+      <div class="legend-row">
+        <span class="legend-dot" style="background: #1a9850"></span
+        ><span>3</span>
+      </div>
+      <div class="legend-row">
+        <span class="legend-dot" style="background: #808080"></span
+        ><span>otros</span>
+      </div>
+    </div>
 
-<script>
-  const STATIONS_URL = "/assets/data/stations.json";
-  const ALCALDIAS_URL = "/assets/data/alcaldias_simplified.geojson";
-  const CENTER = {lat: 19.4326, lng: -99.1332};
+    <script>
+      const STATIONS_URL = '/assets/data/stations.json';
+      const ALCALDIAS_URL = '/assets/data/alcaldias_simplified.geojson';
+      const CENTER = { lat: 19.4326, lng: -99.1332 };
 
-  const ICONS = {
-    "1": "https://maps.google.com/mapfiles/ms/icons/red-dot.png",
-    "2": "https://maps.google.com/mapfiles/ms/icons/blue-dot.png",
-    "3": "https://maps.google.com/mapfiles/ms/icons/green-dot.png",
-    "default": "https://maps.google.com/mapfiles/ms/icons/grey-dot.png"
-  };
+      const ICONS = {
+        1: 'https://maps.google.com/mapfiles/ms/icons/red-dot.png',
+        2: 'https://maps.google.com/mapfiles/ms/icons/blue-dot.png',
+        3: 'https://maps.google.com/mapfiles/ms/icons/green-dot.png',
+        default: 'https://maps.google.com/mapfiles/ms/icons/grey-dot.png',
+      };
 
-  let map, dataLayer, stations = [], markers = [];
-  const fechaEl = document.getElementById("fecha");
-  const resumenEl = document.getElementById("resumen");
+      let map,
+        stations = [],
+        markers = [];
+      const fechaEl = document.getElementById('fecha');
+      const resumenEl = document.getElementById('resumen');
 
-  function moduloIcon(m){ return ICONS[m] || ICONS["default"]; }
+      function moduloIcon(m) {
+        return ICONS[m] || ICONS['default'];
+      }
+      function clearMarkers() {
+        markers.forEach((m) => m.setMap(null));
+        markers = [];
+      }
+      function fitToMarkers() {
+        if (markers.length === 0) return;
+        const b = new google.maps.LatLngBounds();
+        markers.forEach((m) => b.extend(m.getPosition()));
+        map.fitBounds(b);
+      }
 
-  function clearMarkers(){
-    markers.forEach(m => m.setMap(null));
-    markers = [];
-  }
-
-  function fitToMarkers(){
-    if (markers.length === 0) return;
-    const bounds = new google.maps.LatLngBounds();
-    markers.forEach(m => bounds.extend(m.getPosition()));
-    map.fitBounds(bounds);
-  }
-
-  function updateMapForDate(dateStr){
-    clearMarkers();
-
-    const sel = stations.filter(s => s.INICIO_DT <= dateStr && s.FIN_DT >= dateStr);
-
-    if (sel.length === 0){
-      resumenEl.textContent = "0 estaciones activas";
-      return; // no mover cámara -> evita saltos
-    }
-
-    sel.forEach(s => {
-      const marker = new google.maps.Marker({
-        position: {lat: Number(s.lat), lng: Number(s.lon)},
-        map,
-        icon: moduloIcon(s.MODULO),
-        title: (s.PARROQUIA || "") + (s.ALCALDIA ? (" · " + s.ALCALDIA) : "")
-      });
-      const html = `
+      function updateMapForDate(dateStr) {
+        clearMarkers();
+        const sel = stations.filter(
+          (s) => s.INICIO_DT <= dateStr && s.FIN_DT >= dateStr,
+        );
+        if (sel.length === 0) {
+          resumenEl.textContent = '0 estaciones activas';
+          return;
+        }
+        sel.forEach((s) => {
+          const marker = new google.maps.Marker({
+            position: { lat: Number(s.lat), lng: Number(s.lon) },
+            map,
+            icon: moduloIcon(s.MODULO),
+            title: (s.PARROQUIA || '') + (s.ALCALDIA ? ' · ' + s.ALCALDIA : ''),
+          });
+          const html = `
         <div style="font-size:13px">
-          <b>${(s.PARROQUIA||"")}</b><br/>
-          ${(s.ALCALDIA||"")}<br/>
-          ${(s.formatted_address||"")}<br/>
+          <b>${s.PARROQUIA || ''}</b><br/>
+          ${s.ALCALDIA || ''}<br/>
+          ${s.formatted_address || ''}<br/>
           <small>Del ${s.INICIO_DT} al ${s.FIN_DT}</small><br/>
           <small>Módulo: ${s.MODULO}</small>
         </div>`;
-      const iw = new google.maps.InfoWindow({content: html});
-      marker.addListener("click", () => iw.open({anchor: marker, map, shouldFocus: false}));
-      markers.push(marker);
-    });
+          const iw = new google.maps.InfoWindow({ content: html });
+          marker.addListener('click', () =>
+            iw.open({ anchor: marker, map, shouldFocus: false }),
+          );
+          markers.push(marker);
+        });
+        resumenEl.textContent = sel.length + ' estaciones activas';
+        fitToMarkers();
+      }
 
-    resumenEl.textContent = sel.length + " estaciones activas";
-    fitToMarkers();
-  }
-
-  async function initMap(){
-    map = new google.maps.Map(document.getElementById("map"), {
-      center: CENTER, zoom: 11, mapTypeId: "roadmap",
-      clickableIcons: false, streetViewControl: false
-    });
-
-    // Capa alcaldías en modo contorno
-    map.data.setStyle({strokeColor:"#444444", strokeWeight:1.5, strokeOpacity:0.9, fillOpacity:0});
-    fetch(ALCALDIAS_URL).then(r => r.json()).then(geo => {
-      map.data.addGeoJson(geo);
-    });
-
-    // Carga estaciones y setea rango del input date
-    const resp = await fetch(STATIONS_URL);
-    stations = await resp.json();
-
-    // min/max de rango
-    const dates = stations.flatMap(s => [s.INICIO_DT, s.FIN_DT]);
-    const minD = dates.reduce((a,b) => a < b ? a : b);
-    const maxD = dates.reduce((a,b) => a > b ? a : b);
-
-    fechaEl.min = minD;
-    fechaEl.max = maxD;
-    fechaEl.value = minD;
-
-    updateMapForDate(fechaEl.value);
-    fechaEl.addEventListener("change", e => updateMapForDate(e.target.value));
-  }
-</script>
-<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDf7ZIqRt0JbW4eLDce0V-QeqEkWNIR2-0&callback=initMap"></script>
-</body>
+      async function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: CENTER,
+          zoom: 11,
+          mapTypeId: 'roadmap',
+          clickableIcons: false,
+          streetViewControl: false,
+        });
+        fetch(ALCALDIAS_URL)
+          .then((r) => r.json())
+          .then((geo) => map.data.addGeoJson(geo));
+        const resp = await fetch(STATIONS_URL);
+        stations = await resp.json();
+        const dates = stations.flatMap((s) => [s.INICIO_DT, s.FIN_DT]);
+        const minD = dates.reduce((a, b) => (a < b ? a : b));
+        const maxD = dates.reduce((a, b) => (a > b ? a : b));
+        fechaEl.min = minD;
+        fechaEl.max = maxD;
+        fechaEl.value = minD;
+        updateMapForDate(fechaEl.value);
+        fechaEl.addEventListener('change', (e) =>
+          updateMapForDate(e.target.value),
+        );
+      }
+    </script>
+    <script
+      async
+      defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDf7ZIqRt0JbW4eLDce0V-QeqEkWNIR2-0&callback=initMap"
+    ></script>
+  </body>
 </html>
