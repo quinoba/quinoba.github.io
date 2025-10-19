@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Estaciones únicas por año</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: -apple-system, Roboto, 'Helvetica Neue', Arial, sans-serif;
+      }
+      .wrap {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 12px;
+      }
+      .toolbar {
+        display: flex;
+        gap: 12px;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 8px 0 4px;
+      }
+      #map {
+        width: 100%;
+        height: 72vh;
+        border-radius: 12px;
+      }
+      .legend-box {
+        position: absolute;
+        left: 15px;
+        bottom: 30px;
+        z-index: 2;
+        background: rgba(255, 255, 255, 0.95);
+        padding: 10px 12px;
+        border-radius: 10px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+        font-size: 13px;
+      }
+      .legend-title {
+        font-weight: 600;
+        margin-bottom: 6px;
+      }
+      .legend-row {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        margin: 3px 0;
+      }
+      .legend-dot {
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        display: inline-block;
+        border: 1px solid #666;
+      }
+      label.cb {
+        margin-right: 12px;
+        user-select: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <h2>Todas las estaciones (únicas) por año de primera aparición</h2>
+      <div class="toolbar" id="filters">
+        <strong>Años a mostrar:</strong>
+        <!-- checkboxes se insertan por JS -->
+      </div>
+      <div id="map"></div>
+    </div>
+
+    <div class="legend-box" id="legend"></div>
+
+    <script>
+      const POINTS_URL = '/assets/data/stations_unique.json';
+      const ALCALDIAS_URL = '/assets/data/alcaldias_simplified.geojson';
+      const YEARS = [
+        { year: 2019, color: '#F22424', count: 53 },
+        { year: 2020, color: '#F2F224', count: 6 },
+        { year: 2021, color: '#24F224', count: 22 },
+        { year: 2022, color: '#24F2F2', count: 29 },
+        { year: 2023, color: '#2424F2', count: 26 },
+        { year: 2024, color: '#F224F2', count: 8 },
+      ]; // [{year,color,count},...]
+
+      let map,
+        circles = [];
+
+      function buildUI() {
+        const filters = document.getElementById('filters');
+        YEARS.forEach((y) => {
+          const id = 'y' + y.year;
+          const label = document.createElement('label');
+          label.className = 'cb';
+          const cb = document.createElement('input');
+          cb.type = 'checkbox';
+          cb.value = String(y.year);
+          cb.checked = true;
+          cb.addEventListener('change', () =>
+            applyYearFilter(getSelectedYears()),
+          );
+          label.appendChild(cb);
+          label.appendChild(
+            document.createTextNode(' ' + y.year + ' (' + y.count + ')'),
+          );
+          filters.appendChild(label);
+        });
+
+        const legend = document.getElementById('legend');
+        legend.innerHTML =
+          '<div class="legend-title">Año de primera aparición</div>';
+        YEARS.forEach((y) => {
+          const row = document.createElement('div');
+          row.className = 'legend-row';
+          row.innerHTML =
+            '<span class="legend-dot" style="background:' +
+            y.color +
+            ';"></span><span>' +
+            y.year +
+            ' (' +
+            y.count +
+            ')</span>';
+          legend.appendChild(row);
+        });
+      }
+
+      const BASE_PX = 3,
+        MIN_PX = 2,
+        MAX_PX = 5,
+        Z_REF = 11;
+      function metersPerPixel(lat, zoom) {
+        return (
+          (156543.03392 * Math.cos((lat * Math.PI) / 180)) / Math.pow(2, zoom)
+        );
+      }
+      function targetPx(z) {
+        const px = BASE_PX + (z - Z_REF) * 0.35;
+        return Math.max(MIN_PX, Math.min(MAX_PX, px));
+      }
+      function recomputeRadii() {
+        if (!map) return;
+        const z = map.getZoom(),
+          px = targetPx(z);
+        circles.forEach((c) => {
+          if (!c.getMap()) return;
+          const lat = c.getCenter().lat();
+          const mpp = metersPerPixel(lat, z);
+          c.setRadius(px * mpp);
+        });
+      }
+
+      function getSelectedYears() {
+        return Array.from(
+          document.querySelectorAll('#filters input[type=checkbox]:checked'),
+        ).map((el) => String(el.value));
+      }
+
+      function applyYearFilter(selected) {
+        const set = new Set(selected.map(String));
+        const b = new google.maps.LatLngBounds();
+        let any = false;
+        circles.forEach((c) => {
+          if (set.has(c.__year)) {
+            if (!c.getMap()) c.setMap(map);
+            b.extend(c.getCenter());
+            any = true;
+          } else {
+            if (c.getMap()) c.setMap(null);
+          }
+        });
+        if (any) map.fitBounds(b);
+        recomputeRadii();
+      }
+
+      async function initMap() {
+        buildUI();
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: { lat: 19.4326, lng: -99.1332 },
+          zoom: 11,
+          mapTypeId: 'roadmap',
+          clickableIcons: false,
+          streetViewControl: false,
+        });
+
+        // Alcaldías
+        fetch(ALCALDIAS_URL)
+          .then((r) => r.json())
+          .then((geo) => {
+            map.data.addGeoJson(geo);
+            map.data.setStyle({
+              strokeColor: '#444444',
+              strokeOpacity: 0.9,
+              strokeWeight: 1.5,
+              fillOpacity: 0,
+            });
+          });
+
+        // Puntos
+        const resp = await fetch(POINTS_URL);
+        const pts = await resp.json();
+        const b = new google.maps.LatLngBounds();
+        pts.forEach((p) => {
+          const pos = new google.maps.LatLng(p.lat, p.lng);
+          const circle = new google.maps.Circle({
+            strokeColor: p.color,
+            strokeOpacity: 0.85,
+            strokeWeight: 1,
+            fillColor: p.color,
+            fillOpacity: 0.8,
+            map,
+            center: pos,
+            radius: 10,
+          });
+          circle.__year = String(p.year);
+          const iw = new google.maps.InfoWindow({ content: p.html });
+          circle.addListener('click', () => {
+            iw.setPosition(pos);
+            iw.open({ map });
+          });
+          circles.push(circle);
+          b.extend(pos);
+        });
+        if (!b.isEmpty()) map.fitBounds(b);
+
+        // Ajuste de radios y filtros
+        google.maps.event.addListenerOnce(map, 'idle', recomputeRadii);
+        map.addListener('zoom_changed', recomputeRadii);
+        applyYearFilter(getSelectedYears());
+      }
+    </script>
+    <script
+      async
+      defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDf7ZIqRt0JbW4eLDce0V-QeqEkWNIR2-0&callback=initMap"
+    ></script>
+  </body>
+</html>
