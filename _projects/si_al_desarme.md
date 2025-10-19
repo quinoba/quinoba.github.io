@@ -24,3 +24,7 @@ related_publications: true
 <!-- Mapa de estaciones únicas por año -->
 <iframe src="/assets/html/estaciones_unicas_por_anio.html"
         width="100%" height="720" style="border:0; margin-top:16px;"></iframe>
+
+<!-- Mapa con barra deslizadora (estaciones activas por año) -->
+<iframe src="/assets/html/estaciones_por_anio_slider.html"
+        width="100%" height="720" style="border:0; margin-top:16px;"></iframe>
