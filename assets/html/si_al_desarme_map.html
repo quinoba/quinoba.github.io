@@ -85,113 +85,140 @@
         ><span>3</span>
       </div>
       <div class="legend-row">
-        <span class="legend-dot" style="background: #7b1fa2"></span
-        ><span>4</span>
-      </div>
-      <div class="legend-row">
         <span class="legend-dot" style="background: #808080"></span
         ><span>otros</span>
       </div>
     </div>
 
     <script>
-      const STATIONS_URL = "/assets/data/stations.json";
-      const ALCALDIAS_URL = "/assets/data/alcaldias_simplified.geojson";
+      const STATIONS_URL = '/assets/data/stations.json';
+      const ALCALDIAS_URL = '/assets/data/alcaldias_simplified.geojson';
 
       // Vista fija de ciudad (ajústalo si quieres aún más lejos/cerca)
       const CITY_FIXED_ZOOM = 10; // 9 = más lejos, 11 = más cerca
 
       const ICONS = {
-        "1": "https://maps.google.com/mapfiles/ms/icons/red-dot.png",
-        "2": "https://maps.google.com/mapfiles/ms/icons/blue-dot.png",
-        "3": "https://maps.google.com/mapfiles/ms/icons/green-dot.png",
-        "4": "https://maps.google.com/mapfiles/ms/icons/purple-dot.png"
-        "default": "https://maps.google.com/mapfiles/ms/icons/grey-dot.png"
+        1: 'https://maps.google.com/mapfiles/ms/icons/red-dot.png',
+        2: 'https://maps.google.com/mapfiles/ms/icons/blue-dot.png',
+        3: 'https://maps.google.com/mapfiles/ms/icons/green-dot.png',
+        default: 'https://maps.google.com/mapfiles/ms/icons/grey-dot.png',
       };
 
-      let map, stations = [], markers = [], didSetCityView = false;
+      let map,
+        stations = [],
+        markers = [],
+        didSetCityView = false;
 
-      function moduloIcon(m){ return ICONS[m] || ICONS["default"]; }
-      function clearMarkers(){ markers.forEach(m => m.setMap(null)); markers = []; }
+      function moduloIcon(m) {
+        return ICONS[m] || ICONS['default'];
+      }
+      function clearMarkers() {
+        markers.forEach((m) => m.setMap(null));
+        markers = [];
+      }
 
       // Recorre geometrías del DataLayer para calcular bounds (snippet oficial de Google)
       function processPoints(geometry, callback, thisArg) {
         if (geometry instanceof google.maps.Data.Point) {
           callback.call(thisArg, geometry.get());
         } else {
-          geometry.getArray().forEach(g => processPoints(g, callback, thisArg));
+          geometry
+            .getArray()
+            .forEach((g) => processPoints(g, callback, thisArg));
         }
       }
 
-      function updateMapForDate(dateStr){
+      function updateMapForDate(dateStr) {
         clearMarkers();
-        const sel = stations.filter(s => s.INICIO_DT <= dateStr && s.FIN_DT >= dateStr);
-        if (sel.length === 0){
-          document.getElementById("resumen").textContent = "0 estaciones activas";
+        const sel = stations.filter(
+          (s) => s.INICIO_DT <= dateStr && s.FIN_DT >= dateStr,
+        );
+        if (sel.length === 0) {
+          document.getElementById('resumen').textContent =
+            '0 estaciones activas';
           return;
         }
-        sel.forEach(s => {
+        sel.forEach((s) => {
           const marker = new google.maps.Marker({
-            position: {lat: Number(s.lat), lng: Number(s.lon)},
+            position: { lat: Number(s.lat), lng: Number(s.lon) },
             map,
             icon: moduloIcon(s.MODULO),
-            title: (s.PARROQUIA || "") + (s.ALCALDIA ? (" · " + s.ALCALDIA) : "")
+            title: (s.PARROQUIA || '') + (s.ALCALDIA ? ' · ' + s.ALCALDIA : ''),
           });
           const html = `
-            <div style="font-size:13px">
-              <b>${(s.PARROQUIA||"")}</b><br/>
-              ${(s.ALCALDIA||"")}<br/>
-              ${(s.formatted_address||"")}<br/>
-              <small>Del ${s.INICIO_DT} al ${s.FIN_DT}</small><br/>
-              <small>Módulo: ${s.MODULO}</small>
-            </div>`;
-          const iw = new google.maps.InfoWindow({content: html});
-          marker.addListener("click", () => iw.open({anchor: marker, map, shouldFocus: false}));
+        <div style="font-size:13px">
+          <b>${s.PARROQUIA || ''}</b><br/>
+          ${s.ALCALDIA || ''}<br/>
+          ${s.formatted_address || ''}<br/>
+          <small>Del ${s.INICIO_DT} al ${s.FIN_DT}</small><br/>
+          <small>Módulo: ${s.MODULO}</small>
+        </div>`;
+          const iw = new google.maps.InfoWindow({ content: html });
+          marker.addListener('click', () =>
+            iw.open({ anchor: marker, map, shouldFocus: false }),
+          );
           markers.push(marker);
         });
-        document.getElementById("resumen").textContent = sel.length + " estaciones activas";
+        document.getElementById('resumen').textContent =
+          sel.length + ' estaciones activas';
 
         // IMPORTANTÍSIMO: NO reencuadrar aquí (vista queda fija en ciudad).
       }
 
-      async function initMap(){
+      async function initMap() {
         // Crea el mapa con un centro cualquiera; la vista real se fija con las alcaldías:
-        map = new google.maps.Map(document.getElementById("map"), {
-          center: {lat: 19.4326, lng: -99.1332}, zoom: CITY_FIXED_ZOOM,
-          mapTypeId: "roadmap", clickableIcons: false, streetViewControl: false
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: { lat: 19.4326, lng: -99.1332 },
+          zoom: CITY_FIXED_ZOOM,
+          mapTypeId: 'roadmap',
+          clickableIcons: false,
+          streetViewControl: false,
         });
 
         // Dibuja alcaldías y ajusta a CDMX UNA SOLA VEZ
-        fetch(ALCALDIAS_URL).then(r => r.json()).then(geo => {
-          map.data.addGeoJson(geo);
-          map.data.setStyle({ strokeColor:"#444444", strokeOpacity:0.9, strokeWeight:1.5, fillOpacity:0 });
+        fetch(ALCALDIAS_URL)
+          .then((r) => r.json())
+          .then((geo) => {
+            map.data.addGeoJson(geo);
+            map.data.setStyle({
+              strokeColor: '#444444',
+              strokeOpacity: 0.9,
+              strokeWeight: 1.5,
+              fillOpacity: 0,
+            });
 
-          if (!didSetCityView) {
-            const bounds = new google.maps.LatLngBounds();
-            map.data.forEach(f => {
-              processPoints(f.getGeometry(), function(latLng){ bounds.extend(latLng); });
-            });
-            map.fitBounds(bounds);             // encuadre exacto a CDMX
-            map.addListener("idle", function once(){
-              map.removeListener(this);        // ejecutar una sola vez
-              map.setZoom(CITY_FIXED_ZOOM);    // fuerza zoom fijo
-            });
-            didSetCityView = true;
-          }
-        });
+            if (!didSetCityView) {
+              const bounds = new google.maps.LatLngBounds();
+              map.data.forEach((f) => {
+                processPoints(f.getGeometry(), function (latLng) {
+                  bounds.extend(latLng);
+                });
+              });
+              map.fitBounds(bounds); // encuadre exacto a CDMX
+              map.addListener('idle', function once() {
+                map.removeListener(this); // ejecutar una sola vez
+                map.setZoom(CITY_FIXED_ZOOM); // fuerza zoom fijo
+              });
+              didSetCityView = true;
+            }
+          });
 
         // Carga estaciones y configura el date input
         const resp = await fetch(STATIONS_URL);
         stations = await resp.json();
-        const dates = stations.flatMap(s => [s.INICIO_DT, s.FIN_DT]);
-        const minD = dates.reduce((a,b) => a < b ? a : b);
-        const maxD = dates.reduce((a,b) => a > b ? a : b);
+        const dates = stations.flatMap((s) => [s.INICIO_DT, s.FIN_DT]);
+        const minD = dates.reduce((a, b) => (a < b ? a : b));
+        const maxD = dates.reduce((a, b) => (a > b ? a : b));
 
-        const fechaEl = document.getElementById("fecha");
-        fechaEl.min = minD; fechaEl.max = maxD; fechaEl.value = minD;
+        const fechaEl = document.getElementById('fecha');
+        fechaEl.min = minD;
+        fechaEl.max = maxD;
+        fechaEl.value = minD;
 
         updateMapForDate(fechaEl.value);
-        fechaEl.addEventListener("change", e => updateMapForDate(e.target.value));
+        fechaEl.addEventListener('change', (e) =>
+          updateMapForDate(e.target.value),
+        );
       }
     </script>
     <script
