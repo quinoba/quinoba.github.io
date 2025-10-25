@@ -85,6 +85,10 @@
         ><span>3</span>
       </div>
       <div class="legend-row">
+        <span class="legend-dot" style="background: #8e24aa"></span
+        ><span>4</span>
+      </div>
+      <div class="legend-row">
         <span class="legend-dot" style="background: #808080"></span
         ><span>otros</span>
       </div>
@@ -97,10 +101,12 @@
       // Vista fija de ciudad (ajústalo si quieres aún más lejos/cerca)
       const CITY_FIXED_ZOOM = 10; // 9 = más lejos, 11 = más cerca
 
+      // Íconos por módulo (puedes cambiar "purple-dot.png" por "yellow-dot.png" si prefieres)
       const ICONS = {
         1: 'https://maps.google.com/mapfiles/ms/icons/red-dot.png',
         2: 'https://maps.google.com/mapfiles/ms/icons/blue-dot.png',
         3: 'https://maps.google.com/mapfiles/ms/icons/green-dot.png',
+        4: 'https://maps.google.com/mapfiles/ms/icons/purple-dot.png',
         default: 'https://maps.google.com/mapfiles/ms/icons/grey-dot.png',
       };
 
@@ -110,7 +116,8 @@
         didSetCityView = false;
 
       function moduloIcon(m) {
-        return ICONS[m] || ICONS['default'];
+        const key = String(m ?? '').trim();
+        return ICONS[key] || ICONS['default'];
       }
       function clearMarkers() {
         markers.forEach((m) => m.setMap(null));
@@ -161,8 +168,7 @@
         });
         document.getElementById('resumen').textContent =
           sel.length + ' estaciones activas';
-
-        // IMPORTANTÍSIMO: NO reencuadrar aquí (vista queda fija en ciudad).
+        // No reencuadrar aquí: la vista de ciudad queda fija.
       }
 
       async function initMap() {
