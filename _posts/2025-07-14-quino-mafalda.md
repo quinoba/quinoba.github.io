@@ -13,11 +13,15 @@ images:
 
 Como toda persona nacida entre el Río Bravo y Tierra del Fuego, había escuchado
 desde muy joven sobre la existencia de una tal Mafalda. Sin embargo, nadie me
-habló nunca de su creador, el gran [Quino](https://es.wikipedia.org/wiki/Quino), a pesar de que mi abuela tomó de él el
-apodo al que respondo hasta el día de hoy.
+habló nunca de su creador, el gran [Quino](https://es.wikipedia.org/wiki/Quino),
+a pesar de que mi abuela tomó de él el apodo al que respondo hasta el día de
+hoy.
 
 En 2020, al enterarme del fallecimiento de
-[Joaquín Salvador Lavado, “Quino”](https://es.wikipedia.org/wiki/Quino), sentí la curiosidad de volver a leer algunas de las historietas de Mafalda. Desde entonces, llevar el mismo apodo que él se ha vuelto para mí un motivo de orgullo.
+[Joaquín Salvador Lavado, “Quino”](https://es.wikipedia.org/wiki/Quino), sentí
+la curiosidad de volver a leer algunas de las historietas de Mafalda. Desde
+entonces, llevar el mismo apodo que él se ha vuelto para mí un motivo de
+orgullo.
 
 Recientemente me topé, en una librería de la Ciudad de México, con este libro
 conmemorativo por los 60 años de la primera publicación de Mafalda en 1964, y
