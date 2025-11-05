@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /teaching/
-title: Teaching
-description: Courses and guest lectures
+title: teaching
+description: Courses and course material
 nav: true
 nav_order: 3
 ---
@@ -21,11 +21,6 @@ nav_order: 3
     <div class="row">
       <div class="col-sm-10">
         <h5 class="font-weight-bold">GIS for the Humanities and the Social Sciences</h5>
-      </div>
-      <div class="col-sm-2 text-left text-sm-right">
-        <span class="badge badge-danger font-weight-bold text-uppercase align-middle">
-          ECON 621
-        </span>
       </div>
     </div>
     <h6 class="font-italic mt-2 mt-sm-0">Guest Lecturer: Fall 2025 (Master's Level)</h6>
