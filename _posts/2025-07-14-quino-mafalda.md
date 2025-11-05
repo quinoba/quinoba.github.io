@@ -20,8 +20,7 @@ hoy.
 En 2020, al enterarme del fallecimiento de
 [Joaquín Salvador Lavado, “Quino”](https://es.wikipedia.org/wiki/Quino), sentí
 la curiosidad de volver a leer algunas de las historietas de Mafalda. Desde
-entonces, llevar el mismo apodo que él se ha vuelto para mí un motivo de
-orgullo.
+entonces, llevar el mismo apodo que él se ha vuelto en un motivo de orgullo.
 
 Recientemente me topé, en una librería de la Ciudad de México, con este libro
 conmemorativo por los 60 años de la primera publicación de Mafalda en 1964, y
