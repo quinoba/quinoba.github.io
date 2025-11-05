@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /publications/
-title: research
-description: working papers and publications.
+title: Research
+description:
 nav: true
 nav_order: 2
 ---
@@ -13,7 +13,7 @@ nav_order: 2
 
 <div class="publications">
 
-<h3>working papers</h3>
+<h3>Working Papers</h3>
 {% bibliography --query @*[type=working-paper] --sort_by year --order descending %}
 
 <!-- <h3>publications</h3> -->

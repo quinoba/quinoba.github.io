@@ -1,6 +1,6 @@
 ---
 layout: about
-title: sobre mí
+title: Sobre mí
 permalink: /es/
 subtitle: #<a href='#'>Afiliaciones</a>. Dirección. Contacto. Lema. Etc.
 
