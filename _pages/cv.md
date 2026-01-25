@@ -4,7 +4,7 @@ title: CV
 permalink: /cv/
 nav: true
 nav_order: 1
-description: You can view my CV directly below or download it as a PDF.
+description: You can view my CV or download it as a PDF.
 ---
 
 <a href="/assets/pdf/CV_JBA_eng.pdf" download style="float:right">
