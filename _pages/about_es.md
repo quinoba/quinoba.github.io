@@ -38,7 +38,12 @@ Trabajé como asistente de investigación en el
 investigador predoctoral en la Universidad de Georgetown a través de la
 [UPPER Global Research Training Initiative](https://upperesearch.org/grti/).
 
-Mi investigación se enfoca en la economía política del desarrollo y la economía del crimen, dando especial peso a temas donde el componente geográfico y espacial es clave. Gran parte de los proyectos que desarrollo actualmente están motivados por la idea de que los shocks políticos y criminales se propagan a través de redes y estructuras geográficas, terminando por alterar la distribución local de recursos, el medio ambiente y el desarrollo institucional.
+Mi investigación se enfoca en la economía política del desarrollo y la economía
+del crimen, dando especial peso a temas donde el componente geográfico y
+espacial es clave. Gran parte de los proyectos que desarrollo actualmente están
+motivados por la idea de que los shocks políticos y criminales se propagan a
+través de redes y estructuras geográficas, terminando por alterar la
+distribución local de recursos, el medio ambiente y el desarrollo institucional.
 
 ---
 
