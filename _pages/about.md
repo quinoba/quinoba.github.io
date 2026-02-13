@@ -39,10 +39,7 @@ Previously, I worked as a Research Assistant at ITAM’s
 Research Fellow at Georgetown University through the
 [UPPER Global Research Training Initiative](https://upperesearch.org/grti/).
 
-My primary research interest lies in the political economy of development. I am
-also interested in applied econometrics, particularly as a tool for developing
-and applying rigorous methods to better understand and try to answer questions
-in this field.
+My research interests lie in the political economy of development and the economics of crime, with a particular emphasis on questions where geography and space are central. Many of the ideas I am currently exploring are motivated by the view that political and criminal shocks propagate through geographic and network structures, ultimately altering local resource allocation, environmental outcomes, and institutional development.
 
 ---
 
