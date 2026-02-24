@@ -21,8 +21,8 @@ related_publications: true
   <div class="col-sm mt-3 mt-md-0 text-center">
     {% include figure.liquid
       loading="eager"
-      path="assets/img/cdmx_modules_homicides_2019.gif"
-      title="Program rollout and homicides (2019)"
+      path="assets/img/cdmx_modules_homicides_2019-2024.gif"
+      title="Program rollout and homicides (2019-2024)"
       class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
