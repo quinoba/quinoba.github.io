@@ -39,7 +39,11 @@ investigador predoctoral en la Universidad de Georgetown a través de la
 [UPPER Global Research Training Initiative](https://upperesearch.org/grti/).
 
 Mi investigación se enfoca en la economía política del desarrollo y la economía
-del crimen desde una perspectiva espacial. Gran parte de los proyectos en los que trabajo actualmente aprovechan la estructura de la geografía física y de redes para mapear con precisión cómo se propagan los shocks políticos y criminales, e identificar sus efectos indirectos sobre la asignación de recursos, los resultados ambientales y el desarrollo institucional.
+del crimen desde una perspectiva espacial. Gran parte de los proyectos en los
+que trabajo actualmente aprovechan la estructura de la geografía física y de
+redes para mapear con precisión cómo se propagan los shocks políticos y
+criminales, e identificar sus efectos indirectos sobre la asignación de
+recursos, los resultados ambientales y el desarrollo institucional.
 
 ---
 
