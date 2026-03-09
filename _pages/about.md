@@ -41,10 +41,7 @@ Research Fellow at Georgetown University through the
 
 My research interests lie in the political economy of development and the
 economics of crime, with a particular emphasis on questions where geography and
-space are central. Many of the ideas I am currently exploring are motivated by
-the view that political and criminal shocks propagate through geographic and
-network structures, ultimately altering local resource allocation, environmental
-outcomes, and institutional development.
+space are central. Much of my current work exploits the structure of physical and network geography to map precisely how political and criminal shocks travel and to identify their downstream effects on resource allocation, environmental outcomes, and institutional development.
 
 ---
 
