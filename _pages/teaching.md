@@ -23,7 +23,7 @@ nav_order: 3
         <h5 class="font-weight-bold">Data Science for Economists</h5>
       </div>
     </div>
-    <h6 class="font-italic mt-2 mt-sm-0">Teaching Assistant: Srping 2026 (Undergraduate Level)</h6>
+    <h6 class="font-italic mt-2 mt-sm-0">Teaching Assistant: Spring 2026 (Undergraduate Level)</h6>
   </div>
 </div>
 
