@@ -6,7 +6,7 @@ subtitle: #<a href='#'>Afiliaciones</a>. Dirección. Contacto. Lema. Etc.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic.JPG
   image_circular: false
   more_info: >
     <p>R. Randall Rollins, 4º piso, R400A</p> <p>1516 Clifton Road</p>
