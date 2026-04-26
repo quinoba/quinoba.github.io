@@ -1,34 +1,33 @@
-'adams':
-  - firstname: ['Edwin', 'E.', 'E. P.', 'Edwin Plimpton']
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+# Coauthor links for jekyll-scholar
+# Format:
+# 'lastname':
+#   - firstname: ['Full Name', 'Abbreviation']
+#     url: https://...
 
-'podolsky':
-  - firstname: ['Boris', 'B.', 'B. Y.', 'Boris Yakovlevich']
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+'bandiera':
+  - firstname: ['Antonella', 'A.']
+    url: https://www.antonellabandiera.com/
 
-'rosen':
-  - firstname: ['Nathan', 'N.']
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+'bowles':
+  - firstname: ['Jeremy', 'J.']
+    url: https://www.jbowles.net/
 
-'bach':
-  - firstname: ['Johann Sebastian', 'J. S.']
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+'cavallotti':
+  - firstname: ['Enrico', 'E.']
+    url: https://enricocavallotti.github.io/
 
-  - firstname: ['Carl Philipp Emanuel', 'C. P. E.']
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+'larreguy':
+  - firstname: ['Horacio', 'H.']
+    url: https://sites.google.com/site/hlarreguy/
 
-'przibram':
-  - firstname: ['Karl']
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+'liu':
+  - firstname: ['Shelley', 'S.']
+    url: https://www.shelleyxliu.com/
 
-'schrodinger':
-  - firstname: ['Erwin']
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+'marshall':
+  - firstname: ['John', 'J.']
+    url: https://john-l-marshall.github.io/
 
-'lorentz':
-  - firstname: ['Hendrik Antoon']
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
-
-'planck':
-  - firstname: ['Max']
-    url: https://en.wikipedia.org/wiki/Max_Planck
+'zago':
+  - firstname: ['Eduardo', 'E.']
+    url: https://ezagoc.github.io/

@@ -16,6 +16,7 @@ nav_order: 2
 <h3>Working Papers</h3>
 {% bibliography --query @*[type=working-paper] --sort_by year --order descending %}
 
-<!-- <h3>publications</h3> -->
+<h3>Work in Progress</h3>
+{% bibliography --query @*[type=wip] --sort_by year --order descending %}
 
 </div>
