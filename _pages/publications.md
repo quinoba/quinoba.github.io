@@ -14,9 +14,9 @@ nav_order: 2
 <div class="publications">
 
 <h3>Working Papers</h3>
-{% bibliography --query @*[type=working-paper] --sort_by year --order descending %}
+{% bibliography --query @*[type=working-paper] --sort_by title --order ascending --group_by none %}
 
 <h3>Work in Progress</h3>
-{% bibliography --query @*[type=wip] --sort_by year --order descending %}
+{% bibliography --query @*[type=wip] --sort_by title --order ascending --group_by none %}
 
 </div>
