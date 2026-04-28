@@ -39,9 +39,9 @@ Previously, I worked as a Research Assistant at ITAM’s
 Research Fellow at Georgetown University through the
 [UPPER Global Research Training Initiative](https://upperesearch.org/grti/).
 
-My research interests lie in the political economy of development and the
-economics of crime, with a particular emphasis on questions where geography is
-central.
+My research interests lie in political economy, development, and the economics
+of crime, especially in how governments and armed groups use public
+communication to shape beliefs, discipline dissent, and exercise control.
 
 ---
 
