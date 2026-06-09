@@ -97,4 +97,34 @@ a:hover i[class*=" fa-"] {
 a:hover .fa-stack i {
   color: $emory-gold !important;
 }
+// About-page actions under the biography text
+.about-actions {
+  margin-top: 1.35rem;
+  text-align: center;
 
+  .contact-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.15rem;
+    margin-bottom: 0.75rem;
+    font-size: 2.35rem;
+    line-height: 1;
+  }
+
+  .contact-icons a {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+  }
+
+  .language-switch {
+    color: $emory-blue !important;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .language-switch:hover {
+    color: $emory-gold !important;
+  }
+}
