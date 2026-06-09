@@ -47,7 +47,7 @@ My research interests lie in political economy, development, and the economics
 of crime, especially in how governments and armed groups use public
 communication to shape beliefs, discipline dissent, and exercise control.
 
-<div class="about-actions">
+<div class="about-actions social">
   <div class="contact-icons">{% include social.liquid %}</div>
   <a class="language-switch" href="/es/">Cambiar a español</a>
 </div>

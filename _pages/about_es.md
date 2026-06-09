@@ -47,7 +47,7 @@ del crimen, con especial énfasis en cómo los gobiernos y los grupos armados
 utilizan la comunicación pública para moldear creencias, disciplinar el disenso
 y ejercer control.
 
-<div class="about-actions">
+<div class="about-actions social">
   <div class="contact-icons">{% include social.liquid %}</div>
   <a class="language-switch" href="/">Switch to English</a>
 </div>
