@@ -12,7 +12,7 @@ profile:
     <a
     href="https://www.google.com/maps/place/R.+Randall+Rollins+Building/@33.7968859,-84.3232936,18.87z/data=!4m14!1m7!3m6!1s0x88f507f2ca330ccd:0x34a1db79d8b76624!2sR.+Randall+Rollins+Building!8m2!3d33.7971549!4d-84.3229441!16s%2Fg%2F11l2n1mx3p!3m5!1s0x88f507f2ca330ccd:0x34a1db79d8b76624!8m2!3d33.7971549!4d-84.3229441!16s%2Fg%2F11l2n1mx3p?entry=ttu&g_ep=EgoyMDI2MDYwNy4wIKXMDSoASAFQAw%3D%3D"
     target="_blank" rel="external nofollow noopener">
-      <p>R. Randall Rollins, 4th Floor, R400A</p> <p>1516 Clifton Road</p>
+      <p>R. Randall Rollins, R400A</p> <p>1516 Clifton Road</p>
       <p>Atlanta, GA 30329</p>
     </a>
 
