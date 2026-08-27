@@ -5,7 +5,7 @@
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Joaquín
 middle_name:
-last_name: Barrutia Álvarez
+last_name: Barrutia
 contact_note: >
 
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
@@ -18,7 +18,6 @@ footer_text: >
 keywords:
   [
     'Joaquin Barrutia',
-    'Joaquin Barrutia Alvarez',
     'political economy',
     'applied econometrics',
     'Mexico',
