@@ -5,7 +5,7 @@ permalink: /es/
 subtitle: #<a href='#'>Afiliaciones</a>. Dirección. Contacto. Lema. Etc.
 
 profile:
-  align: right
+  align: left
   image: prof_pic.JPG
   image_circular: false
   more_info: >
@@ -28,7 +28,7 @@ latest_posts:
   limit: 3
 ---
 
-Soy estudiante de segundo año del doctorado en Economía en la
+Soy estudiante de tercer año del doctorado en Economía en la
 [Universidad de Emory](https://www.emory.edu/home/index.html). Soy originario de
 la Ciudad de México, donde todos me conocen como Quino (aunque, claro,
 [Quino](https://quinoba.github.io/blog/2025/quino-mafalda/) solo hay uno).

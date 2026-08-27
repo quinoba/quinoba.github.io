@@ -5,7 +5,7 @@ permalink: /
 subtitle: #<a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
-  align: right
+  align: left
   image: prof_pic.JPG
   image_circular: false # crops the image to make it circular
   more_info: >
@@ -30,7 +30,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a second-year Ph.D. student in Economics at
+I am a third-year Ph.D. student in Economics at
 [Emory University](https://www.emory.edu/home/index.html). I was born and raised
 in Mexico City, where everyone knows me as Quino (though, of course, there’s
 only one [Quino](https://quinoba.github.io/blog/2025/quino-mafalda/)). I hold a
